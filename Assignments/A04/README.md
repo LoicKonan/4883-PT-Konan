@@ -1,10 +1,10 @@
-## Assignment 3 - Banner Page
+## Assignment 4 - Hashmat the brave warrior
 
 ### Loic Konan
 
 #### Description
 
-Cool way to way to print out our program banner cover pages to put on assignments.
+
 
 ### Files
 
