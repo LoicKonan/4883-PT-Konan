@@ -5,7 +5,6 @@
 */
 
 #include <iostream>
-
 #define endl "\n"
 
 using namespace std;
@@ -17,8 +16,8 @@ int main()
     while (cin >> A >> B) 
     {
         
-        // your stuff here
-
+        cout << abs(A-B);
     }
+    
     return 0;
 }
