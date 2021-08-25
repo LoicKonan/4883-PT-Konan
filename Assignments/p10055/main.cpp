@@ -16,7 +16,6 @@ int main()
     while (cin >> A >> B) 
     {
         
-        cout << abs(A-B);
     }
     
     return 0;
