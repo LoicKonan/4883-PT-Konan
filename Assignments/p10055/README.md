@@ -13,4 +13,3 @@
 |   3   | [main.cpp](main.cpp)     | Solution              |
 |   4   | [infile](infile)         | infile 1              |
 |   4   | [infile2](infile2)       | infile 2              |
-
