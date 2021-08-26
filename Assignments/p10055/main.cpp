@@ -11,7 +11,6 @@ using namespace std;
 
 int main() 
 {
-    // int B = 0, A = 0;
     long long A,B;
     
     while (cin >> A >> B) 
