@@ -21,5 +21,5 @@ not.
 
 ### Instructions
 
-- Complied using **C++ 17**
+- Complied using **VScode** and **C++ 17**
 - main.exe < infile
