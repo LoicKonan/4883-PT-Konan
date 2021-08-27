@@ -3,6 +3,6 @@
 |      #      | Folder Link  | Assignment Description               | Status |
 | :---------: | ------------ | ------------------------------------ | ------ |
 | [01](https://docs.google.com/spreadsheets/d/1jAkhTTA8b8BxF5ckkyct44jOz8PNmREB9QxGERVDSeY/edit#gid=0) | [A01](https://docs.google.com/spreadsheets/d/1jAkhTTA8b8BxF5ckkyct44jOz8PNmREB9QxGERVDSeY/edit#gid=0) | [Establishing Communication.](https://docs.google.com/spreadsheets/d/1jAkhTTA8b8BxF5ckkyct44jOz8PNmREB9QxGERVDSeY/edit#gid=0) |        |
-| [02](./https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments) | [A02](./https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments) | [Code Repos.](./https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments)                 |        |
+| [02](https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments) | [A02](https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments) | [Code Repos.](https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments)                 |        |
 | [03](./A03) | [A03](./A03) | [Banner Page.](./A03)                |        |
 | [04](./A04) | [A04](./A04) | [Register + Simple Problem](./A04)   |        |
