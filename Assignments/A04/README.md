@@ -22,3 +22,4 @@ not.
 ### Instructions
 
 - Complied using C++ 17
+- main.exe < infile
