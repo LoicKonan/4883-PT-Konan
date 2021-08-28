@@ -4,7 +4,7 @@
 
 #### Description
 
-I solved the problem by taking difference between the two integers and using the **absolute value function** on the result.
+Solved the problem by taking difference between the two integers, and apllying the **absolute value function** on the result.
 
 ### Files
 
