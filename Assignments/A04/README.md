@@ -11,6 +11,6 @@ not.
 
 ### Files
 
-|   #   | File               | Description | Status                                   |
-| :---: | ------------------ | ----------- | ---------------------------------------- |
-|   1   | [p10055](./p10055) | Folder      | :heavy_checkmark::ballot_box_with_check: |
+|   #   | File               | Description | Status                  |
+| :---: | ------------------ | ----------- | ----------------------- |
+|   1   | [p10055](./p10055) | Folder      | :ballot_box_with_check: |
