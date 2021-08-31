@@ -8,6 +8,7 @@
 #include <iostream>
 using namespace std;
 
+// This gave me a run time of 0.12 seconds.
 int main() 
 {
     long long A, B;
