@@ -11,11 +11,11 @@ using namespace std;
 
 int main() 
 {
-    long long A,B;
+    long long A = 0, B = 0;
     
     while (cin >> A >> B) 
     {
-      cout << abs(A-B) << "\n";
+      cout << abs(A-B) << endl;
     }
     return 0;
 }
