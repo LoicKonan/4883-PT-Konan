@@ -6,16 +6,15 @@
 */
 
 #include <iostream>
-#define endl "\n"
 using namespace std;
 
 int main() 
 {
-    long long A = 0, B = 0;
+    long long A, B;
     
     while (cin >> A >> B) 
     {
-      cout << abs(A-B) << endl;
+      cout << abs(A-B) << '\n';
     }
     return 0;
 }
