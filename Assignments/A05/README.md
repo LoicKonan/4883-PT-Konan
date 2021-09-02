@@ -5,17 +5,9 @@
 #### Description
 
 
+
 ### Files
 
-|   #   | File                   | Description           |
-| :---: | ---------------------- | --------------------- |
-|   1   | [Banner](Banner)       | Banner for Assignment |
-|   2   | [p10055.pdf](P161.pdf) | The Problem           |
-|   3   | [main.cpp](main.cpp)   | Solution              |
-|   4   | [infile](infile)       | 1st sample file       |
-|   4   | [infile2](infile2)     | 2nd sample file       |
-
-### Instructions
-
-- Complied using **VScode** and **C++ 17**
-- main.exe < infile
+|   #   | File               | Description | Status                  |
+| :---: | ------------------ | ----------- | ----------------------- |
+|   1   | [P161](./P161) | Folder      | :ballot_box_with_check: |
