@@ -13,4 +13,4 @@ not.
 
 |   #   | File               | Description | Status                  |
 | :---: | ------------------ | ----------- | ----------------------- |
-|   1   | [P10055](./P10055) | Folder      | :ballot_box_with_check: |
+|   1   | [p10055](./p10055) | Folder      | :ballot_box_with_check: |
