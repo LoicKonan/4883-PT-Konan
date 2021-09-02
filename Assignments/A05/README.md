@@ -14,7 +14,7 @@ even if it is only for a second. <br/>
     Write a program that will determine whether this event occurs within a reasonable time.
 Time is measured from the instant when they all turned green simultaneously, although the initial portion
 while they are all still green is excluded from the reckoning.
-<pre>
+</pre>
 
 ### Files
 
