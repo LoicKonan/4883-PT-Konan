@@ -11,7 +11,7 @@ catching every signal is slight. As you wait at a red light you begin to wonder 
 all the lights again show green, not necessarily all turn green, merely all show green simultaneously,
 even if it is only for a second. <br/>
 
-- Write a program that will determine whether this event occurs within a reasonable time.
+-<!-- markdownlint-enable MD000 --> Write a program that will determine whether this event occurs within a reasonable time.
 - Time is measured from the instant when they all turned green simultaneously, although the initial portion
 while they are all still green is excluded from the reckoning.
 </pre>
