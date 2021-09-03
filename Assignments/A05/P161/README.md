@@ -4,6 +4,8 @@
 
 #### Description
 
+I set up a Boolean array of 18.000 elements (5 hrs * 60 mins/hrs * 60 secs/min), to flags the seconds which are 'green' based on all traffic lights frequency.
+
 ### Files
 
 |   #   | File                 | Description           |
