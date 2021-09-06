@@ -7,3 +7,5 @@
 | [03](./A03) | [A03](./A03) | [Banner Page.](A03)                | :heavy_check_mark: |
 | [04](./A04) | [A04](./A04) | [Hashmat Problem](A04)             | :heavy_check_mark: |
 | [05](./A05) | [A05](./A05) | [Traffic Lights](A05)              | :soon: 🔴|
+| [06](./A06) | [A06](./A06) | [Traffic Lights](A06)              | :soon: 🔴|
+| [07](./A07) | [A05](./A07) | [Traffic Lights](A07)              | :soon: 🔴|
