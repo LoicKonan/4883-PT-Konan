@@ -8,4 +8,4 @@
 | [04](./A04) | [A04](./A04) | [Hashmat Problem](A04)             | :heavy_check_mark: |
 | [05](./A05) | [A05](./A05) | [Traffic Lights](A05)              | :soon: 🔴|
 | [06](./A06) | [A06](./A06) | [Jolly Jumpers](A06)              | :soon: 🔴|
-| [07](./A07) | [A05](./A07) | [Place The Guards](A07)              | :soon: 🔴|
+| [07](./A07) | [A07](./A07) | [Place The Guards](A07)              | :soon: 🔴|
