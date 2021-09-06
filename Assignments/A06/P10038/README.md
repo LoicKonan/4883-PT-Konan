@@ -4,8 +4,6 @@
 
 #### Description
 
-.
-
 ### Files
 
 |   #   | File                     | Description           |
