@@ -1,4 +1,4 @@
-## Assignment 5 - Jolly Jumpers
+## Assignment 6 - Jolly Jumpers
 
 ### Loic Konan
 
