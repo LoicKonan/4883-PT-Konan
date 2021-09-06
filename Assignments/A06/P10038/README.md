@@ -1,10 +1,10 @@
-## Assignment 5 - Traffic Lights
+## Assignment 5 - Jolly Jumpers
 
 ### Loic Konan
 
 #### Description
 
-I set up a Boolean array of 18.000 elements (5 hrs * 60 mins / hrs * 60 secs/min), to flags the seconds which are 'green' based on all traffic lights frequency.
+.
 
 ### Files
 
