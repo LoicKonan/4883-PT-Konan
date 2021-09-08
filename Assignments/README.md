@@ -6,6 +6,6 @@
 | [02](https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments) | [A02](https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments)                             | [Code Repos.](https://github.com/LoicKonan/4883-PT-Konan/tree/master/Assignments)                                                      | :heavy_check_mark: |
 | [03](./A03) | [A03](./A03) | [Banner Page.](A03)                | :heavy_check_mark: |
 | [04](./A04) | [A04](./A04) | [Hashmat Problem](A04)             | :heavy_check_mark: |
-| [05](./A05) | [A05](./A05) | [Traffic Lights](A05)              | :soon: 🔴|
+| [05](./A05) | [A05](./A05) | [Traffic Lights](A05)              | :heavy_check_mark: |
 | [06](./A06) | [A06](./A06) | [Jolly Jumpers](A06)               | :soon: 🔴|
 | [07](./A07) | [A07](./A07) | [Place The Guards](A07)            | :soon: 🔴|
