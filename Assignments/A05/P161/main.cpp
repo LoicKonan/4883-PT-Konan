@@ -2,15 +2,23 @@
 * Loic Konan
 * 4883 - Programming Techniques.
 * P161
-* 08/29/2021
+* 09/7/2021
 */
 
 #include <iostream>
+#include <vector>
+#include <iomanip>
+
 using namespace std;
 
-// This gave me a run time of  seconds.
-int main() 
+int main()
 {
-   
-    return 0;
+  int data;                           //  Data for each Scenarios.
+
+  while (cin >> data)                 //  While the data is not zero, keep reading it in.
+  {
+
+  }
+
+  return 0;
 }
