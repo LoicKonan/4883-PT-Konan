@@ -11,11 +11,6 @@ using namespace std;
 // This gave me a run time of  seconds.
 int main() 
 {
-    long long A, B;
-    
-    while (cin >> A >> B) 
-    {
-      cout << abs(A-B) << '\n';
-    }
+   
     return 0;
 }
