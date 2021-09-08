@@ -31,11 +31,9 @@ int main()
 
     bool fail_Sync = true;                  // boolean for the fail to synchronize.
 
-
-    // Calculate the time at which all lights sync up or fail to
-    // check green at every second until 18000 seconds unless synchronization is found
-		// start time after minimum signal finishes one cycle
-
+    // Find the time at which all lights synchronize or fail.
+    // Finds the smallest element in the range of our vector time 2
+    // and if it is less than and equal to 5 hours(which is 18000 seconds).
     for (int j = (*min_element(Series_Of_Integers.begin(), Series_Of_Integers.end())) * 2; j <= 18000; j++)
     {
       bool light_Green = true;              // boolean for the green light.
