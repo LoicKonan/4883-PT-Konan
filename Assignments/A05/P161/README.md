@@ -4,8 +4,8 @@
 
 #### Description
 
-Let n be the waiting time for a light. If (t % 2n) < (n-5), then the light is green at time t.<br>
-With the small bound of 5 hours (18,000 seconds), simulate the waiting process.<br>
+Let n be the waiting time for a light. **If (t % 2n) < (n-5), then the light is green at time t**.<br>
+With the small bound of **5 hours (18,000 seconds)**, simulate the waiting process.<br>
 Every second, see if all of the lights are green at the same time.
 
 ### Files
