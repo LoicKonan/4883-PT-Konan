@@ -69,7 +69,7 @@ int main()
 }
 
 void TimeDisplay(int seconds)
-{                            // Display in a nice format.
+{                            // Display the Time in a nice format(HH:MM:SS).
   int hour = seconds / 3600; // Convert seconds to hours, minutes and seconds.
   seconds = seconds % 3600;
   int min = seconds / 60;
