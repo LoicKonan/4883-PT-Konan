@@ -32,7 +32,7 @@ int main()
     bool fail_Sync = true; // boolean for the fail to synchronize.
 
     // Find the time at which all lights synchronize or fail.
-    // Finds the smallest element in the range of our vector multiply by 2.
+    // Finds the smallest element in the range of our vector then multiply by 2.
     // and if it is less than and equal to 5 hours(which is 18000 seconds).
     for (int i = (*min_element(Series_Of_Integers.begin(), Series_Of_Integers.end())) * 2; i <= 18000; i++)
     {
