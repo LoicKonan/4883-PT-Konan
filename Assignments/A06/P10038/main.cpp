@@ -2,7 +2,7 @@
 * Loic Konan
 * 4883 - Programming Techniques.
 * P10038
-* 09/7/2021
+* 09/8/2021
 */
 
 #include <iostream>
@@ -12,13 +12,10 @@ using namespace std;
 
 int main()
 {
-  int input;    
-  cin >> input; 
+  int input;
+  cin >> input;
 
-  while (input) 
-  {
-  }
+  cout << input;
 
-  
-return 0;
+  return 0;
 }
