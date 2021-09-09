@@ -4,7 +4,9 @@
 
 #### Description
 
-I set up a Boolean array of 18.000 elements (5 hrs * 60 mins / hrs * 60 secs/min), to flags the seconds which are 'green' based on all traffic lights frequency.
+Let n be the waiting time for a light. If (t % 2n) < (n-5), then the light is green at time t.
+With the small bound of 5 hours (18,000 seconds), simulate the waiting process.
+Every second, see if all of the lights are green at the same time.
 
 ### Files
 

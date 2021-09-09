@@ -51,7 +51,7 @@ int main()
       }
 
       if (light_Green) // if We have a green light.
-      {                // The fail to synchronise will therefore be false.
+      {                // The fail to synchronise will be false.
         fail_Sync = false;
         TimeDisplay(j); // Now display the time format.
         break;
