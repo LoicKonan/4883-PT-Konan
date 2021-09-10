@@ -27,7 +27,7 @@ int main()
         array[3010];        // An array that will hold more than 3000 integers.
                             // since we know that the Number of input per line <= 3000.
 
-    while (cin >> n_Input) // Read in the number of input as long as it > 0.
+    while (cin >> n_Input)  // Read in the number of input as long as it > 0.
     {
         difference = 0;
         second_Number = 0;
