@@ -4,9 +4,9 @@
 
 #### Description
 
-Hold all of the input in an array where **a[i] is the ith number**. Also create an array of booleans where **b[i]** is true if a difference of i has appeared somewhere in the sequence.<br>
-
-For each **i from 0 to n-2**, check **if b[a[i] - a[i+1]] is true**. If it is, then output **"Not jolly"**. Otherwise, **set it to true**.<br>
+Hold all of the input in an array where **a[i] is > 3000.**.
+Check **if array[i] - array[i-1] != 1||array[0] != 1**.<br>
+If it is, then output **"Not jolly"**<br>
 If you iterate through the entire sequence and find no repeated differences, **output "Jolly"**.
 
 ### Files
