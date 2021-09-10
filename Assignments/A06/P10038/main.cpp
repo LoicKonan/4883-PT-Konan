@@ -29,6 +29,8 @@ int main()
 
     while (cin >> n_Input) // Read in the number of input as long as it > 0.
     {
+        difference = 0;
+        second_Number = 0;
         bool check = false; // a boolean to check whenever it jolly or not.
 
         REP(i, n_Input)     // Iterate through our inputs in a cool way.
@@ -49,12 +51,12 @@ int main()
         {                                                      // If my array does not ended up with all 1's,
             if (array[0] != 1 || array[i] - array[i - 1] != 1) // I don't have jolly jumper.
             {
-                check = true;                                   // Since this is true, jump to the else and print not Jolly.
+                check = true;                                  // Since this is true, jump to the else and print not Jolly.
                 break;
             }
         }
-        if (!check)  cout << "Jolly\n";                         // Print jolly.
-        else         cout << "Not jolly\n";                     // Print not jolly.
+        if (!check)  cout << "Jolly" << endl;                   // Print jolly.
+        else         cout << "Not jolly" << endl;               // Print not jolly.
     }
     return 0;
 }
