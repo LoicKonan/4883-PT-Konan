@@ -11,7 +11,8 @@ int main()
     x,
     f,
     mx,
-    array[3005];        //
+    array[3005];        // An array that will hold more than 3000 integers
+                        // since we know that the Number of input per line <= 3000
 
     bool fail = false;
 
