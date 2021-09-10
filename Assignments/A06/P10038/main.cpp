@@ -47,20 +47,18 @@ int main()
             second_Number = first_Number;  // Now store the value of the first number in the following number.
         }
 
-        sort(array, array + n_Input - 1);                      // Sort our array
+        sort(array, array + n_Input - 1);                     // Sort our array
 
-        for (int i = 1; i < n_Input - 1; i++)                  // set i to 1 then itterate through our inputs - 1.
-        {                                                      // If my array does not ended up with all 1's,
-            if (array[0] != 1 || array[i] - array[i - 1] != 1) // I don't have jolly jumper.
+        for (int i = 1; i < n_Input - 1; i++)                 // set i to 1 then itterate through our inputs - 1.
+        {                                                     // If my array does not ended up with all 1's,
+            if (array[0] != 1 || array[i] - array[i - 1] != 1)// I don't have jolly jumper.
             {
                 check = true; // Since this is true, jump to the else and print not Jolly.
                 break;
             }
         }
-        if (!check)
-            cout << "Jolly" << endl;     // Print jolly.
-        else
-            cout << "Not jolly" << endl; // Print not jolly.
+        if (!check) cout << "Jolly" << endl;                  // Print jolly.
+        else        cout << "Not jolly" << endl;              // Print not jolly.
     }
     return 0;
 }
