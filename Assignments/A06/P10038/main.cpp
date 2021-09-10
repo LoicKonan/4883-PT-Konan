@@ -42,7 +42,7 @@ int main()
             {
                 array[i - 1] = difference; // Store the value of the absolute value in this element of our array.
             }
-            second_Number = first_Number; // Now store the value of the first number in the following number.
+            second_Number = first_Number;  // Now store the value of the first number in the following number.
         }
 
         sort(array, (array + n_Input - 1));                    // Sort our array
@@ -55,8 +55,8 @@ int main()
                 break;
             }
         }
-        if (!check)  cout << "Jolly" << endl;                   // Print jolly.
-        else         cout << "Not jolly" << endl;               // Print not jolly.
+        if (!check)  cout << "Jolly" << endl;                  // Print jolly.
+        else         cout << "Not jolly" << endl;              // Print not jolly.
     }
     return 0;
 }
