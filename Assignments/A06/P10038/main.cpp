@@ -24,7 +24,7 @@ int main()
         difference,         // absolutes values of the difference between successive elements.
         first_Number,       // First integer(or the current integer).
         second_Number,      // second integer(or the next or following integer).
-        array[3005];        // An array that will hold more than 3000 integers.
+        array[3010];        // An array that will hold more than 3000 integers.
                             // since we know that the Number of input per line <= 3000.
 
     while (cin >> n_Input) // Read in the number of input as long as it > 0.
@@ -49,14 +49,12 @@ int main()
         {                                                      // If my array does not ended up with all 1's,
             if (array[0] != 1 || array[i] - array[i - 1] != 1) // I don't have jolly jumper.
             {
-                check = true; // Since this is true, jump to the else and print not Jolly.
+                check = true;                                   // Since this is true, jump to the else and print not Jolly.
                 break;
             }
         }
-        if (!check)                                             // Print jolly.
-            cout << "Jolly\n";
-        else                                                    // Print not jolly.
-            cout << "Not jolly\n";
+        if (!check)  cout << "Jolly\n";                         // Print jolly.
+        else         cout << "Not jolly\n";                     // Print not jolly.
     }
     return 0;
 }
