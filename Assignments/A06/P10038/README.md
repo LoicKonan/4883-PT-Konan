@@ -5,9 +5,9 @@
 #### Description
 
 Hold all of the input in an array where **a[i] is > 3000.**.
-Check **if array[i] - array[i-1] != 1||array[0] != 1**.<br>
-If it is, then output **"Not jolly"**<br>
-If you iterate through the entire sequence and find no repeated differences, **output "Jolly"**.
+Check **if array[i] - array[i-1] is not equal to 1 or if array[0] is not equal to 1**.<br>
+If it is, then you print out **"Not jolly"**<br>
+Otherwise you iterate through the entire sequence and find no repeated differences, then you **print out "Jolly"**.
 
 ### Files
 
