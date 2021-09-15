@@ -4,6 +4,11 @@
 
 #### Description
 
+"Help the king to find the **Minimum** Number of guards needed to guard all the junctions and streets of his country."
+
+- on approach for bicoloring (determine the graph is bipartite or not ) is use BFS method.
+- If Its not BiGraph print -1;
+
 ### Files
 
 |   #   | File                     | Description           |
