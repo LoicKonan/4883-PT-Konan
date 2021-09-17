@@ -1,23 +1,18 @@
-## Assignment 7 - Place The Guards
+## Assignment 09 - 
 
 ### Loic Konan
 
 #### Description
 
-"Help the king to find the **Minimum** Number of guards needed to guard all the junctions and streets of his country."
-
-- on approach for bicoloring **(determine the graph is bipartite or not )** is use **BFS** method.
-- If Its not BiGraph print -1;
-
 ### Files
 
-|   #   | File                     | Description           |
-| :---: | ------------------------ | --------------------- |
-|   1   | [Banner](Banner)         | Banner for Assignment |
-|   2   | [P11080.pdf](P11080.pdf) | The Problem           |
-|   3   | [main.cpp](main.cpp)     | Solution              |
-|   4   | [infile](infile)         | 1st sample file       |
-|   4   | [infile2](infile2)       | 2nd sample file       |
+|   #   | File                 | Description           |
+| :---: | -------------------- | --------------------- |
+|   1   | [Banner](Banner)     | Banner for Assignment |
+|   2   | [P.pdf](P.pdf)       | The Problem           |
+|   3   | [main.cpp](main.cpp) | Solution              |
+|   4   | [infile](infile)     | 1st sample file       |
+|   4   | [infile2](infile2)   | 2nd sample file       |
 
 ### Instructions
 
