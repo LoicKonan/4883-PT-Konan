@@ -9,8 +9,8 @@
 | [05](./A05) | [A05](./A05) | [Traffic Lights](A05)              | :heavy_check_mark: |
 | [06](./A06) | [A06](./A06) | [Jolly Jumpers](A06)               | :heavy_check_mark: |
 | [07](./A07) | [A07](./A07) | [Place The Guards](A07)            | :heavy_check_mark: |
-| [08](./A08) | [A08](./A08) | [loading...](A08)            | 🔴 🔜 |
-| [09](./A09) | [A09](./A09) | [loading...](A09)            | 🔴 🔜 |
+| [08](./A08) | [A08](./A08) | [Counting Distinct Items String Processing](A08)            | 🔴 🔜 |
+| [09](./A09) | [A09](./A09) | [Recursion](A09)            | 🔴 🔜 |
 | [10](./A10) | [A10](./A10) | [loading...](A10)            | 🔴 🔜 |
 | [11](./A11) | [A11](./A11) | [loading...](A11)            | 🔴 🔜 |
 | [12](./A12) | [A12](./A12) | [loading...](A12)            | 🔴 🔜 |
