@@ -66,7 +66,6 @@ void printColors()
 // colors[1,-1,-1,-1];
 // c = 1
 // ans = true
-
 // This function returns true if
 // graph G[V][V] is Bipartite, else false
 bool isBipartiteUtil(int src)
