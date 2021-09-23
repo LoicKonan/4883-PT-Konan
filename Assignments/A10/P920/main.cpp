@@ -47,10 +47,21 @@ struct point
 
     point():x{0},y{0}{}
     point(int x, int y):x{0},y{0}{}
-
 };
 
+bool cmp(point &a, point &b)
+{
+    return a.x < b.x;
+}
 
+
+void printPoints()
+{
+    for(int i = 0; i < points.size(); i++)
+    {
+        cout << "[" << 
+    }
+}
 int main(int argc, char **argv)
 {
     
