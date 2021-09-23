@@ -59,7 +59,7 @@ void printPoints()
 {
     for(int i = 0; i < points.size(); i++)
     {
-        cout << "[" << 
+        cout << "[" << points[i].x << ","<< points[i].y << "]";
     }
 }
 int main(int argc, char **argv)
