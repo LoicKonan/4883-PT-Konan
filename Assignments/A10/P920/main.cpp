@@ -34,6 +34,23 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
+
+struct point;
+
+int c,n;
+vector <point> points;
+int x,y;
+
+struct point
+{
+    int x, y;
+
+    point():x{0},y{0}{}
+    point(int x, int y):x{0},y{0}{}
+
+};
+
+
 int main(int argc, char **argv)
 {
     
