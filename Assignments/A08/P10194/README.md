@@ -12,7 +12,7 @@
 |   2   | [10226.pdf](10226.pdf) | The Problem           |
 |   3   | [main.cpp](main.cpp)   | Solution              |
 |   4   | [infile](infile)       | 1st sample file       |
-|   4   | [infile2](infile2)     | 2nd sample file       |
+|   5   | [infile2](infile2)     | 2nd sample file       |
 
 ### Instructions
 
