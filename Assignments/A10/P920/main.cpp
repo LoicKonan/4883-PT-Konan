@@ -34,19 +34,18 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-
 struct point;
 
-int c,n;
-vector <point> points;
-int x,y;
+int c, n;
+vector<point> points;
+int x, y;
 
 struct point
 {
     int x, y;
 
-    point():x{0},y{0}{}
-    point(int x, int y):x{0},y{0}{}
+    point() : x{0}, y{0} {}
+    point(int x, int y) : x{0}, y{0} {}
 };
 
 bool cmp(point &a, point &b)
@@ -54,31 +53,40 @@ bool cmp(point &a, point &b)
     return a.x < b.x;
 }
 
-
 void printPoints()
 {
-    for(int i = 0; i < points.size(); i++)
+    for (int i = 0; i < points.size(); i++)
     {
-        cout << "[" << points[i].x << ","<< points[i].y << "]";
+        cout << "[" << points[i].x << "," << points[i].y << "]";
     }
 }
-int main() 
+
+int main()
 {
-  cin >> c;
-  while(c--)
-  {
-    cin >> n;
-    while(n--)
+    cin >> c;
+    while (c--)
     {
-      cin >> x >> y;
-      points.push_back(point(x,y));
+        cin >> n;
+
+        while (n--)
+        {
+            cin >> x >> y;
+
+            points.push_back(point(x, y));
+        }
+        cout << "\n=============================\n";
+
+        printPoints();
+        sort(points.begin(), points.end(), cmp);
+
+        cout << "\n\n";
+
+        printPoints();
+
+        cout << "\n=============================\n";
+
+        points.clear();
     }
 
-    sort(points.begin(),points.end(),cmp);
-
-    printPoints(); // debug
-
-    points.clear();
-    
-    cout << "\n";
-  }
+    cout << endl;
+}
