@@ -1,4 +1,4 @@
-## Assignment 11 -
+## Assignment 11 - Brick Wall Patterns
 
 ### Loic Konan
 
@@ -8,6 +8,6 @@
 
 ### Files
 
-|   #   | File               | Description | Status                  |
-| :---: | ------------------ | ----------- | ----------------------- |
-|   1   | [P](./P) | Folder      | :ballot_box_with_check: |
+|   #   | File        | Description | Status                  |
+| :---: | ----------- | ----------- | ----------------------- |
+|   1   | [P900](./P900) | Folder      | :ballot_box_with_check: |
