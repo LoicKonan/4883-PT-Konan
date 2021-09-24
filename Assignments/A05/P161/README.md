@@ -17,7 +17,7 @@ Every second, see if all of the **lights are green at the same time**.
 |   3   | [main.cpp](main.cpp) | Solution              |
 |   4   | [infile](infile)     | 1st sample file       |
 |   5   | [infile2](infile2)   | 2nd sample file       |
-|   6   | [infile3](infile3)   | 2nd sample file       |
+|   6   | [infile3](infile3)   | 3rd sample file       |
 
 ### Instructions
 
