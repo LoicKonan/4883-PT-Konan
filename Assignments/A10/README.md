@@ -1,4 +1,4 @@
-## Assignment 10 - 
+## Assignment 10 -  Sunny Mountains
 
 ### Loic Konan
 
@@ -7,6 +7,6 @@
 > 
 ### Files
 
-|   #   | File               | Description | Status                  |
-| :---: | ------------------ | ----------- | ----------------------- |
-|   1   | [P](./P) | Folder      | :ballot_box_with_check: |
+|   #   | File           | Description | Status                  |
+| :---: | -------------- | ----------- | ----------------------- |
+|   1   | [P920](./P920) | Folder      | :ballot_box_with_check: |
