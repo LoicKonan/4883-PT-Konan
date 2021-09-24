@@ -62,12 +62,23 @@ void printPoints()
         cout << "[" << points[i].x << ","<< points[i].y << "]";
     }
 }
-int main(int argc, char **argv)
+int main() 
 {
-    
-    while (true)
+  cin >> c;
+  while(c--)
+  {
+    cin >> n;
+    while(n--)
     {
-
+      cin >> x >> y;
+      points.push_back(point(x,y));
     }
-    return 0;
-}
+
+    sort(points.begin(),points.end(),cmp);
+
+    printPoints(); // debug
+
+    points.clear();
+    
+    cout << "\n";
+  }
