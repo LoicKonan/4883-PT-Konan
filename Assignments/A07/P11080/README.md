@@ -9,6 +9,22 @@
 - on approach for bicoloring **(determine the graph is bipartite or not )** is use **BFS** method.
 - If Its not BiGraph print -1;
 
+- Below is anexample that had three calls. We ignore the -1's:
+
+ > - Call 1 => [ 1  0  1 -1 -1] (smallest set is 0 or 1 guard)
+ > - Call 2 => [-1 -1 -1  1 -1] (smallest set is 1  or 1 guard)
+ > - Call 3 => [-1 -1 -1 -1  1] (smallest set is 1  or 1 guard)
+ > - 1 + 1 + 1 = 3 (correct answer)
+
+- example is 5 vertices 0 edges:
+  
+  > - Call 1 => [ 1 -1 -1 -1 -1] (each call has a 1 for the vertex that needs a guard)
+  > - Call 2 => [-1  1 -1 -1 -1]
+  > - Call 3 => [-1 -1  1 -1 -1]
+  > - Call 4 => [-1 -1 -1  1 -1]
+  > - Call 5 => [-1 -1 -1 -1  1]
+​  > - 1 + 1 + 1 + 1 + 1 = 5
+
 ### Files
 
 |   #   | File                     | Description               |
@@ -16,7 +32,7 @@
 |   1   | [Banner](Banner)         | Banner for Assignment     |
 |   2   | [P11080.pdf](P11080.pdf) | The Problem               |
 |   3   | [main.cpp](main.cpp)     | Solution                  |
-|   4   | [geek.cpp](geek.cpp)     | Help code from Dr.Griffin |
+|   4   | [geek.cpp](geek.cpp)     | Helper code from Dr.Griffin |
 |   5   | [infile](infile)         | 1st sample file           |
 |   6   | [infile2](infile2)       | 2nd sample file           |
 |   7   | [infile3](infile3)       | 3rd sample file           |
