@@ -37,33 +37,33 @@
 using namespace std;
 #define endl "\n"
 
-int junctions;                                      // the number of junctions.
-int streets;                                        // the number of streets.
+int junctions; // the number of junctions.
+int streets;   // the number of streets.
 int cl, fl;
-int v[250];											
+int v[250];
 vector<int> g[250];
 
 bool isBipartite(int number);
 
 int main()
 {
-	int test_cases;                                 // integer T(T < 80)indicate the number of test cases.
+	int test_cases; // integer T(T < 80)indicate the number of test cases.
 	cin >> test_cases;
 	while (test_cases-- && cin >> junctions >> streets)
 	{
 		REP(i, junctions)
-		g[i].clear();                               // Clear the vector.					
+		g[i].clear(); // Clear the vector.
 		while (streets--)
 		{
-			int a, b;								
-			cin >> a >> b;                          // Read in the inputs.
+			int a, b;
+			cin >> a >> b; // Read in the inputs.
 
-			g[a].pb(b);								
+			g[a].pb(b);
 			g[b].pb(a);
 		}
-		memset(v, 0, sizeof(v));                    // to set all values as 0 for integral data types. 
+		memset(v, 0, sizeof(v)); // to set all values as 0 for integral data types.
 
-		int minimum = 0;                            // Minimum number of guards needed to guard all the junctions and streets. 
+		int minimum = 0; // Minimum number of guards needed to guard all the junctions and streets.
 		REP(i, junctions)
 		if (!v[i])
 		{
@@ -71,12 +71,12 @@ int main()
 			v[i] = 1;
 			if (!isBipartite(i))
 			{
-				minimum = -1;                       // Setting as ‘-1’ if it is impossible to place the guards without fighting.
+				minimum = -1; // Setting as ‘-1’ if it is impossible to place the guards without fighting.
 				break;
 			}
 			minimum += max(min(cl, fl - cl), 1);
 		}
-		cout << minimum << endl;                    // Displaying the results.
+		cout << minimum << endl; // Displaying the results.
 	}
 	return 0;
 }
@@ -84,16 +84,20 @@ int main()
 bool isBipartite(int number)
 {
 	fl++;
-	if (v[number] == 1) cl++;
+	if (v[number] == 1)
+		cl++;
 	for (int i = 0; i < g[number].size(); i++)
 	{
 		int x = g[number][i];
-		if (v[x] == v[number])  return false;
+		if (v[x] == v[number])
+			return false;
 
-		if (v[x] == 3 - v[number]) continue;
-		
+		if (v[x] == 3 - v[number])
+			continue;
+
 		v[x] = 3 - v[number];
-		if (!isBipartite(x)) return false;
+		if (!isBipartite(x))
+			return false;
 	}
 	return true;
 }
