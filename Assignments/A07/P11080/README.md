@@ -11,7 +11,7 @@
 
 - **Example that had three calls. We ignore the -1's:**
 
-  > - Call 1 => [ 1  0  1 -1 -1]  (smallest set is 0 or 1 guard)
+  > - Call 1 => [ 1  0  1 -1 -1] (smallest set is 0 or 1 guard )
   > - Call 2 => [-1 -1 -1  1 -1] (smallest set is 1  or 1 guard)
   > - Call 3 => [-1 -1 -1 -1  1] (smallest set is 1  or 1 guard)
   > - **1 + 1 + 1 = 3 (correct answer)**
