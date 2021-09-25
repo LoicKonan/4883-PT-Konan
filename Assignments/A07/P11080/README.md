@@ -6,7 +6,7 @@
 
 "Help the king to find the **Minimum** Number of guards needed to guard all the junctions and streets of his country."
 
-- on approach for bicoloring **(determine the graph is bipartite or not )** is use **BFS** method.
+- on approach for bicoloring **(determine the graph is bipartite or not )** use **BFS** method.
 - If Its not BiGraph print -1;
 
 - **Example that had three calls. We ignore the -1's:**
