@@ -37,7 +37,8 @@
 using namespace std;
 #define endl "\n"
 
-int n, m;
+int junctions;										// the number of junctions.
+int streets;										// the number of streets.
 int cl, fl;
 int v[250];
 vector<int> g[250];
@@ -46,35 +47,36 @@ bool check(int number);
 
 int main()
 {
-	int t;
-	cin >> t;
-	while (t-- && cin >> n >> m)
+	int test_cases;								    // integer T(T < 80)indicate the number of test cases.
+	cin >> test_cases;
+	while (test_cases-- && cin >> junctions >> streets)
 	{
-		REP(i, n)
+		REP(i, junctions)
 		g[i].clear();
-		while (m--)
+		while (streets--)
 		{
-			int a, b;
+			int a, b;								
 			cin >> a >> b;
+
 			g[a].pb(b);
 			g[b].pb(a);
 		}
-		memset(v, 0, sizeof(v));
+		memset(v, 0, sizeof(v));					// to set all values as 0 for integral data types. 
 
-		int ans = 0;
-		REP(i, n)
+		int minimum = 0;						    // Minimum number of guards needed to guard all the junctions and streets. 
+		REP(i, junctions)
 		if (!v[i])
 		{
 			fl = cl = 0;
 			v[i] = 1;
 			if (!check(i))
 			{
-				ans = -1;
+				minimum = -1;						// Setting as ‘-1’ if it is impossible to place the guards without fighting.
 				break;
 			}
-			ans += max(min(cl, fl - cl), 1);
+			minimum += max(min(cl, fl - cl), 1);
 		}
-		cout << ans << endl;
+		cout << minimum << endl;				    // Displaying the results.
 	}
 	return 0;
 }
