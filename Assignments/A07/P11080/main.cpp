@@ -66,7 +66,6 @@ int main()
 			}
 			ans += max(min(cl, fl - cl), 1);
 		}
-
 		cout << ans << endl;
 	}
 	return 0;
@@ -75,24 +74,17 @@ int main()
 bool check(int number)
 {
 	fl++;
-	if (v[number] == 1)
-		cl++;
+	if (v[number] == 1) cl++;
 	for (int i = 0; i < g[number].size(); i++)
 	{
 		int x = g[number][i];
-		if (v[x] == v[number])
-		{
-			return false;
-		}
-		if (v[x] == 3 - v[number])
-		{
-			continue;
-		}
+		if (v[x] == v[number])  return false;
+
+		if (v[x] == 3 - v[number]) continue;
+		
 		v[x] = 3 - v[number];
-		if (!check(x))
-		{
-			return false;
-		}
+		if (!check(x)) return false;
+		
 	}
 	return true;
 }
