@@ -84,7 +84,6 @@ bool check(int number)
 		
 		v[x] = 3 - v[number];
 		if (!check(x)) return false;
-		
 	}
 	return true;
 }
