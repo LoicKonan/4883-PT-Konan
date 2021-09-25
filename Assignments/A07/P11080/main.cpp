@@ -90,9 +90,9 @@ bool isBipartite(int number)
 		int x = g[number][i];
 		if (v[x] == v[number]) return false;		// if they equal return false.
 
-		if (v[x] == 3 - v[number]) continue;		// if they equal return false.
+		if (v[x] == 3 - v[number]) continue;		
 
-		v[x] = 3 - v[number];						// if they equal return false.
+		v[x] = 3 - v[number];						
 		if (!isBipartite(x)) return false;
 	}
 	return true;
