@@ -43,7 +43,7 @@ int main()
 	while (t-- && cin >> n >> m)
 	{
 		REP(i, n)
-			g[i].clear();
+		g[i].clear();
 		while (m--)
 		{
 			int a, b;
@@ -55,17 +55,17 @@ int main()
 
 		int ans = 0;
 		REP(i, n)
-			if (!v[i])
+		if (!v[i])
+		{
+			fl = cl = 0;
+			v[i] = 1;
+			if (!check(i))
 			{
-				fl = cl = 0;
-				v[i] = 1;
-				if (!check(i))
-				{
-					ans = -1;
-					break;
-				}
-				ans += max(min(cl, fl - cl), 1);
+				ans = -1;
+				break;
 			}
+			ans += max(min(cl, fl - cl), 1);
+		}
 
 		cout << ans << endl;
 	}
