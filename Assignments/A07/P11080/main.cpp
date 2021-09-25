@@ -40,10 +40,10 @@ using namespace std;
 int junctions;										// the number of junctions.
 int streets;										// the number of streets.
 int cl, fl;
-int v[250];
+int v[250];											
 vector<int> g[250];
 
-bool check(int number);
+bool isBipartite(int number);
 
 int main()
 {
@@ -52,13 +52,13 @@ int main()
 	while (test_cases-- && cin >> junctions >> streets)
 	{
 		REP(i, junctions)
-		g[i].clear();
+		g[i].clear();								// Clear the vector.					
 		while (streets--)
 		{
 			int a, b;								
-			cin >> a >> b;
+			cin >> a >> b;							// Read in the inputs.
 
-			g[a].pb(b);
+			g[a].pb(b);								
 			g[b].pb(a);
 		}
 		memset(v, 0, sizeof(v));					// to set all values as 0 for integral data types. 
@@ -69,7 +69,7 @@ int main()
 		{
 			fl = cl = 0;
 			v[i] = 1;
-			if (!check(i))
+			if (!isBipartite(i))
 			{
 				minimum = -1;						// Setting as ‘-1’ if it is impossible to place the guards without fighting.
 				break;
@@ -81,7 +81,7 @@ int main()
 	return 0;
 }
 
-bool check(int number)
+bool isBipartite(int number)
 {
 	fl++;
 	if (v[number] == 1) cl++;
@@ -93,7 +93,7 @@ bool check(int number)
 		if (v[x] == 3 - v[number]) continue;
 		
 		v[x] = 3 - v[number];
-		if (!check(x)) return false;
+		if (!isBipartite(x)) return false;
 	}
 	return true;
 }
