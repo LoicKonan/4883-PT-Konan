@@ -53,8 +53,8 @@ graph below:
 returns:
 ​
 ```
+
 [1 0 0 0 1] (Three zeros and two ones. Two ones is smallest set or 2 guards)
-```
 
 ### Files
 
