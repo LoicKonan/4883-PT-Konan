@@ -61,7 +61,7 @@ int main()
 			g[a].pb(b);
 			g[b].pb(a);
 		}
-		memset(v, 0, sizeof(v)); 					// to set all values as 0 for integral data types.
+		memset(v, 0, sizeof(v));					// to set all values as 0 for integral data types.
 
 		int minimum = 0; 							// Minimum number of guards needed to guard all the junctions and streets.
 		REP(i, junctions)
@@ -76,7 +76,7 @@ int main()
 			}
 			minimum += max(min(cl, fl - cl), 1);
 		}
-		cout << minimum << endl; 					// Displaying the results.
+		cout << minimum << endl;					// Displaying the results.
 	}
 	return 0;
 }
