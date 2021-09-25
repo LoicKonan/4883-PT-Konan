@@ -39,7 +39,7 @@ using namespace std;
 
 int junctions; // the number of junctions.
 int streets;   // the number of streets.
-int cl, fl;
+int f, t;	   // f and t denoting that thereis a street betweenfandt
 int v[250];
 vector<int> g[250];
 
@@ -67,14 +67,14 @@ int main()
 		REP(i, junctions)
 		if (!v[i])
 		{
-			fl = cl = 0;
+			f = t = 0;
 			v[i] = 1;
 			if (!isBipartite(i))
 			{
 				minimum = -1; // Setting as ‘-1’ if it is impossible to place the guards without fighting.
 				break;
 			}
-			minimum += max(min(cl, fl - cl), 1);
+			minimum += max(min(t, f - t), 1);
 		}
 		cout << minimum << endl; // Displaying the results.
 	}
@@ -83,16 +83,17 @@ int main()
 
 bool isBipartite(int number)
 {
-	fl++;											// Increment fl.
-	if (v[number] == 1)	cl++;						// Increment cl.
+	f++; // Increment f.
+	if (v[number] == 1) t++; // Increment t.
+
 	for (int i = 0; i < g[number].size(); i++)
 	{
 		int x = g[number][i];
-		if (v[x] == v[number]) return false;		// if they equal return false.
+		if (v[x] == v[number]) return false; // if they equal return false.
 
-		if (v[x] == 3 - v[number]) continue;		
+		if (v[x] == 3 - v[number]) continue;
 
-		v[x] = 3 - v[number];						
+		v[x] = 3 - v[number];
 		if (!isBipartite(x)) return false;
 	}
 	return true;
