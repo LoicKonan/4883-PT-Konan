@@ -29,151 +29,70 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector of ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
+int n, m;
+int cl, fl;
+int v[250];
+vector<int> g[250];
 
-int T, E, V;
-int u, v;
+bool check(int number);
 
-vvi G;
-vi colors;
-int pos;
-
-void printVVI(vvi graph)
+int main()
 {
-    REP(i, graph.size())
-    {
-        REP(j, graph[i].size())
-        {
-            cout << G[i][j] << " ";
-        }
-        cout << endl;
-    }
+	int t;
+	cin >> t;
+	while (t-- && cin >> n >> m)
+	{
+		REP(i, n)
+			g[i].clear();
+		while (m--)
+		{
+			int a, b;
+			cin >> a >> b;
+			g[a].pb(b);
+			g[b].pb(a);
+		}
+		memset(v, 0, sizeof(v));
+
+		int ans = 0;
+		REP(i, n)
+			if (!v[i])
+			{
+				fl = cl = 0;
+				v[i] = 1;
+				if (!check(i))
+				{
+					ans = -1;
+					break;
+				}
+				ans += max(min(cl, fl - cl), 1);
+			}
+
+		cout << ans << endl;
+	}
+	return 0;
 }
 
-void printColors()
+bool check(int number)
 {
-    cout << "colors: ";
-    REP(i, V)
-    {
-        cout << colors[i] << " ";
-    }
-    cout << endl;
-}
-
-// colors[1,-1,-1,-1];
-// c = 1
-// ans = true
-// This function returns true if
-// graph G[V][V] is Bipartite, else false
-bool isBipartiteUtil(int src)
-{
-    colors[src] = 1;
-
-    // Create a queue (FIFO) of vertex numbers a
-    // nd enqueue source vertex for BFS traversal
-    queue<int> q;
-    q.push(src);
-
-    // Run while there are vertices in queue (Similar to
-    // BFS)
-    while (!q.empty())
-    {
-        // Dequeue a vertex from queue ( Refer
-        // http://goo.gl/35oz8 )
-        int u = q.front();
-        q.pop();
-
-        // Return false if there is a self-loop
-        if (G[u][u] == 1)
-            return false;
-
-        // Find all non-colored adjacent vertices
-        for (int v = 0; v < V; ++v)
-        {
-            // An edge from u to v exists and
-            // destination v is not colored
-            if (G[u][v] && colors[v] == -1)
-            {
-                // Assign alternate color to this
-                // adjacent v of u
-                colors[v] = 1 - colors[u];
-                q.push(v);
-            }
-
-            // An edge from u to v exists and destination
-            // v is colored with same color as u
-            else if (G[u][v] && colors[v] == colors[u])
-                return false;
-        }
-    }
-
-    // If we reach here, then all adjacent vertices can
-    // be colored with alternate color
-    return true;
-}
-
-// Returns true if G[][] is Bipartite, else false
-bool isBipartite()
-{
-
-    // This code is to handle disconnected graoh
-    for (int i = 0; i < V; i++)
-        if (colors[i] == -1)
-            if (isBipartiteUtil(i) == false)
-                return false;
-
-    return true;
-}
-
-int main(int argc, char **argv)
-{
-    bool isitreallybipartite;
-    cin >> T;
-
-    while (T--)
-    {
-
-        // get node and edge counts
-        cin >> V >> E;
-
-        G.resize(V);
-        colors.resize(V, -1);
-
-        REP(i, V)
-        {
-            G[i].resize(V, 0);
-        }
-
-        REP(i, E)
-        {
-            cin >> u >> v;
-            //cout << s <<","<< t << endl;
-            G[u][v] = 1;
-            G[v][u] = 1;
-        }
-
-        // printVVI(G);
-
-        // 0 = pos
-        // 1 = color count
-        isitreallybipartite = isBipartite();
-
-        if (!isitreallybipartite)
-        {
-            cout << -1 << endl;
-        }
-        else
-        {
-            printColors();
-        }
-
-        G.clear();
-        colors.clear();
-
-        cout << endl;
-    }
-    return 0;
+	fl++;
+	if (v[number] == 1)
+		cl++;
+	for (int i = 0; i < g[number].size(); i++)
+	{
+		int x = g[number][i];
+		if (v[x] == v[number])
+		{
+			return false;
+		}
+		if (v[x] == 3 - v[number])
+		{
+			continue;
+		}
+		v[x] = 3 - v[number];
+		if (!check(x))
+		{
+			return false;
+		}
+	}
+	return true;
 }
