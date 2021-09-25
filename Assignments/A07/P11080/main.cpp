@@ -55,11 +55,11 @@ int main()
 		g[i].clear(); // Clear the vector.
 		while (streets--)
 		{
-			int a, b;
-			cin >> a >> b; // Read in the inputs.
+			int input_one, input_two;
+			cin >> input_one >> input_two; // Read in the inputs.
 
-			g[a].pb(b);
-			g[b].pb(a);
+			g[input_one].pb(input_two);
+			g[input_two].pb(input_one);
 		}
 		memset(v, 0, sizeof(v)); // to set all values as 0 for integral data types.
 
@@ -74,8 +74,6 @@ int main()
 				minimum = -1; // Setting as ‘-1’ if it is impossible to place the guards without fighting.
 				break;
 			}
-			cout << "cl = " << cl << " fl = " << fl << endl;
-
 			minimum += max(min(cl, fl - cl), 1);
 		}
 		cout << minimum << endl; // Displaying the results.
@@ -85,16 +83,16 @@ int main()
 
 bool isBipartite(int number)
 {
-	fl++;
-	if (v[number] == 1)	cl++;
+	fl++;											// Increment fl.
+	if (v[number] == 1)	cl++;						// Increment cl.
 	for (int i = 0; i < g[number].size(); i++)
 	{
 		int x = g[number][i];
-		if (v[x] == v[number]) return false;
+		if (v[x] == v[number]) return false;		// if they equal return false.
 
-		if (v[x] == 3 - v[number]) continue;
+		if (v[x] == 3 - v[number]) continue;		// if they equal return false.
 
-		v[x] = 3 - v[number];
+		v[x] = 3 - v[number];						// if they equal return false.
 		if (!isBipartite(x)) return false;
 	}
 	return true;
