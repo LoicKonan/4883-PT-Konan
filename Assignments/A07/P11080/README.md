@@ -44,3 +44,7 @@
 
 - Complied using **VScode** and **C++ 17**
 - main.exe < infile
+
+### Sources
+
+- Geeks for Geeks. <https://www.geeksforgeeks.org/bipartite-graph/>
