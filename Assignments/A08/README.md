@@ -4,7 +4,7 @@
 
 #### Description
 
-### 10194 - Football (aka Soccer)
+<h1 align="center"> 10194 - Football (aka Soccer) </h1>
 
 > 10194 Football (aka Soccer) Football the most popular sport in the world (americans insist to call it “Soccer”, but we will call it “Football”). As everyone knows, Brasil is the country that have most World Cup titles (four of them: 1958, 1962, 1970 and 1994). As our national tournament have many teams (and even regional tournaments have many teams also) it’s a very hard task to keep track of standings with so many teams and games played! So, your task is quite simple: write a program that receives the tournament name, team names and games played and outputs the tournament standings so far. A team wins a game if it scores more goals than its oponent. Obviously, a team loses a game if it scores less goals. When both teams score the same number of goals, we call it a tie. A team earns 3 points for each win, 1 point for each tie and 0 point for each loss. Teams are ranked according to these rules (in this order):
 >
