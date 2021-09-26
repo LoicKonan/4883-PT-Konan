@@ -4,6 +4,14 @@
 
 #### Description
 
+> - You are about to find out what is the percentage of each tree with respect to total number of trees.
+> - There is given the name of trees in any order. You have to find what is the percentage of appearence of unique trees in alphabetical order. Imaging the names of trees are:
+
+> aa
+> xx
+> aa
+> then, aa is 66.6667%, and xx is 33.3333%.
+
 ### Files
 
 |   #   | File                     | Description           |
