@@ -9,7 +9,7 @@
 | [05](./A05) | [A05](./A05) | [**Traffic Lights**](A05)              | :heavy_check_mark: |
 | [06](./A06) | [A06](./A06) | [**Jolly Jumpers**](A06)               | :heavy_check_mark: |
 | [07](./A07) | [A07](./A07) | [**Place The Guards**](A07)            | :heavy_check_mark: |
-| [08](./A08) | [A08](./A08) | [**Counting Distinct Items & String Processing**](A08)            | 🔴 🔜 |
+| [08](./A08) | [A08](./A08) | [**Counting Distinct Items & String Processing**](A08)|:heavy_check_mark:|
 | [09](./A09) | [A09](./A09) | [**Recursion**](A09)            | 🔴 🔜 |
 | [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      | 🔴 🔜 |
 | [11](./A11) | [A11](./A11) | [**Brick Wall Patterns**](A11)  | 🔴 🔜 |
