@@ -30,41 +30,34 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector if ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
-
 int main()
 {
-    int n;
-    string t;
-    cin >> n;
-    cin.ignore();
-    cin.ignore();
-    cout << setprecision(4) << fixed; // decimals to ten thousandths
-    while (n--)
+    int test_cases;                                     // Number of test cases.
+    string species;                                     // Species of every tree.
+    cin >> test_cases;                                  //  Read in the test cases.
+    cin.ignore();                                       // Clear one or more characters from the input buffer.
+    cin.ignore();                                       // Clear one or more characters from the input buffer.
+
+    while (test_cases--)
     {
         map<string, int> list;
         map<string, int>::iterator it;
-        int tot;
+        int total = 0;
 
-        while (getline(cin, t)) // read in each line, counting trees
-        { 
-            if (t == "")
-                break;
-            list[t]++;
-            tot++;
-        }
-
-        for (it = list.begin(); it != list.end(); it++)  // output tree stats
+        while (getline(cin, species))                   // read in each line, counting trees
         {
-            cout << it->first << " " << ((it->second) * 100) / double(tot) << endl;
+            if (species == " ") break;
+            list[species]++;
+            total++;
         }
-        if (n)
-            cout << endl;
+
+        for (it = list.begin(); it != list.end(); it++) // output trees stats
+        {
+            cout << it->first << " " << setprecision(4) << fixed << ((it->second) * 100.0) / total << endl;
+        }
+        if (test_cases) cout  << endl;
         list.clear();
-        tot = 0;
+        total = 0;
     }
     return 0;
 }
