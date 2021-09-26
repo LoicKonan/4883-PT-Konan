@@ -32,30 +32,31 @@ using namespace std;
 
 int main()
 {
-    int test_cases;                                     // Number of test cases.
-    string species;                                     // Species of every tree.
-    cin >> test_cases;                                  // Read in the test cases.
-    cin.ignore();                                       // Clear one or more characters from the input buffer.
-    cin.ignore();                                       // Clear one or more characters from the input buffer.
+    int test_cases;                                       // Number of test cases.
+    string species;                                       // Species of every tree.
+    cin >> test_cases;                                    // Read in the test cases.
+    cin.ignore(); cin.ignore();                           // Clear one or more characters from the input buffer.                                          
 
-    while (test_cases--)                                // While our test case number is not 0.
+    while (test_cases--)                                  // While our test case number is not 0.
     {
-        map<string, int> list;                          // Create a map that we will store our trees with a key.
-        map<string, int>::iterator it;                  // Created this map for our for loop to retrieved based on a key.
-        int total = 0;                                  
+        map<string, int> Trees;                           // Create a map that we will store our trees with a key.
+        int total;                                  
 
-        while (getline(cin, species) && species != " ") // read in each line, as long as there is not empty string.
+        while (getline(cin, species))                     // Read in each line, as long as there is not empty string.
         {
-            list[species]++;                            // Add to our map.
-            total++;                                    // Increment our total counter.
+            if ( species == "") break;
+            Trees[species]++;                             // Add to our map.
+            total++;                                      // Increment our total counter.
         }
-
-        for (it = list.begin(); it != list.end(); it++) // Using this for loop and Iomanip to display the Stats.
+                                                          // Created this map for our for loop to retrieved based on a key.
+                                                          // Using this for loop and Iomanip to display the Stats.
+        for ( map<string,int>::iterator it = Trees.begin(); it != Trees.end(); it++) 
         {
-            cout << it->first << " " << setprecision(4) << fixed << ((it->second) * 100.0) / total << endl;
+            cout << it->first << " " << setprecision(4) << fixed << ((it->second) * 100) / double(total) << endl;
         }
         if (test_cases) cout  << endl;                  
-        list.clear();                                   // Clear the map.
+        Trees.clear();                                    // Clear the map.
+        total = 0;
     }
     return 0;
 }
