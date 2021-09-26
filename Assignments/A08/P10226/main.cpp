@@ -38,25 +38,25 @@ int main()
     cin.ignore();                                       // Clear one or more characters from the input buffer.
     cin.ignore();                                       // Clear one or more characters from the input buffer.
 
-    while (test_cases--)                                // 
+    while (test_cases--)                                // While our test case number is not 0.
     {
-        map<string, int> list;                          //
-        map<string, int>::iterator it;                  //
-        int total = 0;                                  //
+        map<string, int> list;                          // Create a map that we will store our trees with a key.
+        map<string, int>::iterator it;                  // Created this map for our for loop to retrieved based on a key
+        int total = 0;                                  
 
         while (getline(cin, species))                   // read in each line, counting trees
         {
-            if (species == " ") break;                  //
-            list[species]++;                            //
-            total++;                                    //
+            if (species == " ") break;                  // Break if there is an empty string.
+            list[species]++;                            // Add to our map.
+            total++;                                    // Increment our total counter.
         }
 
-        for (it = list.begin(); it != list.end(); it++) // Using this for loop to display the Stats.
+        for (it = list.begin(); it != list.end(); it++) // Using this for loop and Iomanip to display the Stats.
         {
             cout << it->first << " " << setprecision(4) << fixed << ((it->second) * 100.0) / total << endl;
         }
-        if (test_cases) cout  << endl;                  //
-        list.clear();                                   // Clearing our map of list.
+        if (test_cases) cout  << endl;                  
+        list.clear();                                   // Clear the map.
     }
     return 0;
 }
