@@ -34,30 +34,29 @@ int main()
 {
     int test_cases;                                     // Number of test cases.
     string species;                                     // Species of every tree.
-    cin >> test_cases;                                  //  Read in the test cases.
+    cin >> test_cases;                                  // Read in the test cases.
     cin.ignore();                                       // Clear one or more characters from the input buffer.
     cin.ignore();                                       // Clear one or more characters from the input buffer.
 
-    while (test_cases--)
+    while (test_cases--)                                // 
     {
-        map<string, int> list;
-        map<string, int>::iterator it;
-        int total = 0;
+        map<string, int> list;                          //
+        map<string, int>::iterator it;                  //
+        int total = 0;                                  //
 
         while (getline(cin, species))                   // read in each line, counting trees
         {
-            if (species == " ") break;
-            list[species]++;
-            total++;
+            if (species == " ") break;                  //
+            list[species]++;                            //
+            total++;                                    //
         }
 
-        for (it = list.begin(); it != list.end(); it++) // output trees stats
+        for (it = list.begin(); it != list.end(); it++) // Using this for loop to display the Stats.
         {
             cout << it->first << " " << setprecision(4) << fixed << ((it->second) * 100.0) / total << endl;
         }
-        if (test_cases) cout  << endl;
-        list.clear();
-        total = 0;
+        if (test_cases) cout  << endl;                  //
+        list.clear();                                   // Clearing our map of list.
     }
     return 0;
 }
