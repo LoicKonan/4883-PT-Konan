@@ -18,3 +18,7 @@
 
 - Complied using **VScode** and **C++ 17**
 - main.exe < infile
+
+### Sources
+
+- Geeks for Geeks.
