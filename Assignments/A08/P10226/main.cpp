@@ -41,12 +41,11 @@ int main()
     while (test_cases--)                                // While our test case number is not 0.
     {
         map<string, int> list;                          // Create a map that we will store our trees with a key.
-        map<string, int>::iterator it;                  // Created this map for our for loop to retrieved based on a key
+        map<string, int>::iterator it;                  // Created this map for our for loop to retrieved based on a key.
         int total = 0;                                  
 
-        while (getline(cin, species))                   // read in each line, counting trees
+        while (getline(cin, species) && species != " ") // read in each line, as long as there is not empty string.
         {
-            if (species == " ") break;                  // Break if there is an empty string.
             list[species]++;                            // Add to our map.
             total++;                                    // Increment our total counter.
         }
