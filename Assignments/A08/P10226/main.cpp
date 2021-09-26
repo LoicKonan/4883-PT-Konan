@@ -44,7 +44,7 @@ int main()
 
         while (getline(cin, species))                     // Read in each line, as long as there is not empty string.
         {
-            if ( species == "") break;
+            if ( species == "") break;                    // If we have an empty string break.
             Trees[species]++;                             // Add to our map.
             total++;                                      // Increment our total counter.
         }
