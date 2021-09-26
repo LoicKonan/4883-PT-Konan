@@ -1,3 +1,11 @@
+/**
+* Loic Konan
+* 4883 - Programming Techniques.
+* P11080
+* 09/25/2021
+* This gave me a run time of 0.43 seconds.
+*/
+
 #include <algorithm>
 #include <bitset>
 #include <cctype>
