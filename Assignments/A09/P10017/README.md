@@ -12,7 +12,8 @@
 |   2   | [P10017.pdf](P10017.pdf) | The Problem           |
 |   3   | [main.cpp](main.cpp)     | Solution              |
 |   4   | [infile](infile)         | 1st sample file       |
-|   5   | [infile2](infile2)       | 2nd sample file       |
+|   5   | [infile1](infile1)       | 2nd sample file       |
+|   6   | [infile2](infile2)       | 3rd sample file       |
 
 ### Instructions
 
