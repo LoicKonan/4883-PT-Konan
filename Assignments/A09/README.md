@@ -21,7 +21,7 @@
 > as you move the disks around.
 >
 > - This program has to solve the problem in an **efficient way**.
-> - **TIP:** It is well known and rather easy to prove that the minimum number of moves needed to complete
+> - **TIP:** It is well known and rather easy to prove that the minimum number of moves needed to complete <br>
 > the puzzle with **n disks is 2n - 1**.
 
 ### Files
