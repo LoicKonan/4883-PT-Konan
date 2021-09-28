@@ -4,6 +4,10 @@
 
 #### Description
 
+> - Move the Top N-1 disks from peg A to peg B (using C as an auxiliary peg).
+> - Move the bottom disk from peg A to peg C.
+> - Move N-1 disks from Peg B to Peg C (using Peg A as an auxiliary peg).
+
 ### Files
 
 |   #   | File                     | Description           |
