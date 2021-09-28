@@ -16,14 +16,17 @@
 > - The goal of the puzzle is to transfer the entire tower from the A peg to the peg C.
 > - One disk at a time can be moved from the top of a stack either to an empty peg or to a peg with
 >
-> - a larger disk than itself on the top of its stack.
-> - Your job will be to write a program which will show a copy of the puzzle on the screen step by step,
-> - as you move the disks around. This program has to solve the problem in an efficient way.
+> a larger disk than itself on the top of its stack.
+> Your job will be to write a program which will show a copy of the puzzle on the screen step by step,
+> as you move the disks around.
+>
+> - This program has to solve the problem in an **efficient way**.
 > - **TIP:** It is well known and rather easy to prove that the minimum number of moves needed to complete
-> - the puzzle with n disks is 2n - 1.
+> the puzzle with **n disks is 2n - 1**.
 
 ### Files
 
 |   #   | File               | Description | Status                  |
 | :---: | ------------------ | ----------- | ----------------------- |
 |   1   | [P10017](./P10017) | Folder      | :ballot_box_with_check: |
+d
