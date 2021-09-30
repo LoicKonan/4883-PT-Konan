@@ -4,7 +4,10 @@
 
 #### Description
 
-> Thus, the goal of this problem is to calculate the total length in meters of the bold lines.
+> **Note that, in this picture, the sunny mountainsides are emphasized by bold lines and the coordinates**<br>
+> of the landscape are emphasized by bold points.**<br>
+>
+> The goal of this problem is to calculate the total length in meters of the bold lines.
 > For this task consider that:
 >
 > - (1) for all coordinates (x, y), 0 ≤ x ≤ 30000 and 0 ≤ y ≤ 8848; 
