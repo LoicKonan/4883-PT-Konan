@@ -37,13 +37,13 @@
 using namespace std;
 #define endl "\n"
 
-int64 Max_values[51];                                           // The maximum value for the wall is length won't be more than 50.
+int64 Max_values[51];                                           // The maximum value for the wall length won't be more than 50.
 
 int main()
-{
-    Max_values[1] = 1;                                          // Store 1 and 2 in our array since 0 is not a positive integers
-    Max_values[2] = 2;                                          // and the problem said we will receive a sequence of positive integers.
-
+{                                                               // Since the problem said we will receive a sequence of positive integers,
+    Max_values[1] = 1;                                          // we can then just start storing 1 and 2 in our array since 0 is not a positive integers
+    Max_values[2] = 2;                                          
+  
     for (int i = 3; i < 51; i++)                                // Pretty much printing out fibonacci sequences.
         Max_values[i] = Max_values[i - 1] + Max_values[i - 2];
 
