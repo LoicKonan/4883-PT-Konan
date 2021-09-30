@@ -4,6 +4,12 @@
 
 #### Description
 
+> - **Dynamic Programming** to find Fibonacci numbers up to 50.
+> In an array that can hold 51 elements.
+> Using the base cases of fib(1) = 1, fib(2) = 2, ignoring the fib(0) since it won't be needed.
+> compute the remaining Fibonacci numbers in the range [3..50].
+> Stop if n = 0.
+
 ### Files
 
 |   #   | File                 | Description           |
@@ -22,4 +28,4 @@
 
 ### Sources
 
-- 
+- Dynamic Programming C++: <https://www.cprogramming.com/tutorial/computersciencetheory/dp.html>

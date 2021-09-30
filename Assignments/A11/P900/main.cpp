@@ -40,8 +40,8 @@ using namespace std;
 int64 Max_values[51];                                           // The maximum value for the wall length won't be more than 50.
 
 int main()
-{                                                               // Since the problem said we will receive a sequence of positive integers,
-    Max_values[1] = 1;                                          // we can then just start storing 1 and 2 in our array since 0 is not a positive integers
+{                                                               // We can just start storing 1 and 2 in our array ignoring 0 location.
+    Max_values[1] = 1;                                          
     Max_values[2] = 2;                                          
   
     for (int i = 3; i < 51; i++)                                // Pretty much printing out fibonacci sequences.
