@@ -23,3 +23,8 @@
 
 - Complied using **VScode** and **C++ 17**
 - main.exe < infile
+  
+### Sources
+
+- Tower of Hanoi: <https://en.wikipedia.org/wiki/Tower_of_Hanoi>
+- GeeksforGeeks: <https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/>
