@@ -1,3 +1,11 @@
+/**
+* Loic Konan
+* 4883 - Programming Techniques.
+* P900
+* 09/25/2021
+* This gave me a run time of 0.00 seconds.
+*/
+
 #include <algorithm>
 #include <bitset>
 #include <cctype>
@@ -29,17 +37,18 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector if ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
+int64 Max_values[51];                                           // The maximum value for the wall is length won't be more than 50.
 
-
-int main(int argc, char **argv)
+int main()
 {
-    while (true)
-    {
-        
-    }
+    Max_values[1] = 1;                                          // Store 1 and 2 in our array since 0 is not a positive integers
+    Max_values[2] = 2;                                          // and the problem said we will receive a sequence of positive integers.
+
+    for (int i = 3; i < 51; i++)                                // Pretty much printing out fibonacci sequences.
+        Max_values[i] = Max_values[i - 1] + Max_values[i - 2];
+
+    int number;
+    while (cin >> number && number != 0 )                        // Read in each value as long as it not 0.
+        cout << Max_values[number] << endl;                      // Display the result.
     return 0;
 }
