@@ -5,7 +5,7 @@
 #### Description
 
 > **Note that, in this picture, the sunny mountainsides are emphasized by bold lines and the coordinates**<br>
-> of the landscape are emphasized by bold points.**<br>
+> **of the landscape are emphasized by bold points.**<br>
 >
 > The goal of this problem is to calculate the total length in meters of the bold lines.
 > For this task consider that:
