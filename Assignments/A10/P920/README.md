@@ -24,4 +24,5 @@
   
 ### Sources
 
-- 
+- Calculate Distance: <https://www.movable-type.co.uk/scripts/latlong.html>
+- Euclidean Distance: <https://en.wikipedia.org/wiki/Euclidean_distance>
