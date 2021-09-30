@@ -6,7 +6,7 @@
 
 > - Sort the points according to their x co-ordinates.
 > - Iterate from left to right. 
-> - Whenever a point (peak) rises higher than the previous highest peek, then the light is incident to it. 
+> - Whenever a point (peak) rises higher than the previous highest peek, then the light is incident to it.
 > - Accumulate the distance from the current peak to the bottom end of the other part.
 
 ### Files
@@ -20,7 +20,6 @@
 |   5   | [infile2](infile2)   | 2nd sample file       |
 |   6   | [infile3](infile3)   | 3rd sample file       |
 |   7   | [infile4](infile4)   | 4th sample file       |
-
 
 ### Instructions
 
