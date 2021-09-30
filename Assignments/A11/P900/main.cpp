@@ -37,18 +37,22 @@
 using namespace std;
 #define endl "\n"
 
-int64 Max_values[51];                                           // The maximum value for the wall length won't be more than 50.
-
 int main()
-{                                                               // We can just start storing 1 and 2 in our array ignoring 0 location.
-    Max_values[1] = 1;                                          
+{                     
+    int64 Max_values[51];                                       // The maximum value for the length wall won't be more than 50.
+    Max_values[1] = 1;                                          // We can just start storing 1 and 2 in our array ignoring 0 location.
     Max_values[2] = 2;                                          
-  
-    for (int i = 3; i < 51; i++)                                // Pretty much printing out fibonacci sequences.
-        Max_values[i] = Max_values[i - 1] + Max_values[i - 2];
+    int number;                                                 // This represent the length of the wall.
 
-    int number;
-    while (cin >> number && number != 0 )                        // Read in each value as long as it not 0.
-        cout << Max_values[number] << endl;                      // Display the result.
+    int a = 3;                                                   
+    int b = 51;                                                 // The length of our array.
+
+    FOR(i, a, b)                                                // Pretty much printing out fibonacci sequences.
+        Max_values[i] = Max_values[i - 1] + Max_values[i - 2];
+    
+    while (cin >> number && number != 0 )                       // Read in each value as long as it not 0.
+    {
+         cout << Max_values[number] << endl;                    // Display the result.
+    }
     return 0;
 }
