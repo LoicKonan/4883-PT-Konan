@@ -16,10 +16,10 @@
 > two bricks long-ways up put next to each other.
 > - There are three patterns for walls of length 3.
 >
-> How many patterns can you find for a wall of length 4? And, for a wall of length 5?<br>
+> How many patterns can you find for a wall of **length 4?** And, for a wall of **length 5?**<br>
 >
-> Your task is to write a program that given the length of a wall, determines how many patterns there<br>
-> may be for a wall of that length.
+> Your task is to write a program that given the length of a wall,<br>
+> **determines how many patterns there may be for a wall of that length.**
 
 ### Files
 
