@@ -4,7 +4,10 @@
 
 #### Description
 
->
+> - Sort the points according to their x co-ordinates.
+> - Iterate from left to right. 
+> - Whenever a point (peak) rises higher than the previous highest peek, then the light is incident to it. 
+> - Accumulate the distance from the current peak to the bottom end of the other part.
 
 ### Files
 
