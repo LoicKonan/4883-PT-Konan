@@ -12,7 +12,7 @@
 | [08](./A08) | [A08](./A08) | [**Counting Distinct Items & String Processing**](A08)|:heavy_check_mark:|
 | [09](./A09) | [A09](./A09) | [**The Never Ending Towers of Hanoi (Recursion)**](A09)            | 🔴 🔜 |
 | [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      | 🔴 🔜 |
-| [11](./A11) | [A11](./A11) | [**Brick Wall Patterns**](A11)  | 🔴 🔜 |
+| [11](./A11) | [A11](./A11) | [**Brick Wall Patterns**](A11)  | :heavy_check_mark:  |
 | [12](./A12) | [A12](./A12) | [**loading...**](A12)           | 🔴 🔜 |
 | [13](./A13) | [A13](./A13) | [**loading...**](A13)           | 🔴 🔜 |
 | [14](./A14) | [A14](./A14) | [**loading...**](A14)           | 🔴 🔜 |
