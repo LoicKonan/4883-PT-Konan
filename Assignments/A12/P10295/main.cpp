@@ -40,12 +40,13 @@ using namespace std;
 int main()
 {
     uint64 Total;                                   // long long for the the total salary.
+
+    map<string, int> dictionary;                    // Declaring Map to be of <string, int> type.
+    
     int words;                                      // The number of words in the Hay Point.
     int numb_Job;                                   // The number of job descriptions.
     string Text;                                    // The job descriptions.
 
-    map<string, int> dictionary;                    // Declaring Map to be of <string, int> type.
-    
     cin >> words >> numb_Job;                       // Read in the values for the number of words and job descriptions.
     
     REP(i, words)                                   // For i less than the number of words.                                
