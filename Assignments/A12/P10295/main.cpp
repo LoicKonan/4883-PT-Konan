@@ -32,10 +32,10 @@ using namespace std;
 int main()
 {
     uint64 words;                                   // Using long long for The number of words in the Hay Point.
-    uint64 n;                                   // Using long long for The number of job descriptions.
+    uint64 n;                                       // Using long long for The number of job descriptions.
     cin >> words >> n;                              // Read in the number of words and job descriptions.
 
-    map<string, int> memo;                      // Declaring Map to be of <string, int> type.
+    map<string, int> memo;                          // Declaring Map to be of <string, int> type.
     
     REP(i, n)
     {
