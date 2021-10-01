@@ -29,17 +29,30 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector if ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
-
-
-int main(int argc, char **argv)
+int main()
 {
-    while (true)
-    {
+    uint64 m;                                   // Using long long for The number of words in the Hay Point.
+    uint64 n;                                   // Using long long for The number of job descriptions.
+    cin >> m >> n;                              // Read in the number of words and job descriptions.
 
+    map<string, int> memo;                      // Declaring Map to be of <string, int> type.
+    
+    REP(i, n)
+    {
+        string word;
+        int value;
+        cin >> word >> value;
+        memo[word] = value;
+    }
+    
+    REP(i, n)
+    {
+        string word;
+        int salary = 0;
+        while (cin >> word, word != ".")
+            salary += memo[word];
+
+        cout << salary << endl;                  // Display the results.
     }
     return 0;
 }
