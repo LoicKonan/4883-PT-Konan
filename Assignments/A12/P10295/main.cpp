@@ -61,7 +61,6 @@ int main()
         while (cin >> Text, Text != ".")            // Read in the Text until the period.
               Total += dictionary[Text];            // Computing the salary as the sum of the Hay Point values
                                                     // for all words that appear in the description.
-
         cout << Total << endl;                      // Display the salary computed.
     }
     return 0;
