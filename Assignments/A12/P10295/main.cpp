@@ -31,9 +31,8 @@ using namespace std;
 
 int main()
 {
-    int words;                                      // Using long long for The number of words in the Hay Point.
-    int numb_Job;                                   // Using long long for The number of job descriptions.
-    int i;
+    int words;                                      // The number of words in the Hay Point.
+    int numb_Job;                                   // The number of job descriptions.
     string word;
 
     map<string, int> memo;                          // Declaring Map to be of <string, int> type.
@@ -42,7 +41,7 @@ int main()
     REP(i, words)
     {
         int value;
-        cin >> word >> value;                        // Read in the number of words and job descriptions.
+        cin >> word >> value;                       // Read in the number of words and job descriptions.
         memo[word] = value;
     }
     
