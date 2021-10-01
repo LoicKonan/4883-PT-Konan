@@ -4,7 +4,7 @@
 
 #### Description
 
-> Declaring umap to be of <string, int> type
+> Declaring Map to be of <string, int> type
 > key will be of string type and mapped value will be of integers type.
 
 ### Files
