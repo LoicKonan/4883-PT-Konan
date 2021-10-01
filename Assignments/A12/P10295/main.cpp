@@ -31,8 +31,8 @@ using namespace std;
 
 int main()
 {
-    uint64 words;                                   // Using long long for The number of words in the Hay Point.
-    uint64 numb_Job;                                // Using long long for The number of job descriptions.
+    int words;                                      // Using long long for The number of words in the Hay Point.
+    int numb_Job;                                   // Using long long for The number of job descriptions.
     int i;
     string word;
 
