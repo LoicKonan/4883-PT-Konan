@@ -22,4 +22,5 @@
 
 ### Sources
 
-- 
+- Map: <https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/>
+- StackOverflow: <https://stackoverflow.com/questions/3578083/what-is-the-best-way-to-use-a-hashmap-in-c>
