@@ -50,14 +50,14 @@ int main()
     
     REP(i, words)                                   // 
     {
-        int value;
+        int value;                                  // 
         cin >> word >> value;                       // Read in the descriptions and number.
         dictionary[word] = value;
     }
     
     REP(i, numb_Job)                                // 
     {
-        Total = 0;
+        Total = 0;                                  // Set the Total number of salary to zero.
         while (cin >> word, word != ".")            // Read in the Text until the period.
               Total += dictionary[word];            // Computing the salary as the sum of the Hay Point values
                                                     // for all words that appear in the description.
