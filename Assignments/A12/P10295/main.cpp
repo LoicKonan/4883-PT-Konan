@@ -48,14 +48,14 @@ int main()
     
     cin >> words >> numb_Job;                       // Read in the values for the number of words and job descriptions.
     
-    REP(i, words)                                   // 
+    REP(i, words)                                   
     {
         int value;                                  // Using this for the salary
         cin >> word >> value;                       // Read in the descriptions and number.
         dictionary[word] = value;
     }
     
-    REP(i, numb_Job)                                // 
+    REP(i, numb_Job)                                
     {
         Total = 0;                                  // Set the Total number of salary to zero.
         while (cin >> word, word != ".")            // Read in the Text until the period.
