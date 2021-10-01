@@ -50,7 +50,7 @@ int main()
     
     REP(i, words)                                   // 
     {
-        int value;                                  // 
+        int value;                                  // Using this for the salary
         cin >> word >> value;                       // Read in the descriptions and number.
         dictionary[word] = value;
     }
