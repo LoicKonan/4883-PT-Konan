@@ -45,24 +45,35 @@ int main()
     
     int numb_Job_Descripiton;                       // The number of Job Descriptions.
     int numb_Paragraph;                             // The number of Paragraphs.
-    string Text;                                    // The job descriptions.
 
-    cin >> numb_Job_Descripiton >> numb_Paragraph;  // Read in the values for the number of words and job descriptions.
+    cin >> numb_Job_Descripiton >> numb_Paragraph;  // Read in the values for the number Job Descripiton and number of Paragraphs.
     
+    /**
+     * Using this first loop to solve the first 
+     * part of the problem. To loop through
+     * the job description and the salaries in front.
+     */
     REP(i, numb_Job_Descripiton)                    // For i less than the number of Jobs Descripitons.                                
     {
-        int value;                                  // Using this for the salary.
-        cin >> Text >> value;                       // Read in the descriptions and number.
-        dictionary[Text] = value;                   
+        string job;                                 // The job descriptions.
+        int salary;                                 
+        cin >> job >> salary;                       // Read in the job descriptions and salaries.
+        dictionary[job] = salary;                   
     }
     
+    /**
+     * This second loop will loop through 
+     * the paragraphs and add the salaries
+     * and display it.
+     */
     REP(i, numb_Paragraph)                          // For i less than the number of number of Paragraphs.         
     {
-        Total = 0;                                  // Set the Total number of salary to zero.
-        while (cin >> Text, Text != ".")            // Read in the Text until the period.
-              Total += dictionary[Text];            // Computing the salary as the sum of the Hay Point values
+        Total = 0;                                  // Set the Total number of salaries to zero.
+        string text;                                // The words in the paragraphs.
+        while (cin >> text, text != ".")            // Read in the Text until the period.
+              Total += dictionary[text];            // Computing the salary as the sum of the Hay Point values
                                                     // for all words that appear in the description.
-        cout << Total << endl;                      // Display the salary computed.
+        cout << Total << endl;                      // Display the salaries computed.
     }
     return 0;
 }
