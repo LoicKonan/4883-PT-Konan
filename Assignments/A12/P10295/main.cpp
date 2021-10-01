@@ -42,7 +42,7 @@ int main()
     uint64 Total;                                   // long long for the the total salary.
     int words;                                      // The number of words in the Hay Point.
     int numb_Job;                                   // The number of job descriptions.
-    string word;                                    // 
+    string word;                                    // The job descriptions.
 
     map<string, int> dictionary;                    // Declaring Map to be of <string, int> type.
     
