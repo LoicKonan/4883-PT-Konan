@@ -48,7 +48,7 @@ int main()
     
     cin >> words >> numb_Job;                       // Read in the values for the number of words and job descriptions.
     
-    REP(i, words)                                   //
+    REP(i, words)                                   // 
     {
         int value;
         cin >> word >> value;                       // Read in the descriptions and number.
