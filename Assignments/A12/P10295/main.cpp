@@ -35,21 +35,21 @@ int main()
     int numb_Job;                                   // The number of job descriptions.
     string word;                                    // 
 
-    map<string, int> memo;                          // Declaring Map to be of <string, int> type.
+    map<string, int> dictionary;                    // Declaring Map to be of <string, int> type.
     
     cin >> words >> numb_Job;                       // Read in the number of words and job descriptions.
     REP(i, words)
     {
         int value;
         cin >> word >> value;                       // Read in the number of words and job descriptions.
-        memo[word] = value;
+        dictionary[word] = value;
     }
     
     REP(i, numb_Job)
     {
         int Total = 0;
         while (cin >> word, word != ".")            // Read in the Text until the period.
-              Total += memo[word];                  // Computing the salary as the sum of the Hay Point values
+              Total += dictionary[word];            // Computing the salary as the sum of the Hay Point values
                                                     // for all words that appear in the description.
 
         cout << Total << endl;                      // Display the salary computed.
