@@ -13,8 +13,8 @@
 | [09](./A09) | [A09](./A09) | [**The Never Ending Towers of Hanoi (Recursion)**](A09)            | 🔴 🔜 |
 | [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      | 🔴 🔜 |
 | [11](./A11) | [A11](./A11) | [**Brick Wall Patterns**](A11)  | :heavy_check_mark:  |
-| [12](./A12) | [A12](./A12) | [**Hay Points**](A12)           | 🔴 🔜 |
-| [13](./A13) | [A13](./A13) | [**Maximum Sum**](A13)           | 🔴 🔜 |
+| [12](./A12) | [A12](./A12) | [**Hay Points**](A12)           | :heavy_check_mark:  |
+| [13](./A13) | [A13](./A13) | [**Maximum Sum**](A13)          | 🔴 🔜 |
 | [14](./A14) | [A14](./A14) | [**loading...**](A14)           | 🔴 🔜 |
 | [15](./A15) | [A15](./A15) | [**loading...**](A15)           | 🔴 🔜 |
 | [16](./A15) | [A16](./A16) | [**loading...**](A16)           | 🔴 🔜 |
