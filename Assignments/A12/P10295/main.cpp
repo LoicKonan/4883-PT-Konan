@@ -50,9 +50,9 @@ int main()
     
     REP(i, words)                                   
     {
-        int value;                                  // Using this for the salary
+        int value;                                  // Using this for the salary.
         cin >> word >> value;                       // Read in the descriptions and number.
-        dictionary[word] = value;
+        dictionary[word] = value;                   
     }
     
     REP(i, numb_Job)                                
