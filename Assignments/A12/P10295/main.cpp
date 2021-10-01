@@ -31,6 +31,7 @@ using namespace std;
 
 int main()
 {
+    uint64 Total;                                   // 
     int words;                                      // The number of words in the Hay Point.
     int numb_Job;                                   // The number of job descriptions.
     string word;                                    // 
