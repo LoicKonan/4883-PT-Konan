@@ -42,24 +42,24 @@ int main()
     uint64 Total;                                   // long long for the the total salary.
     int words;                                      // The number of words in the Hay Point.
     int numb_Job;                                   // The number of job descriptions.
-    string word;                                    // The job descriptions.
+    string Text;                                    // The job descriptions.
 
     map<string, int> dictionary;                    // Declaring Map to be of <string, int> type.
     
     cin >> words >> numb_Job;                       // Read in the values for the number of words and job descriptions.
     
-    REP(i, words)                                   
+    REP(i, words)                                   // For i less than the number of words.                                
     {
         int value;                                  // Using this for the salary.
-        cin >> word >> value;                       // Read in the descriptions and number.
-        dictionary[word] = value;                   
+        cin >> Text >> value;                       // Read in the descriptions and number.
+        dictionary[Text] = value;                   
     }
     
-    REP(i, numb_Job)                                
+    REP(i, numb_Job)                                // For i less than the number of job Descriptions.         
     {
         Total = 0;                                  // Set the Total number of salary to zero.
-        while (cin >> word, word != ".")            // Read in the Text until the period.
-              Total += dictionary[word];            // Computing the salary as the sum of the Hay Point values
+        while (cin >> Text, Text != ".")            // Read in the Text until the period.
+              Total += dictionary[Text];            // Computing the salary as the sum of the Hay Point values
                                                     // for all words that appear in the description.
 
         cout << Total << endl;                      // Display the salary computed.
