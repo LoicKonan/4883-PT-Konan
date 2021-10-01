@@ -1,4 +1,4 @@
-## Assignment 13 - 
+## Assignment 13 - Maximum Sum
 
 ### Loic Konan
 
@@ -10,7 +10,7 @@
 |   #   | File                 | Description           |
 | :---: | -------------------- | --------------------- |
 |   1   | [Banner](Banner)     | Banner for Assignment |
-|   2   | [P.pdf](P.pdf)       | The Problem           |
+|   2   | [P108.pdf](P108.pdf) | The Problem           |
 |   3   | [main.cpp](main.cpp) | Solution              |
 |   4   | [infile](infile)     | 1st sample file       |
 |   5   | [infile2](infile2)   | 2nd sample file       |
@@ -22,4 +22,7 @@
 
 ### Sources
 
-- 
+- Max Subarray: <https://gsourcecode.wordpress.com/category/algorithms/dynamic-programming-algorithms/utilities-dynamic-programming/>
+- Quora: <https://www.quora.com/How-should-I-explain-dynamic-programming-to-a-4-year-old/answer/Jonathan-Paulson>
+- Kadane'Algorithm: <https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d>
+- Max Subarray Problem: <https://en.wikipedia.org/wiki/Maximum_subarray_problem>
