@@ -31,7 +31,7 @@ using namespace std;
 
 int main()
 {
-    uint64 Total;                                   // 
+    uint64 Total;                                   // long long for the the total salary.
     int words;                                      // The number of words in the Hay Point.
     int numb_Job;                                   // The number of job descriptions.
     string word;                                    // 
@@ -48,7 +48,7 @@ int main()
     
     REP(i, numb_Job)
     {
-        int Total = 0;
+        Total = 0;
         while (cin >> word, word != ".")            // Read in the Text until the period.
               Total += dictionary[word];            // Computing the salary as the sum of the Hay Point values
                                                     // for all words that appear in the description.
