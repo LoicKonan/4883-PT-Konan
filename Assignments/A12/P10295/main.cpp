@@ -39,24 +39,24 @@ using namespace std;
 
 int main()
 {
-    uint64 Total;                                   // long long for the the total salary.
+    uint64 Total;                                   // Unsigned long long for the the total salary.
 
     map<string, int> dictionary;                    // Declaring Map to be of <string, int> type.
     
-    int words;                                      // The number of words in the Hay Point.
-    int numb_Job;                                   // The number of job descriptions.
+    int numb_Job_Descripiton;                       // The number of Job Descriptions.
+    int numb_Paragraph;                             // The number of Paragraphs.
     string Text;                                    // The job descriptions.
 
-    cin >> words >> numb_Job;                       // Read in the values for the number of words and job descriptions.
+    cin >> numb_Job_Descripiton >> numb_Paragraph;  // Read in the values for the number of words and job descriptions.
     
-    REP(i, words)                                   // For i less than the number of words.                                
+    REP(i, numb_Job_Descripiton)                    // For i less than the number of Jobs Descripitons.                                
     {
         int value;                                  // Using this for the salary.
         cin >> Text >> value;                       // Read in the descriptions and number.
         dictionary[Text] = value;                   
     }
     
-    REP(i, numb_Job)                                // For i less than the number of job Descriptions.         
+    REP(i, numb_Paragraph)                          // For i less than the number of number of Paragraphs.         
     {
         Total = 0;                                  // Set the Total number of salary to zero.
         while (cin >> Text, Text != ".")            // Read in the Text until the period.
