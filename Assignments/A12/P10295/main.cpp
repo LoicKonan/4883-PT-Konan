@@ -55,7 +55,7 @@ int main()
         dictionary[word] = value;
     }
     
-    REP(i, numb_Job)                                //
+    REP(i, numb_Job)                                // 
     {
         Total = 0;
         while (cin >> word, word != ".")            // Read in the Text until the period.
