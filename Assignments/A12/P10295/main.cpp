@@ -32,27 +32,27 @@ using namespace std;
 int main()
 {
     uint64 words;                                   // Using long long for The number of words in the Hay Point.
-    uint64 n;                                       // Using long long for The number of job descriptions.
-    cin >> words >> n;                              // Read in the number of words and job descriptions.
+    uint64 numb_Job;                                // Using long long for The number of job descriptions.
+    int i;
+    string word;
 
     map<string, int> memo;                          // Declaring Map to be of <string, int> type.
     
-    REP(i, n)
+    cin >> words >> numb_Job;                       // Read in the number of words and job descriptions.
+    REP(i, words)
     {
-        string word;
         int value;
-        cin >> word >> value;
+        cin >> word >> value;                        // Read in the number of words and job descriptions.
         memo[word] = value;
     }
     
-    REP(i, n)
+    REP(i, numb_Job)
     {
-        string word;
-        int salary = 0;
+        int Total = 0;
         while (cin >> word, word != ".")
-            salary += memo[word];
+              Total += memo[word];
 
-        cout << salary << endl;                  // Display the results.
+        cout << Total << endl;                     // Display the results.
     }
     return 0;
 }
