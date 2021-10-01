@@ -38,15 +38,16 @@ int main()
 
     map<string, int> dictionary;                    // Declaring Map to be of <string, int> type.
     
-    cin >> words >> numb_Job;                       // Read in the number of words and job descriptions.
-    REP(i, words)
+    cin >> words >> numb_Job;                       // Read in the values for the number of words and job descriptions.
+    
+    REP(i, words)                                   //
     {
         int value;
-        cin >> word >> value;                       // Read in the number of words and job descriptions.
+        cin >> word >> value;                       // Read in the descriptions and number.
         dictionary[word] = value;
     }
     
-    REP(i, numb_Job)
+    REP(i, numb_Job)                                //
     {
         Total = 0;
         while (cin >> word, word != ".")            // Read in the Text until the period.
