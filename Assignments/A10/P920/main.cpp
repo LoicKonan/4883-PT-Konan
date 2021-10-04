@@ -64,16 +64,6 @@ bool comparisons(point &a, point &b)
     return a.x < b.x;
 }
 
-void printPoints()
-{
-    for (int i = 0; i < points.size(); i++)
-    {
-        cout << "(" << points[i].x << "," << points[i].y << ")"
-             << " ";
-    }
-    cout << endl;
-}
-
 int main()
 {
     cin >> c;
@@ -85,7 +75,6 @@ int main()
         while (n--)
         {
             cin >> x >> y;
-
             points.push_back(point(x, y));
         }
 
@@ -94,7 +83,7 @@ int main()
         int max = 0;
         double distance = 0;
         double sum = 0;
-        
+
         for (int i = points.size() - 1; i >= 0; i--)
         {
             if (points[i].y > max)
@@ -107,6 +96,5 @@ int main()
         cout << fixed << setprecision(2) << sum << endl;
         points.clear();
     }
-
     cout << endl;
 }
