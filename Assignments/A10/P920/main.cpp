@@ -89,12 +89,12 @@ int main()
             points.push_back(point(x, y));
         }
 
-        //printPoints();
         sort(points.begin(), points.end(), comparisons);
 
         int max = 0;
         double distance = 0;
         double sum = 0;
+        
         for (int i = points.size() - 1; i >= 0; i--)
         {
             if (points[i].y > max)
