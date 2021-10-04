@@ -34,7 +34,7 @@
 #define Last(i) (i & -i)
 #define INF 500000000
 #define EPS 1e-7
-#define maxN 10000
+#define maximumN 10000
 using namespace std;
 #define endl "\n"
 
@@ -44,12 +44,8 @@ typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
 struct point;
-
-int c, n;
-
+int c, n, x, y;
 vector<point> points;
-
-int x, y;
 
 struct point
 {
@@ -80,20 +76,20 @@ int main()
 
         sort(points.begin(), points.end(), comparisons);
 
-        int max = 0;
+        int maximum = 0;
         double distance = 0;
-        double sum = 0;
+        double length = 0;
 
         for (int i = points.size() - 1; i >= 0; i--)
         {
-            if (points[i].y > max)
+            if (points[i].y > maximum)
             {
                 distance = sqrt(pow(points[i].x - points[i + 1].x, 2) + pow(points[i].y - points[i + 1].y, 2));
-                sum += distance * (points[i].y - max) / (points[i].y - points[i + 1].y);
-                max = points[i].y;
+                length += distance * (points[i].y - maximum) / (points[i].y - points[i + 1].y);
+                maximum = points[i].y;
             }
         }
-        cout << fixed << setprecision(2) << sum << endl;
+        cout << fixed << setprecision(2) << length << endl;
         points.clear();
     }
 }
