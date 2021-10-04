@@ -96,5 +96,4 @@ int main()
         cout << fixed << setprecision(2) << sum << endl;
         points.clear();
     }
-    cout << endl;
 }
