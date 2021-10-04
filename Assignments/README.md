@@ -11,7 +11,7 @@
 | [07](./A07) | [A07](./A07) | [**Place The Guards**](A07)            | :heavy_check_mark: |
 | [08](./A08) | [A08](./A08) | [**Counting Distinct Items & String Processing**](A08)|:heavy_check_mark:|
 | [09](./A09) | [A09](./A09) | [**The Never Ending Towers of Hanoi (Recursion)**](A09)            | 🔴 🔜 |
-| [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      | 🔴 🔜 |
+| [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      | :heavy_check_mark:  |
 | [11](./A11) | [A11](./A11) | [**Brick Wall Patterns**](A11)  | :heavy_check_mark:  |
 | [12](./A12) | [A12](./A12) | [**Hay Points**](A12)           | :heavy_check_mark:  |
 | [13](./A13) | [A13](./A13) | [**Maximum Sum**](A13)          | 🔴 🔜 |
