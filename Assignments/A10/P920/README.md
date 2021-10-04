@@ -19,7 +19,6 @@
 |   4   | [infile](infile)     | 1st sample file       |
 |   5   | [infile2](infile2)   | 2nd sample file       |
 |   6   | [infile3](infile3)   | 3rd sample file       |
-|   7   | [infile4](infile4)   | 4th sample file       |
 
 ### Instructions
 
