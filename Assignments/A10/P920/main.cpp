@@ -43,71 +43,70 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-// struct point;
+struct point;
 
-// int c, n;
+int c, n;
 
-// vector<point> points;
+vector<point> points;
 
-// int x, y;
+int x, y;
 
-// struct point
-// {
-//     int x, y;
+struct point
+{
+    int x, y;
 
-//     point() : x{0}, y{0} {}
-//     point(int x, int y) : x{x}, y{y} {}
-// };
+    point() : x{0}, y{0} {}
+    point(int x, int y) : x{x}, y{y} {}
+};
 
-// bool comparisons(point &a, point &b)
-// {
-//     return a.x < b.x;
-// }
+bool comparisons(point &a, point &b)
+{
+    return a.x < b.x;
+}
 
-// void printPoints()
-// {
-//     for (int i = 0; i < points.size(); i++)
-//     {
-//         cout << "(" << points[i].x << "," << points[i].y << ")"
-//              << " ";
-//     }
-//     cout << endl;
-// }
+void printPoints()
+{
+    for (int i = 0; i < points.size(); i++)
+    {
+        cout << "(" << points[i].x << "," << points[i].y << ")"
+             << " ";
+    }
+    cout << endl;
+}
 
-// int main()
-// {
-//     int max = 0;
-//     double distance = 0;
-//     double sum = 0;
+int main()
+{
+    cin >> c;
 
-//     cin >> c;
+    while (c--)
+    {
+        cin >> n;
 
-//     while (c--)
-//     {
-//         cin >> n;
+        while (n--)
+        {
+            cin >> x >> y;
 
-//         while (n--)
-//         {
-//             cin >> x >> y;
+            points.push_back(point(x, y));
+        }
 
-//             points.push_back(point(x, y));
-//         }
+        //printPoints();
+        sort(points.begin(), points.end(), comparisons);
 
-//         //printPoints();
-//         sort(points.begin(), points.end(), comparisons);
+        int max = 0;
+        double distance = 0;
+        double sum = 0;
+        for (int i = points.size() - 1; i >= 0; i--)
+        {
+            if (points[i].y > max)
+            {
+                distance = sqrt(pow(points[i].x - points[i + 1].x, 2) + pow(points[i].y - points[i + 1].y, 2));
+                sum += distance * (points[i].y - max) / (points[i].y - points[i + 1].y);
+                max = points[i].y;
+            }
+        }
+        cout << fixed << setprecision(2) << sum << endl;
+        points.clear();
+    }
 
-//         for (int i = points.size() - 1; i >= 0; i--)
-//         {
-//             if (points[i].y > max)
-//             {
-//                 distance = sqrt(pow(points[i].x - points[i + 1].x, 2) + pow(points[i].y - points[i + 1].y, 2));
-//                 sum += distance * (points[i].y - max) / (points[i].y - points[i + 1].y);
-//                 max = points[i].y;
-//             }
-//         }
-//         cout << fixed << setprecision(2) << sum << endl;
-//         points.clear();
-//     }
-
-//     cout << endl;
-// }
+    cout << endl;
+}
