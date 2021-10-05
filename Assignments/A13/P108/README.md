@@ -4,8 +4,11 @@
 
 #### Description
 
-> There's an O(n) algorithm to compute the maximum sub-array for a one-dimensional array, known as Kadane's Algorithm.
-> Applying the Kadane's algorithm inside each a and b combination gives the total complexity of O(n^3).
+> There's an O(n) algorithm to compute the maximum sub-array for a one-dimensional array, known as **Kadane's Algorithm**.
+> Applying the Kadane's algorithm inside each a and b combination gives the total complexity of **O(n^3)**.
+>
+> - ***The output is the sum of the maximal sub-rectangle***.
+
 ### Files
 
 |   #   | File                 | Description           |
