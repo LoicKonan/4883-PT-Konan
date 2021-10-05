@@ -22,7 +22,7 @@
 > 9 2
 > 􀀀4 1
 > 􀀀1 8
-> and has the sum of 15. 
+> and has the sum of 15.
 
 ### Files
 
