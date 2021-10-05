@@ -14,14 +14,14 @@
 > with the largest sum is referred to as the maximal sub-rectangle.
 > A sub-rectangle is any contiguous sub-array of size 1  1 or greater located within the whole array.
 > As an example, the maximal sub-rectangle of the array:
-> 0 􀀀2 􀀀7 0
-> 9 2 􀀀6 2
-> 􀀀4 1 􀀀4 1
-> 􀀀1 8 0 􀀀2
+> 0 -2 -7 0
+> 9 2 -6 2
+> -4 1 -4 1
+> -1 8 0 -2
 > is in the lower-left-hand corner:
 > 9 2
-> 􀀀4 1
-> 􀀀1 8
+> -4 1
+> -1 8
 > and has the sum of 15.
 
 ### Files
