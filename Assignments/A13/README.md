@@ -10,11 +10,11 @@
 > conjunct consists of exactly 3 disjuncts.<br>
 > This problem **(3-SAT) is NP-complete**. The problem 2-SAT is solved quite efficiently, however.<br>
 > In contrast, some problems belong to the same complexity class regardless of the dimensionality of the problem.<br>
-> Given a 2-dimensional array of positive and negative integers, find the sub-rectangle with the largest
-> sum.<br>
-> The sum of a rectangle is the sum of all the elements in that rectangle.<br>
-> In this problem the subrectangle with the largest sum is referred to as the ***maximal sub-rectangle***.<br>
-> A sub-rectangle is any contiguous sub-array of size 1 X 1 or greater located within the whole array.<br>
+>
+> Given a 2-dimensional array of positive and negative integers, ***find the sub-rectangle with the largest sum***.<br>
+> The ***sum of a rectangle is the sum of all the elements in that rectangle***.<br>
+> In this problem the subrectangle with the ***largest sum is referred to as the maximal sub-rectangle***.<br>
+> A ***sub-rectangle is any contiguous sub-array of size 1 X 1 or greater located within the whole array***.<br>
 > As an example, the maximal sub-rectangle of the array:<br>
 >
 >           0 -2 -7 0
