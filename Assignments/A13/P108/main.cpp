@@ -42,6 +42,7 @@ int main()
     int current_Max;
     int left;
     int right;
+
     
 
     while ()
