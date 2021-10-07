@@ -40,6 +40,9 @@ int main()
     int max;
     int Top_Max;
     int current_Max;
+    int left;
+    int right;
+    
 
     while ()
     {
