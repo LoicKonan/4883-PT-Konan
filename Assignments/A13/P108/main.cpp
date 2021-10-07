@@ -35,11 +35,13 @@ typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
 
-int main(int argc, char **argv)
+int main()
 {
-    
+    int max;
+    int Top_Max;
+    int current_Max;
 
-    while (true)
+    while ()
     {
 
     }
