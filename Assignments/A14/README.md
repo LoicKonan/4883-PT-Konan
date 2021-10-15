@@ -1,4 +1,4 @@
-## Assignment 14 - 
+## Assignment 14 - Mice and Maze
 
 ### Loic Konan
 
