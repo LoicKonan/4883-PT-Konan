@@ -50,9 +50,8 @@ int main()
     {
         long double Y;
         cin >> Y;
-        // scanf("%lf", &Y);
+
         cout << Y << endl;
-        //printf("%.0lf\n", sqrtl(Y));
     }
     return 0;
 }
