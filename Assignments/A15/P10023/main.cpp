@@ -34,21 +34,22 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
+
+#include <cstdio>
+#include <math.h>
+
+using namespace std;
+
 int main()
 {
     int test;
-
     scanf("%d", &test);
-
+    
     while (test--)
     {
-
         long double Y;
-
         scanf("%lf", &Y);
-
         printf("%.0lf\n", sqrtl(Y));
     }
-
     return 0;
 }
