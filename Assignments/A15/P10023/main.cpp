@@ -34,10 +34,10 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-
 int main()
 {
     int test;
+
     scanf("%d", &test);
 
     while (test--)
@@ -49,5 +49,6 @@ int main()
 
         printf("%.0lf\n", sqrtl(Y));
     }
+
     return 0;
 }
