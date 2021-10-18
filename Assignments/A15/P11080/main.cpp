@@ -34,14 +34,19 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-int main(int argc, char **argv)
+int main()
 {
-   
+    int test;
+    scanf("%d", &test);
 
-    while (true)
+    while (test--)
     {
 
-        
+        long double Y;
+
+        scanf("%lf", &Y);
+
+        printf("%.0lf\n", sqrtl(Y));
     }
     return 0;
 }
