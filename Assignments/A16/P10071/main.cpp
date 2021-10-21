@@ -39,9 +39,9 @@ int main()
    int velocity;
    int time;
 
-    while (cin >> velocity >> time)
+    while (cin >> velocity >> time)            // Read in our variable values.
     {
-      cout << (2 * velocity * time) << '\n'; 
+      cout << (2 * velocity * time) << '\n';   // Peform the calculation and print results.
     }
     return 0;
 }
