@@ -41,7 +41,7 @@ int main()
 
     while (cin >> velocity >> time)
     {
-      cout <<  velocity  * time *2 << '\n'; 
+      cout <<  velocity  * time * 2 << '\n'; 
     }
     return 0;
 }
