@@ -38,12 +38,10 @@ int main()
 {
    int velocity;
    int time;
-   int displacement = 0;                    //  displacement = ut +  0.5 * a * t^2
-
 
     while (cin >> velocity >> time)
     {
-      cout <<  velocity  * time * 2 << '\n'; 
+      cout << (2 * velocity * time) << '\n'; 
     }
     return 0;
 }
