@@ -39,6 +39,9 @@ int main()
    int velocity;
    int time;
 
+
+    //  displacement = ut + 1 / 2 a t^2
+
     while (cin >> velocity >> time)
     {
       cout <<  velocity  * time * 2 << '\n'; 
