@@ -38,9 +38,8 @@ int main()
 {
    int velocity;
    int time;
+   int displacement = 0;                    //  displacement = ut +  0.5 * a * t^2
 
-
-    //  displacement = ut + 1 / 2 a t^2
 
     while (cin >> velocity >> time)
     {
