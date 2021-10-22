@@ -37,11 +37,36 @@ typedef vector<vi> vvi;     // vector of vector of ints
 int main()
 {
     int inputs;             // The number of test cases.
+    int a;                  // First input number.
+    int b;                  // Second input number.
+    int c;                  // Third input number.
     int counter = 1;        // The while loop variable to 1.
 
     while (cin >> inputs)
     {
         cout << "Case " << counter << ": UNKNOWN";
+
+        // If number a is greater than the other 2 numbers.
+        if((a > b) && (a > c)) 
+        {
+            if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
+            else cout << "wrong\n";
+        }
+        
+        // If number b is greater than the other 2 numbers.
+        else if ((b > a) && (b > c)) 
+        {
+            if (sqrt(b * b) == sqrt((a * a) + c * c)) cout << "right\n";
+            else cout << "wrong\n";
+        }
+        
+        // If number c is greater than the other 2 numbers.
+        else if ((c > a) && (c > b)) 
+        {
+            if (sqrt(c * c) == sqrt((b * b) + a * a)) cout << "right\n";
+            else cout << "wrong\n";
+        }
+        
     }
     return 0;
 }
