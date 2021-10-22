@@ -20,7 +20,7 @@
 | [16](./A16) | [A16](./A16) | [**Back to High School Physics**](A16) | :heavy_check_mark: |
 | [17](./A17) | [A17](./A17) | [**Relational Operators**](A17) | :heavy_check_mark: |
 | [18](./A18) | [A18](./A18) | [**Egypt**](A18)                | :heavy_check_mark: |
-| [19](./A19) | [A19](./A19) | [**loading...**](A19)           | 🔴 🔜 |
+| [19](./A19) | [A19](./A19) | [**Language Detection**](A19)   | :heavy_check_mark: |
 | [20](./A20) | [A20](./A20) | [**loading...**](A20)           | 🔴 🔜 |
 | [21](./A21) | [A21](./A21) | [**loading...**](A21)           | 🔴 🔜 |
 | [22](./A22) | [A22](./A22) | [**loading...**](A22)           | 🔴 🔜 |
