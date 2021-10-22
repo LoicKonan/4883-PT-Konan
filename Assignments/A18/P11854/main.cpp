@@ -40,14 +40,10 @@ int main()
    int b;
    int c;
    
-   vector<int> numbers;
 
-   vector<int> stop = {0,0,0};
-
-
-    while (cin >> numbers)
+    while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
-        numbers.push_back(a);   
+        
     }
     return 0;
 }
