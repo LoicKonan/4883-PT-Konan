@@ -45,33 +45,21 @@ int main()
     vector<int> numbers;
     while (cin >> inputs)
     {
+        int i  = 0;
         while (cin >> a >> b >> c)
         {
-            numbers.push_back(inputs);
-
+            numbers.push_back(a);
+            numbers.push_back(b);
+            numbers.push_back(c);
+           
             sort(numbers.begin(), numbers.end());
 
-            cout << numbers[counter] << endl;
+            cout << "Case " << counter << ": " << numbers[1] << '\n';
 
-            // cout << "Case " << counter << ": UNKNOWN";
-
-            // // If number a is greater than the other 2 numbers.
-            // if((a > b) && (a > c))
-            // {
-
-            // }
-
-            // // If number b is greater than the other 2 numbers.
-            // else if ((b > a) && (b > c))
-            // {
-
-            // }
-
-            // // If number c is greater than the other 2 numbers.
-            // else if ((c > a) && (c > b))
-            // {
-            // }
+            numbers.clear();
         }
+
+        counter++;
     }
     return 0;
 }
