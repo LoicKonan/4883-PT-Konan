@@ -57,6 +57,7 @@ int main()
             cout << "Case " << counter << ": " << numbers[1] << '\n';   // Display each case.
 
             numbers.clear();        // Clear the vector.
+            i++;                    // Increment the second while loop variable counter.
         }
 
         counter++;                  // Increment the counter of the first while loop variable.
