@@ -49,22 +49,18 @@ int main()
         // If number a is greater than the other 2 numbers.
         if((a > b) && (a > c)) 
         {
-            if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
-            else cout << "wrong\n";
+
         }
         
         // If number b is greater than the other 2 numbers.
         else if ((b > a) && (b > c)) 
         {
-            if (sqrt(b * b) == sqrt((a * a) + c * c)) cout << "right\n";
-            else cout << "wrong\n";
+
         }
         
         // If number c is greater than the other 2 numbers.
         else if ((c > a) && (c > b)) 
         {
-            if (sqrt(c * c) == sqrt((b * b) + a * a)) cout << "right\n";
-            else cout << "wrong\n";
         }
         
     }
