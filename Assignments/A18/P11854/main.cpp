@@ -45,21 +45,24 @@ int main()
     while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
         cout << a << " " << b << " " << c << endl;
-
+        
         if(a > b && a > c) 
         {
-
+            if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
+            else cout << "wrong\n";
         }
-        else if (b > a && b > c) 
+        
+        if (b > a && b > c) 
         {
-
+            if (sqrt(b * b) == sqrt((a * a) + c * c)) cout << "right\n";
+            else cout << "wrong\n";
         }
-        else if (c > a && c > b) 
+        
+        if (c > a && c > b) 
         {
-
+            if (sqrt(c * c) == sqrt((b * b) + a * a)) cout << "right\n";
+            else cout << "wrong\n";
         }
-        else cout << "wrong\n";
-
     }
     return 0;
 }
