@@ -34,11 +34,13 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-int main(int argc, char **argv)
+int main()
 {
-   
+                            // (i) First one is greater than the second 
+                            // (ii) First one is less than the second or 
+                            // (iii) First and second one is equal.
 
-    while (true)
+    while ()
     {
 
         
