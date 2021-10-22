@@ -38,7 +38,7 @@ int main()
 {
     int input;              // Number of sets of inputs.
     int numberA;            // Fist numbmer.
-    int numberB;            //  Second number.
+    int numberB;            // Second number.
 
     while (cin >> input)
     {
