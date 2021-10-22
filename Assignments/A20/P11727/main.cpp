@@ -36,30 +36,30 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-    int inputs;      // The number of test cases.
-    int a;           // First input number.
-    int b;           // Second input number.
-    int c;           // Third input number.
-    int counter = 1; // The while loop variable to 1.
+    int inputs;             // The number of test cases.
+    int a;                  // First input number.
+    int b;                  // Second input number.
+    int c;                  // Third input number.
+    int counter = 1;        // The while loop variable to 1.
+    vector<int> numbers;    // The vector of numbers will use this just to facilitate the sortings.
 
-    vector<int> numbers;
-    while (cin >> inputs)
+    while (cin >> inputs)   // Read input.
     {
-        int i  = 0;
-        while (cin >> a >> b >> c)
+        int i  = 0;         // The second while loop variable to zero.
+        while (cin >> a >> b >> c)  // Read in the 3 values on each line.
         {
-            numbers.push_back(a);
-            numbers.push_back(b);
-            numbers.push_back(c);
+            numbers.push_back(a);   // add the first number to the vector.
+            numbers.push_back(b);   // add the second number to the vector.
+            numbers.push_back(c);   // add the third number to the vector.
            
-            sort(numbers.begin(), numbers.end());
+            sort(numbers.begin(), numbers.end());   // Sort the numbers in 3 number that were read in.
 
-            cout << "Case " << counter << ": " << numbers[1] << '\n';
+            cout << "Case " << counter << ": " << numbers[1] << '\n';   // Display each case.
 
-            numbers.clear();
+            numbers.clear();        // Clear the vector.
         }
 
-        counter++;
+        counter++;                  // Increment the counter of the first while loop variable.
     }
     return 0;
 }
