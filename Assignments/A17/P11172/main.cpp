@@ -40,10 +40,16 @@ int main()
                             // (ii) First one is less than the second or 
                             // (iii) First and second one is equal.
 
-    while ()
-    {
+    int input;
+    int A;
+    int B;
 
-        
+
+    while (cin >> input >> A >> B)
+    {
+        if (A > B)      cout << ">\n";
+        else if (A < B) cout << "<\n";
+        else            cout << "=\n";
     }
     return 0;
 }
