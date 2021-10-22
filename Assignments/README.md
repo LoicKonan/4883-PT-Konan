@@ -17,8 +17,8 @@
 | [13](./A13) | [A13](./A13) | [**Maximum Sum**](A13)          | 🔴 🔜 |
 | [14](./A14) | [A14](./A14) | [**Mice and Maze**](A14)        | 🔴 🔜 |
 | [15](./A15) | [A15](./A15) | [**Square root**](A15)          | 🔴 🔜 |
-| [16](./A16) | [A16](./A16) | [** **](A16)           | :heavy_check_mark: |
-| [17](./A17) | [A17](./A17) | [** **](A17)           | :heavy_check_mark: |
+| [16](./A16) | [A16](./A16) | [**Back to High School Physics**](A16) | :heavy_check_mark: |
+| [17](./A17) | [A17](./A17) | [**Relational Operators**](A17)| :heavy_check_mark: |
 | [18](./A18) | [A18](./A18) | [**loading...**](A18)           | 🔴 🔜 |
 | [19](./A19) | [A19](./A19) | [**loading...**](A19)           | 🔴 🔜 |
 | [20](./A20) | [A20](./A20) | [**loading...**](A20)           | 🔴 🔜 |
