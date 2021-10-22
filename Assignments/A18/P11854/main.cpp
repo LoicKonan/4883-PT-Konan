@@ -36,14 +36,10 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-   int a;
-   int b;
-   int c;
+   int a, b, c;
     
     while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
-        cout << a << " " << b << " " << c << endl;
-
         if((a > b) && (a > c)) 
         {
             if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
