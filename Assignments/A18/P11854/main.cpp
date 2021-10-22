@@ -40,9 +40,25 @@ int main()
    int b;
    int c;
 
+    vector<int> numbers;
+    
     while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
-        
+        numbers.push_back(a);
+        numbers.push_back(b);
+        numbers.push_back(c);
+
+        sort(numbers.begin(), numbers.end());
+
+        for (int i = 0; i < 3; i++)
+        {
+            a = numbers[i];
+            b = numbers[i + 1];
+            c = numbers[i + 2];
+
+            if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
+            else cout << "wrong\n";
+        }
     }
     return 0;
 }
