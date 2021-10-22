@@ -36,7 +36,13 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-   
+                            // SPANISH
+                            // ENGLISH
+                            // SPANISH
+                            // GERMAN
+                            // FRENCH
+                            // ITALIAN
+                            // RUSSIAN
 
     while ()
     {
