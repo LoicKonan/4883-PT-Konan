@@ -45,7 +45,7 @@ int main()
 
     while (cin >> inputs)   // Read input.
     {
-        int i  = 0;         // The second while loop variable to zero.
+        int i  = 1;         // The second while loop variable to zero.
         while (cin >> a >> b >> c)  // Read in the 3 values on each line.
         {
             numbers.push_back(a);   // add the first number to the vector.
@@ -54,8 +54,9 @@ int main()
            
             sort(numbers.begin(), numbers.end());   // Sort the numbers in 3 number that were read in.
 
-            cout << "Case " << counter << ": " << numbers[1] << '\n';   // Display each case.
+            cout << "Case " << i << ": " << numbers[1];   // Display each case.
 
+            cout << '\n';
             numbers.clear();        // Clear the vector.
             i++;                    // Increment the second while loop variable counter.
         }
