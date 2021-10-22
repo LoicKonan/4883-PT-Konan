@@ -36,30 +36,42 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-   int a, b, c;
+   int a;                   // First input number.
+   int b;                   // Second input number.
+   int c;                   // Third input number.          
     
+    /**
+     * 
+     * Read in each line as long as long
+     * number a, b, and c are not equal to zero.(0,0,0).
+     * 
+     */
     while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
+        // if number a is greater than the other 2 numbers.
         if((a > b) && (a > c)) 
         {
             if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
             else cout << "wrong\n";
         }
         
+        // If number b is greater than the other 2 numbers.
         else if ((b > a) && (b > c)) 
         {
             if (sqrt(b * b) == sqrt((a * a) + c * c)) cout << "right\n";
             else cout << "wrong\n";
         }
         
+        // If number c is greater than the other 2 numbers.
         else if ((c > a) && (c > b)) 
         {
             if (sqrt(c * c) == sqrt((b * b) + a * a)) cout << "right\n";
             else cout << "wrong\n";
         }
         
+        // If all 3 numbers are equal then print "wrong".
         else  cout << "wrong\n";
     }
-    
+
     return 0;
 }
