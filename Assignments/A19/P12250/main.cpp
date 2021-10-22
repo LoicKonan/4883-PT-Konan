@@ -40,7 +40,7 @@ int main()
     int i = 1;
     while (cin >> S && S != "#")
     {
-        if (S == "HELLO")               cout << "Case " << i << ": ENGLISH\n";
+        if      (S == "HELLO")          cout << "Case " << i << ": ENGLISH\n";
 
         else if (S == "HOLA")           cout << "Case " << i << ": SPANISH\n";
 
