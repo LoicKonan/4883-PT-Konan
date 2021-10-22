@@ -37,13 +37,13 @@ typedef vector<vi> vvi;    // vector of vector of ints
 int main()
 {
     
-    int input;
-    int A;
-    int B;
+    int input;              //
+    int numberA;            //
+    int numberB;            //
 
     while (cin >> input)
     {
-        while (cin >> A >> B)
+        while (cin >> numberA >> numberB)
         {
             /**
              * 
@@ -53,9 +53,9 @@ int main()
              * 
              */
 
-            if      (A > B)     cout << ">\n";
-            else if (A < B)     cout << "<\n";
-            else if (A == B)    cout << "=\n";
+            if      (numberA > numberB)     cout << ">\n";
+            else if (numberA < numberB)     cout << "<\n";
+            else if (numberA == numberB)    cout << "=\n";
         }
     }
     return 0;
