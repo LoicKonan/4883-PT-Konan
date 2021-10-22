@@ -4,6 +4,19 @@
 
 #### Description
 
+> integer sqrt(integer n) 
+> {
+>   integer a, b, m;
+>   a:= 1;
+>   b:= n;
+>   loop 
+>   {
+>       m:= (a+b) / 2;
+>       if (m = a || m = b) return m;
+>       if (m*m > n) a:= m;
+>       else b:= m;
+>   }
+> }
 ### Files
 
 |   #   | File                 | Description           |
