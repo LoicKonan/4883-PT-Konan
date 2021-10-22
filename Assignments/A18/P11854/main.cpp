@@ -36,12 +36,18 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
+   int a;
+   int b;
+   int c;
    
+   vector<int> numbers;
 
-    while ()
+   vector<int> stop = {0,0,0};
+
+
+    while (cin >> numbers)
     {
-
-        
+        numbers.push_back(a);   
     }
     return 0;
 }
