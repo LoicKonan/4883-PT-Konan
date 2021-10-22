@@ -36,10 +36,9 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-    
-    int input;              //
-    int numberA;            //
-    int numberB;            //
+    int input;              // Number of sets of inputs.
+    int numberA;            // Fist numbmer.
+    int numberB;            //  Second number.
 
     while (cin >> input)
     {
