@@ -4,19 +4,20 @@
 
 #### Description
 
-> integer sqrt(integer n) 
-> {
->   integer a, b, m;
->   a:= 1;
->   b:= n;
->   loop 
->   {
->       m:= (a+b) / 2;
->       if (m = a || m = b) return m;
->       if (m*m > n) a:= m;
->       else b:= m;
->   }
-> }
+> integer sqrt(integer n)  <br>
+> { <br>
+>   integer a, b, m; <br>
+>   a:= 1; <br>
+>   b:= n; <br>
+>   loop  <br>
+>   { <br>
+>       m:= (a+b) / 2; <br>
+>       if (m = a || m = b) return m; <br>
+>       if (m*m > n) a:= m; <br>
+>       else b:= m;>b <br>
+>   } <br>
+> } <br>
+> 
 ### Files
 
 |   #   | File                 | Description           |
