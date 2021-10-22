@@ -37,7 +37,7 @@ typedef vector<vi> vvi;    // vector of vector of ints
 int main()
 {
     string S;                           // The input string.
-    int counter = 1;                    // Initialize the loop variable to 1;
+    int counter = 1;                    // Initialize the while loop variable to 1;
     while (cin >> S && S != "#")        // Read in the input string until the "#".
     {
         if      (S == "HELLO")          cout << "Case " << counter << ": ENGLISH";
@@ -55,7 +55,7 @@ int main()
         else                            cout << "Case " << counter << ": UNKNOWN";
 
         counter++;                      // Increment the counter
-        cout << "\n";
+        cout << "\n";                   // Print a new line.
     }
     return 0;
 }
