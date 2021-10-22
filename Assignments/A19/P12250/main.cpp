@@ -36,25 +36,25 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-    string S;
-    int i = 1;
-    while (cin >> S && S != "#")
+    string S;                           // The input string.
+    int counter = 1;                    // Initialize the loop variable to 1;
+    while (cin >> S && S != "#")        // Read in the input string until the "#".
     {
-        if      (S == "HELLO")          cout << "Case " << i << ": ENGLISH";
+        if      (S == "HELLO")          cout << "Case " << counter << ": ENGLISH";
 
-        else if (S == "HOLA")           cout << "Case " << i << ": SPANISH";
+        else if (S == "HOLA")           cout << "Case " << counter << ": SPANISH";
 
-        else if (S == "HALLO")          cout << "Case " << i << ": GERMAN";
+        else if (S == "HALLO")          cout << "Case " << counter << ": GERMAN";
 
-        else if (S == "BONJOUR")        cout << "Case " << i << ": FRENCH";
+        else if (S == "BONJOUR")        cout << "Case " << counter << ": FRENCH";
     
-        else if (S == "CIAO")           cout << "Case " << i << ": ITALIAN";
+        else if (S == "CIAO")           cout << "Case " << counter << ": ITALIAN";
     
-        else if (S == "ZDRAVSTVUJTE")   cout << "Case " << i << ": RUSSIAN";
+        else if (S == "ZDRAVSTVUJTE")   cout << "Case " << counter << ": RUSSIAN";
     
-        else                            cout << "Case " << i << ": UNKNOWN";
+        else                            cout << "Case " << counter << ": UNKNOWN";
 
-        i++;
+        counter++;                      // Increment the counter
         cout << "\n";
     }
     return 0;
