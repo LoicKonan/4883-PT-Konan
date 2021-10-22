@@ -48,7 +48,7 @@ int main()
      */
     while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
-        // if number a is greater than the other 2 numbers.
+        // If number a is greater than the other 2 numbers.
         if((a > b) && (a > c)) 
         {
             if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
