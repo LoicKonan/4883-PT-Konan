@@ -36,20 +36,27 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-                            // (i) First one is greater than the second 
-                            // (ii) First one is less than the second or 
-                            // (iii) First and second one is equal.
-
+    
     int input;
     int A;
     int B;
 
-
-    while (cin >> input >> A >> B)
+    while (cin >> input)
     {
-        if (A > B)      cout << ">\n";
-        else if (A < B) cout << "<\n";
-        else            cout << "=\n";
+        while (cin >> A >> B)
+        {
+            /**
+             * 
+             * IF First one is greater than the second
+             * Else if First one is less than the second or
+             * Else if First and second one is equal.
+             * 
+             */
+
+            if      (A > B)     cout << ">\n";
+            else if (A < B)     cout << "<\n";
+            else if (A == B)    cout << "=\n";
+        }
     }
     return 0;
 }
