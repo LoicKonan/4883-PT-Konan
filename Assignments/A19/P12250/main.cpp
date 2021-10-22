@@ -36,18 +36,38 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-                            // SPANISH
-                            // ENGLISH
-                            // SPANISH
-                            // GERMAN
-                            // FRENCH
-                            // ITALIAN
-                            // RUSSIAN
-
-    while ()
+    string S;
+    while (cin >> S && S != "#")
     {
-
+        if(S == "HELLO") 
+        {
+            cout << "ENGLISH\n";
+        }
         
+        else if () 
+        {
+            cout << "SPANISH\n";
+        }
+        
+        else if () 
+        {
+            cout << "GERMAN\n";
+        }
+        
+        else if ()
+        {
+             cout << "FRENCH\n";
+        }
+        else if ()
+        {
+             cout << "ITALIAN\n";
+        }
+        else if ()
+        {
+             cout << "RUSSIAN\n";
+        }
+        else 
+            cout << "UNKNOWN\n";
     }
     return 0;
 }
