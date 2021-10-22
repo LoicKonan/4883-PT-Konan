@@ -1,4 +1,4 @@
-## Assignment 15 - 
+## Assignment 19 - Language Detection
 
 ### Loic Konan
 
@@ -8,6 +8,6 @@
 
 ### Files
 
-|   #   | File     | Description | Status                  |
-| :---: | -------- | ----------- | ----------------------- |
-|   1   | [P](./P) | Folder      | :ballot_box_with_check: |
+|   #   | File               | Description | Status                  |
+| :---: | ------------------ | ----------- | ----------------------- |
+|   1   | [P12250](./P12250) | Folder      | :ballot_box_with_check: |
