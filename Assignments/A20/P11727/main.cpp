@@ -36,12 +36,13 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-   
+    int inputs;             // The number of test cases.
+    int counter = 1;        // The while loop variable to 1.
 
-    while ()
+    while (cin >> inputs)
     {
 
-        
+        cout << "Case " << counter << ": UNKNOWN";
     }
     return 0;
 }
