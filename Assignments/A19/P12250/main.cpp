@@ -37,22 +37,22 @@ typedef vector<vi> vvi;    // vector of vector of ints
 int main()
 {
     string S;
-    int i = 0;
+    int i = 1;
     while (cin >> S && S != "#")
     {
-        if (S == "HELLO")               cout << "Case " << i << "ENGLISH\n";
+        if (S == "HELLO")               cout << "Case " << i << ": ENGLISH\n";
 
-        else if (S == "HOLA")           cout << "Case " << i << "SPANISH\n";
+        else if (S == "HOLA")           cout << "Case " << i << ": SPANISH\n";
 
-        else if (S == "HALLO")          cout << "Case " << i << "GERMAN\n";
+        else if (S == "HALLO")          cout << "Case " << i << ": GERMAN\n";
 
-        else if (S == "BONJOUR")        cout << "Case " << i << "FRENCH\n";
+        else if (S == "BONJOUR")        cout << "Case " << i << ": FRENCH\n";
     
-        else if (S == "CIAO")           cout << "Case " << i << "ITALIAN\n";
+        else if (S == "CIAO")           cout << "Case " << i << ": ITALIAN\n";
     
-        else if (S == "ZDRAVSTVUJTE")   cout << "Case " << i << "RUSSIAN\n";
+        else if (S == "ZDRAVSTVUJTE")   cout << "Case " << i << ": RUSSIAN\n";
     
-        else                            cout << "Case " << i << "UNKNOWN\n";
+        else                            cout << "Case " << i << ": UNKNOWN\n";
 
         i++;
     }
