@@ -46,23 +46,20 @@ int main()
     {
         cout << a << " " << b << " " << c << endl;
 
-        numbers.push_back(a);
-        numbers.push_back(b);
-        numbers.push_back(c);
-
-        cout << numbers[a] << " " << numbers[b] << numbers[c] << endl;
-
-        sort(numbers.begin(), numbers.end());
-
-        for (int i = 0; i < 3; i++)
+        if(a > b && a > c) 
         {
-            a = numbers[i];
-            b = numbers[i + 1];
-            c = numbers[i + 2];
 
-            if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
-            else cout << "wrong\n";
         }
+        else if (b > a && b > c) 
+        {
+
+        }
+        else if (c > a && c > b) 
+        {
+
+        }
+        else cout << "wrong\n";
+
     }
     return 0;
 }
