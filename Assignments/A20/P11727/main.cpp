@@ -29,10 +29,10 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector if ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
+typedef vector<int> vi;     // vector if ints
+typedef pair<int, int> ii;  // pair of ints
+typedef vector<ii> vii;     // vector of pairs
+typedef vector<vi> vvi;     // vector of vector of ints
 
 int main()
 {
@@ -41,7 +41,6 @@ int main()
 
     while (cin >> inputs)
     {
-
         cout << "Case " << counter << ": UNKNOWN";
     }
     return 0;
