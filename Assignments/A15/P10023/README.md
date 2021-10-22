@@ -14,7 +14,7 @@
 >       m:= (a+b) / 2; <br>
 >       if (m = a || m = b) return m; <br>
 >       if (m*m > n) a:= m; <br>
->       else b:= m;>b <br>
+>       else b:= m; <br>
 >   } <br>
 > } <br>
 > 
