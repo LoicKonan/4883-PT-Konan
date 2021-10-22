@@ -46,17 +46,20 @@ int main()
             else cout << "wrong\n";
         }
         
-        if ((b > a) && (b > c)) 
+        else if ((b > a) && (b > c)) 
         {
             if (sqrt(b * b) == sqrt((a * a) + c * c)) cout << "right\n";
             else cout << "wrong\n";
         }
         
-        if ((c > a) && (c > b)) 
+        else if ((c > a) && (c > b)) 
         {
             if (sqrt(c * c) == sqrt((b * b) + a * a)) cout << "right\n";
             else cout << "wrong\n";
         }
+        
+        else  cout << "wrong\n";
     }
+    
     return 0;
 }
