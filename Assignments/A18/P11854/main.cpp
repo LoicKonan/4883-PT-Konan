@@ -44,9 +44,13 @@ int main()
     
     while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
+        cout << a << " " << b << " " << c << endl;
+
         numbers.push_back(a);
         numbers.push_back(b);
         numbers.push_back(c);
+
+        cout << numbers[a] << " " << numbers[b] << numbers[c] << endl;
 
         sort(numbers.begin(), numbers.end());
 
