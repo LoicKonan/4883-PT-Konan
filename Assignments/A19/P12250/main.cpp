@@ -44,25 +44,25 @@ int main()
             cout << "ENGLISH\n";
         }
         
-        else if () 
+        else if (S == "HOLA") 
         {
             cout << "SPANISH\n";
         }
         
-        else if () 
+        else if (S == "HALLO") 
         {
             cout << "GERMAN\n";
         }
         
-        else if ()
+        else if (S == "BONJOUR")
         {
              cout << "FRENCH\n";
         }
-        else if ()
+        else if (S == "CIAO")
         {
              cout << "ITALIAN\n";
         }
-        else if ()
+        else if (S == "ZDRAVSTVUJTE")
         {
              cout << "RUSSIAN\n";
         }
