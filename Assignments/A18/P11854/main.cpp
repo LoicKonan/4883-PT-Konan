@@ -39,26 +39,24 @@ int main()
    int a;
    int b;
    int c;
-
-    vector<int> numbers;
     
     while ((cin >> a >> b >> c) && (a != 0) && (b != 0) && (c != 0))
     {
         cout << a << " " << b << " " << c << endl;
-        
-        if(a > b && a > c) 
+
+        if((a > b) && (a > c)) 
         {
             if (sqrt(a * a) == sqrt((b * b) + c * c)) cout << "right\n";
             else cout << "wrong\n";
         }
         
-        if (b > a && b > c) 
+        if ((b > a) && (b > c)) 
         {
             if (sqrt(b * b) == sqrt((a * a) + c * c)) cout << "right\n";
             else cout << "wrong\n";
         }
         
-        if (c > a && c > b) 
+        if ((c > a) && (c > b)) 
         {
             if (sqrt(c * c) == sqrt((b * b) + a * a)) cout << "right\n";
             else cout << "wrong\n";
