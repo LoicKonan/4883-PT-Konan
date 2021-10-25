@@ -82,7 +82,12 @@ int main()
         double length = 0;                                  // Initializing  our length variable to zero
 
         /**
-         * 
+         * We start with i being equal to the number of elements in the vector minus one.
+         * Then as long as i is greater than or equal to the number of elements in the vector,
+         * we decrement one after the next iteration.
+         * Then we use a if statement for comparisons to set our maximum variable.
+         * We apply the distance formula  and the length formula where:
+         *          Distance = d=√((x_2-x_1)²+(y_2-y_1)²) 
          * 
          * 
          */
