@@ -14,7 +14,7 @@
 | [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      | :heavy_check_mark:  |
 | [11](./A11) | [A11](./A11) | [**Brick Wall Patterns**](A11)  | :heavy_check_mark:  |
 | [12](./A12) | [A12](./A12) | [**Hay Points**](A12)           | :heavy_check_mark:  |
-| [13](./A13) | [A13](./A13) | [**Maximum Sum**](A13)          | 🔴 🔜 |
+| [13](./A13) | [A13](./A13) | [**Maximum Sum**](A13)          |:heavy_check_mark:   |
 | [14](./A14) | [A14](./A14) | [**Mice and Maze**](A14)        | 🔴 🔜 |
 | [15](./A15) | [A15](./A15) | [**loading...**](A15)           | 🔴 🔜 |
 | [16](./A16) | [A16](./A16) | [**Back to High School Physics**](A16) | :heavy_check_mark: |
