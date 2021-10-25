@@ -44,26 +44,26 @@ typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
 struct point;
-int c, n, x, y;
-vector<point> points;
+int c, n, x, y;                                             // Global variables 
+vector<point> points;                                       // Prototype for the vector of points
 
 
 struct point
 {
     int x, y;
 
-    point() : x{0}, y{0} {}
-    point(int x, int y) : x{x}, y{y} {}
+    point() : x{0}, y{0} {}                                 // Default Constructor
+    point(int x, int y) : x{x}, y{y} {}                     // User define Constructor
 };
 
-bool comparisons(point &a, point &b)
+bool comparisons(point &a, point &b)                        // Using this function to compare the points
 {
     return a.x < b.x;
 }
 
 int main()
 {
-    cin >> c;
+    cin >> c;                                               // Read in out numbers.
 
     while (c--)
     {
@@ -71,11 +71,11 @@ int main()
 
         while (n--)
         {
-            cin >> x >> y;
-            points.push_back(point(x, y));
+            cin >> x >> y;                                  // Read in the x and y coordinates.
+            points.push_back(point(x, y));                  // Add to our vector point.
         }
 
-        sort(points.begin(), points.end(), comparisons);
+        sort(points.begin(), points.end(), comparisons);    // Sort the points.
 
         int maximum = 0;
         double distance = 0;
@@ -90,7 +90,7 @@ int main()
                 maximum = points[i].y;
             }
         }
-        cout << fixed << setprecision(2) << length << endl;
-        points.clear();
+        cout << fixed << setprecision(2) << length << endl;   // Print with two decimal digits.
+        points.clear();                                       // Clear the vector
     }
 }
