@@ -1,4 +1,4 @@
-## Assignment 15 - Square root
+## Assignment 15 - 
 
 ### Loic Konan
 
