@@ -47,6 +47,7 @@ struct point;
 int c, n, x, y;
 vector<point> points;
 
+
 struct point
 {
     int x, y;
