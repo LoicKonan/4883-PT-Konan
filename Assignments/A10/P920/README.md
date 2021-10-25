@@ -5,7 +5,7 @@
 #### Description
 
 > - Sort the points according to their x co-ordinates.
-> - Iterate from left to right. 
+> - Iterate from left to right.
 > - Whenever a point (peak) rises higher than the previous highest peek, then the light is incident to it.
 > - Accumulate the distance from the current peak to the bottom end of the other part.
 
@@ -29,3 +29,4 @@
 
 - Calculate Distance: <https://www.movable-type.co.uk/scripts/latlong.html>
 - Euclidean Distance: <https://en.wikipedia.org/wiki/Euclidean_distance>
+- Khan Academy: <https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/v/distance-formula#:~:text=Learn%20how%20to%20find%20the,distance%20between%20any%20two%20points.>
