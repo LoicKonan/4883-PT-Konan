@@ -36,7 +36,8 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 #define maxn 100 + 5
 
-int v, N, sum[maxn][maxn] = {{0}};
+int v, N;
+int sum[maxn][maxn] = {{0}};            // N × N array of integers
 
 void solve() 
 {
@@ -50,7 +51,7 @@ void solve()
             {
 				for (int l = j; l <= N; l++) 
                 {
-					MaxSum = min(MaxSum, sum[k][l]-sum[i-1][l]-sum[k][j-1]+sum[i-1][j-1]);
+					MaxSum = max(MaxSum, sum[k][l]-sum[i-1][l]-sum[k][j-1]+sum[i-1][j-1]);
 				}
 			}
 		}
@@ -58,7 +59,7 @@ void solve()
 	cout << MaxSum << endl;
 }
 
-int main(void) 
+int main() 
 {
 	while(cin >> N) 
     {
