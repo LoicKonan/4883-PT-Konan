@@ -77,10 +77,15 @@ int main()
 
         sort(points.begin(), points.end(), comparisons);    // Sort the points.
 
-        int maximum = 0;
-        double distance = 0;
-        double length = 0;
+        int maximum = 0;                                    // Initializing  our maximum variable to zero right now.
+        double distance = 0;                                // Initializing our distance variable to zero
+        double length = 0;                                  // Initializing  our length variable to zero
 
+        /**
+         * 
+         * 
+         * 
+         */
         for (int i = points.size() - 1; i >= 0; i--)
         {
             if (points[i].y > maximum)
@@ -90,6 +95,7 @@ int main()
                 maximum = points[i].y;
             }
         }
+
         cout << fixed << setprecision(2) << length << endl;   // Print with two decimal digits.
         points.clear();                                       // Clear the vector
     }
