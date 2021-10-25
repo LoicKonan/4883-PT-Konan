@@ -34,20 +34,45 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
+#define maxn 100+5
 
-int main()
+int v, N, sum[maxn][maxn] = {{0}};
+
+void solve() 
 {
-    int max;
-    int Top_Max;
-    int current_Max;
-    int left;
-    int right;
+	int MaxSum = -200;
 
-    
-
-    while ()
+	for (int i = 1; i <= N; i++) 
     {
+		for (int j = 1; j <= N; j++) 
+        {
+			for (int k = i; k <= N; k++) 
+            {
+				for (int l = j; l <= N; l++) 
+                {
+					MaxSum = max(MaxSum, sum[k][l]-sum[i-1][l]-sum[k][j-1]+sum[i-1][j-1]);
+				}
+			}
+		}
+	}
+	cout << MaxSum << endl;
+}
 
-    }
-    return 0;
+int main(void) 
+{
+	while(cin >> N) 
+    {
+		for (int i = 1; i <= N; i++) 
+        {
+			for (int j = 1; j <= N; j++) 
+            {
+				cin >> v;
+				sum[i][j] = v+sum[i-1][j]+sum[i][j-1]-sum[i-1][j-1];
+			}
+		}
+
+		solve();
+	}
+
+	return 0;
 }
