@@ -34,7 +34,7 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-#define maxn 100+5
+#define maxn 100 + 5
 
 int v, N, sum[maxn][maxn] = {{0}};
 
@@ -50,7 +50,7 @@ void solve()
             {
 				for (int l = j; l <= N; l++) 
                 {
-					MaxSum = max(MaxSum, sum[k][l]-sum[i-1][l]-sum[k][j-1]+sum[i-1][j-1]);
+					MaxSum = min(MaxSum, sum[k][l]-sum[i-1][l]-sum[k][j-1]+sum[i-1][j-1]);
 				}
 			}
 		}
