@@ -34,7 +34,7 @@
 #define Last(i) (i & -i)
 #define INF 500000000
 #define EPS 1e-7
-#define maximumN 10000
+#define current_MaxN 10000
 using namespace std;
 #define endl "\n"
 
@@ -77,7 +77,7 @@ int main()
 
         sort(points.begin(), points.end(), comparisons);    // Sort the points.
 
-        int maximum = 0;                                    // Initializing  our maximum variable to zero right now.
+        int current_Max = 0;                                // Initializing  our current_Max variable to zero right now.
         double distance = 0;                                // Initializing our distance variable to zero
         double length = 0;                                  // Initializing  our length variable to zero
 
@@ -85,19 +85,23 @@ int main()
          * We start with i being equal to the number of elements in the vector minus one.
          * Then as long as i is greater than or equal to the number of elements in the vector,
          * we decrement one after the next iteration.
-         * Then we use a if statement for comparisons to set our maximum variable.
-         * We apply the distance formula  and the length formula where:
-         *          Distance = d=√((x_2-x_1)²+(y_2-y_1)²) 
+         * We use a if statement to to compare the y coordinates to our maximu variable.
+         * if y coordinates is greater than our current_Max variable, we then 
+         * use the distance formula where:
          * 
-         * 
+         *          Distance = d=√((x_2-x_1)² + (y_2-y_1)²) 
+         *          
+         * Then finally we we set the current_Max to the y coordinate.
          */
         for (int i = points.size() - 1; i >= 0; i--)
         {
-            if (points[i].y > maximum)
+            if (points[i].y > current_Max)
             {
+                //  Distance = d=√((x_2-x_1)² + (y_2-y_1)²) 
                 distance = sqrt(pow(points[i].x - points[i + 1].x, 2) + pow(points[i].y - points[i + 1].y, 2));
-                length += distance * (points[i].y - maximum) / (points[i].y - points[i + 1].y);
-                maximum = points[i].y;
+
+                length += distance * (points[i].y - current_Max) / (points[i].y - points[i + 1].y);
+                current_Max = points[i].y;
             }
         }
 
