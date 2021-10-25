@@ -52,11 +52,11 @@ struct point
 {
     int x, y;
 
-    point() : x{0}, y{0} {}                                  // Default Constructor
-    point(int x, int y) : x{x}, y{y} {}                      // User define Constructor
+    point() : x{0}, y{0} {}                                 // Default Constructor
+    point(int x, int y) : x{x}, y{y} {}                     // User define Constructor
 };
 
-bool comparisons(point &a, point &b)                         // Using this function to compare the points
+bool comparisons(point &a, point &b)                        // Using this function to compare the points
 {
     return a.x < b.x;
 }
