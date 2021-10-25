@@ -44,32 +44,32 @@ typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
 struct point;
-int c, n, x, y;                                             // Global variables 
-vector<point> points;                                       // Prototype for the vector of points
+int test_cases, n, x, y;                                     // Global variables 
+vector<point> points;                                        // Prototype for the vector of points
 
 
 struct point
 {
     int x, y;
 
-    point() : x{0}, y{0} {}                                 // Default Constructor
-    point(int x, int y) : x{x}, y{y} {}                     // User define Constructor
+    point() : x{0}, y{0} {}                                  // Default Constructor
+    point(int x, int y) : x{x}, y{y} {}                      // User define Constructor
 };
 
-bool comparisons(point &a, point &b)                        // Using this function to compare the points
+bool comparisons(point &a, point &b)                         // Using this function to compare the points
 {
     return a.x < b.x;
 }
 
 int main()
 {
-    cin >> c;                                               // Read in out numbers.
+    cin >> test_cases;                                      // Read in the number of test_cases.
 
-    while (c--)
+    while (test_cases--)
     {
-        cin >> n;
+        cin >> n;                                           // Read in the number of coordinate pairs
 
-        while (n--)
+        while (n--)                                         // decrement after every loop. 
         {
             cin >> x >> y;                                  // Read in the x and y coordinates.
             points.push_back(point(x, y));                  // Add to our vector point.
