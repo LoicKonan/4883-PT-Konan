@@ -14,7 +14,7 @@
 #define FileIn(file) freopen(file ".inp", "r", stdin)
 #define FileOut(file) freopen(file ".out", "w", stdout)
 #define FOR(i, a, b) for (int i = a; i <= b; i++)
-#define REP(i, n) for (int i = 0; i < n; i++)
+#define REP(i, n) for (int i = 0; i <= n; i++)
 #define Fill(ar, val) memset(ar, val, sizeof(ar))
 #define PI 3.1415926535897932385
 #define uint64 unsigned long long
@@ -63,9 +63,9 @@ int main()
 {
 	while(cin >> N) 
     {
-		for (int i = 1; i <= N; i++) 
+        REP(i, N)
         {
-			for (int j = 1; j <= N; j++) 
+            REP(j, N)
             {
 				cin >> v;
 				sum[i][j] = v+sum[i-1][j]+sum[i][j-1]-sum[i-1][j-1];
