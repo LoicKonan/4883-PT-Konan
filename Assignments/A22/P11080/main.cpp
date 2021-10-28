@@ -29,19 +29,22 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector if ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
-
-int main(int argc, char **argv)
+int main()
 {
-   
 
-    while (true)
+    int n, k;
+
+    while (cin >> n >> k)
     {
+        int sum = n;
 
-        
+        while (n >= k)
+        {
+            sum += n / k;
+            n = (n / k) + (n % k);
+        }
+
+        cout << sum << '\n';
     }
     return 0;
 }
