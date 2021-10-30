@@ -40,7 +40,6 @@ int main()
 {
     int test;
     cin >> test;
-
     while (test--)
     {
         long double Y;
