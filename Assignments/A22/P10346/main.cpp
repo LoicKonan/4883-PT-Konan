@@ -32,7 +32,6 @@ using namespace std;
 int main()
 {
     int n, k;
-
     while (cin >> n >> k)
     {
         int sum = n;
@@ -42,7 +41,6 @@ int main()
             sum += n / k;
             n = (n / k) + (n % k);
         }
-
         cout << sum << '\n';
     }
     return 0;
