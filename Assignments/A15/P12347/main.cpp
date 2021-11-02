@@ -98,7 +98,6 @@ void printPreorder(struct Node *node)
     printPreorder(node->right);
 }
 
-/* Driver program to test above functions*/
 int main()
 {
     struct Node *root = new Node(1);
