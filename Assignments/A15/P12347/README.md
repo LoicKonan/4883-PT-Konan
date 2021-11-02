@@ -4,7 +4,7 @@
 
 #### Description
 
->
+> - This program takes in a **pre ordered output** of a _binary search tree_ and then display the **post order output**.
 >
 
 ### Files
@@ -21,3 +21,7 @@
 
 - Complied using **VScode** and **C++ 17**
 - main.exe < infile
+
+
+
+- <https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/>
