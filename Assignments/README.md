@@ -23,7 +23,7 @@
 | [19](./A19) | [A19](./A19) | [**Language Detection**](A19)   | :heavy_check_mark: |
 | [20](./A20) | [A20](./A20) | [**Cost Cutting**](A20)         | :heavy_check_mark: |
 | [21](./A21) | [A21](./A21) | [**loading...**](A21)           | 🔴 🔜 |
-| [22](./A22) | [A22](./A22) | [Peter's Smokes](A22)           | :heavy_check_mark: |
+| [22](./A22) | [A22](./A22) | [**Peter's Smokes**](A22)       | :heavy_check_mark: |
 | [23](./A23) | [A23](./A23) | [**loading...**](A23)           | 🔴 🔜 |
 | [24](./A24) | [A24](./A24) | [**loading...**](A24)           | 🔴 🔜 |
 | [25](./A25) | [A25](./A25) | [**loading...**](A25)           | 🔴 🔜 |
