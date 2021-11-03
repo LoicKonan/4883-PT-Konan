@@ -73,7 +73,6 @@ int main()
 
     sort(InOrder.begin(), InOrder.end());               // sorts the inorder vector to put into inorder
                                                         
-
     PreToPost(PreOrder, InOrder.front(), InOrder.back());
 
     return 0;
