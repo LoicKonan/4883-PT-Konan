@@ -16,7 +16,7 @@
 > **Post-order traversal (Left Right-Root)** prints out the left subtree first and then right subtree and finally the root node.
 >
 > For example, the results of **pre-order traversal** and **post-order traversal:**
-<img src="pic.png" width="200" height= "200">
+- <img src="pic.png" width="200" height= "200">
 >
 > - **Pre-order:** **50 30 24 5 28 45 98 52 60** <br>
 > - **Post-order:** **5 28 24 45 30 60 52 98 50** <br>
