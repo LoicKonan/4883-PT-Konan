@@ -6,8 +6,8 @@
 
 > A **binary search tree** is a ***binary tree*** that satisfies the following properties:
 >
-> - The left subtree of a node contains only nodes with keys less than the node's key.
-> - The right subtree of a node contains only nodes with keys greater than the node's key.
+> - The **_left subtree_** of a node contains only nodes with keys **less than the node's key**.
+> - The right subtree of a node contains only nodes with keys **greater than the node's key**.
 > - Both the left and right subtrees must also be binary search trees.
 >
 > - **Pre-order traversal (Root-Left-Right)** prints out the nodes key by visiting the root node then traversing <br>
