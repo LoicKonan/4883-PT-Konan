@@ -37,23 +37,23 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 void PreToPost(vector<int> PreOrder, int min, int max)
 {
-    static int i = 0;                                   // index marker.
+    static int i = 0;                              // index marker.
 
-    if (PreOrder[i] < min || PreOrder[i] > max)         // breaks if not part of current subtree.                                       
+    if (PreOrder[i] < min || PreOrder[i] > max)    // breaks if not part of current subtree.                                       
     {
         return;
     }
 
-    if (i == PreOrder.size())                           // breaks if the whole vector has been searched through
+    if (i == PreOrder.size())                      // breaks if the whole vector has been searched through
     {
         return;
     }
 
-    int NodeHead = PreOrder[i++];                       // used for recursion as the value at the head
+    int NodeHead = PreOrder[i++];                  // used for recursion as the value at the head
 
-    PreToPost(PreOrder, min, NodeHead);                 // all values in the left subtree
+    PreToPost(PreOrder, min, NodeHead);            // all values in the left subtree
 
-    PreToPost(PreOrder, NodeHead, max);                 // all values in the right subtree
+    PreToPost(PreOrder, NodeHead, max);            // all values in the right subtree
                                                         
     cout << NodeHead << '\n';
 }
@@ -71,7 +71,7 @@ int main()
         InOrder.emplace_back(x);
     }
 
-    sort(InOrder.begin(), InOrder.end());               // sorts the inorder vector to put into inorder
+    sort(InOrder.begin(), InOrder.end());          // sorts the inorder vector to put into inorder
                                                         
     PreToPost(PreOrder, InOrder.front(), InOrder.back());
 
