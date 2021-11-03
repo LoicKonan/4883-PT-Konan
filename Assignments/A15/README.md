@@ -17,8 +17,8 @@
 >
 > For example, the results of **pre-order traversal** and **post-order traversal:**
 >
-> **Pre-order:** 50 30 24 5 28 45 98 52 60 <br>
-> **Post-order:** 5 28 24 45 30 60 52 98 50 <br>
+> **Pre-order:** **50 30 24 5 28 45 98 52 60** <br>
+> **Post-order:** **5 28 24 45 30 60 52 98 50** <br>
 >
 > - **Given the pre-order traversal of a binary search tree, you task is to find the post-order traversal of this tree.**
 >
