@@ -35,85 +35,53 @@ typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
 using namespace std;
-
-/* A binary tree node has data, pointer to left child
-and a pointer to right child */
-struct Node
+void PreToPost(vector<int> PreOrder, int min, int max)
 {
-    int data;
-    struct Node *left, *right;
-    Node(int data)
+    static int i = 0; //index marker
+
+    if (PreOrder[i] < min || PreOrder[i] > max) //breaks if not part of
+                                                //current subtree
     {
-        this->data = data;
-        left = right = NULL;
+        return;
     }
-};
 
-/* Given a binary tree, print its nodes according to the
-"bottom-up" postorder traversal. */
-void printPostorder(struct Node *node)
-{
-    if (node == NULL)
+    if (i == PreOrder.size()) //breaks if the whole
+                              //vector has been
+                              //searched through
+    {
         return;
+    }
 
-    // first recur on left subtree
-    printPostorder(node->left);
+    int NodeHead = PreOrder[i++]; //used for recursion as
+                                  //the value at the head
 
-    // then recur on right subtree
-    printPostorder(node->right);
+    PreToPost(PreOrder, min, NodeHead); //all values in the
+                                        //left subtree
 
-    // now deal with the node
-    cout << node->data << " ";
-}
+    PreToPost(PreOrder, NodeHead, max); //all values in the
+                                        //right subtree
 
-/* Given a binary tree, print its nodes in inorder*/
-void printInorder(struct Node *node)
-{
-    if (node == NULL)
-        return;
-
-    /* first recur on left child */
-    printInorder(node->left);
-
-    /* then print the data of node */
-    cout << node->data << " ";
-
-    /* now recur on right child */
-    printInorder(node->right);
-}
-
-/* Given a binary tree, print its nodes in preorder*/
-void printPreorder(struct Node *node)
-{
-    if (node == NULL)
-        return;
-
-    /* first print data of node */
-    cout << node->data << " ";
-
-    /* then recur on left subtree */
-    printPreorder(node->left);
-
-    /* now recur on right subtree */
-    printPreorder(node->right);
+    cout << NodeHead << '\n';
 }
 
 int main()
 {
-    struct Node *root = new Node(1);
-    root->left = new Node(2);
-    root->right = new Node(3);
-    root->left->left = new Node(4);
-    root->left->right = new Node(5);
+    int x;
 
-    cout << "\nPreorder traversal of binary tree is \n";
-    printPreorder(root);
+    vector<int> PreOrder;
+    vector<int> InOrder;
 
-    cout << "\nInorder traversal of binary tree is \n";
-    printInorder(root);
+    while (cin >> x)
+    {
+        PreOrder.emplace_back(x);
+        InOrder.emplace_back(x);
+    }
 
-    cout << "\nPostorder traversal of binary tree is \n";
-    printPostorder(root);
+    sort(InOrder.begin(), InOrder.end()); //sorts the inorder
+                                          //vector to put
+                                          //into inorder
+
+    PreToPost(PreOrder, InOrder.front(), InOrder.back());
 
     return 0;
 }
