@@ -25,13 +25,13 @@
 > **Input**
 >
 > - The keys of all nodes of the input binary search tree are given according to pre-order traversal.
-> - Each node has a key value which is a positive integer less than 106. 
+> - Each node has a key value which is a positive integer less than 106.
 > - All values are given in separate lines(one integer per line).
 > - You can assume that a binary search tree does not contain more than **10,000 nodes** and there are no duplicate nodes.
 >
 > **Output**
 >
-> - The output contains **the result of post-order traversal** of the** input binary tree**. Print out one key per line.
+> - The output contains **the result of post-order traversal** of the **input binary tree**. Print out one key per line.
 >
 
 ### Files
