@@ -29,11 +29,6 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector if ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
-
 
 void PreToPost(vector<int> PreOrder, int min, int max)
 {
@@ -60,15 +55,15 @@ void PreToPost(vector<int> PreOrder, int min, int max)
 
 int main()
 {
-    int x;
+    int node;
 
     vector<int> PreOrder;
     vector<int> InOrder;
 
-    while (cin >> x)
+    while (cin >> node)
     {
-        PreOrder.emplace_back(x);
-        InOrder.emplace_back(x);
+        PreOrder.emplace_back(node);
+        InOrder.emplace_back(node);
     }
 
     sort(InOrder.begin(), InOrder.end());          // sorts the inorder vector to put into inorder
