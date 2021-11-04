@@ -62,8 +62,8 @@ int main()
 
     while (cin >> node)
     {
-        PreOrder.emplace_back(node);
-        InOrder.emplace_back(node);
+        PreOrder.push_back(node);
+        InOrder.push_back(node);
     }
 
     sort(InOrder.begin(), InOrder.end());          // sorts the inorder vector to put into inorder
