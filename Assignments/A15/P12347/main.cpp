@@ -34,6 +34,8 @@ void PreToPost(vector<int> PreOrder, int min, int max)
 {
     static int i = 0;                              // index marker.
 
+    // cout << "min is: " << min << " max is: " << max << endl;
+
     if (PreOrder[i] < min || PreOrder[i] > max)    // breaks if not part of current subtree.                                       
     {
         return;
@@ -67,7 +69,10 @@ int main()
     }
 
     sort(InOrder.begin(), InOrder.end());          // sorts the inorder vector to put into inorder
-                                                        
+                                                   
+                                                   
+                                                   // get the first element using front()
+                                                   // get the Last element using back()
     PreToPost(PreOrder, InOrder.front(), InOrder.back());
 
     return 0;
