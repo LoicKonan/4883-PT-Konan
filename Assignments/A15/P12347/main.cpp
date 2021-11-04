@@ -32,7 +32,7 @@ using namespace std;
 
 void PreToPost(vector<int> PreOrder, int min, int max)
 {
-    static int i = 0;                              //  we don't need this to be modified again.
+    static int i = 0;                              // we don't need this to be modified again.
 
     // cout << "min is: " << min << " max is: " << max << endl;
 
