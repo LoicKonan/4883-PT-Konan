@@ -17,7 +17,7 @@
 >
 > For example, the results of **pre-order traversal** and **post-order traversal:**
 >
-> <img src = "kik.png">
+> <img src = "pic.png">
 >
 > - **Pre-order:** **50 30 24 5 28 45 98 52 60** <br>
 > - **Post-order:** **5 28 24 45 30 60 52 98 50** <br>
