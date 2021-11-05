@@ -46,7 +46,8 @@ void PreToPost(vector<int> PreOrder, int min, int max)
         return;
     }
 
-    int NodeHead = PreOrder[i++];                  // used for recursion as the value at the head
+    int NodeHead = PreOrder[i++];          
+            // used for recursion as the value at the head
 
     PreToPost(PreOrder, min, NodeHead);            // all values in the left subtree
 
