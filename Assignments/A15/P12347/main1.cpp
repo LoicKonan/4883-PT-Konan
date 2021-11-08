@@ -1,32 +1,31 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class orderedBT
+class Binary_Tree
 {
     int data;
-    orderedBT *left, *right;
+    Binary_Tree *left, *right;
 
-    public:
-        orderedBT();
-        orderedBT(int);
-        orderedBT *Insert(orderedBT *, int);
-        orderedBT *BuildTree(orderedBT *root);
-        void Postorder(orderedBT *);
+public:
+    // Default Constructor definition.
+    Binary_Tree() : data(0), left(NULL), right(NULL) {}
+    Binary_Tree(int);
+    Binary_Tree *Insert(Binary_Tree *, int);
+    Binary_Tree *BuildTree(Binary_Tree *root);
+    void Postorder(Binary_Tree *);
 };
 
-// Default Constructor definition.
-orderedBT::orderedBT() : data(0), left(NULL), right(NULL) {}
 // Parameterized Constructor definition.
-orderedBT::orderedBT(int value)
+Binary_Tree::Binary_Tree(int value)
 {
     data = value;
     left = right = NULL;
 }
 // Insert function definition.
-orderedBT *orderedBT::Insert(orderedBT *root, int value)
+Binary_Tree *Binary_Tree::Insert(Binary_Tree *root, int value)
 {
     if (root == NULL)
-        return new orderedBT(value);
+        return new Binary_Tree(value);
     if (value > root->data)
         root->right = Insert(root->right, value);
     else
@@ -34,7 +33,7 @@ orderedBT *orderedBT::Insert(orderedBT *root, int value)
     return root;
 }
 //Postorder traversal function
-void orderedBT::Postorder(orderedBT *root)
+void Binary_Tree::Postorder(Binary_Tree *root)
 {
     if (root)
     {
@@ -46,7 +45,7 @@ void orderedBT::Postorder(orderedBT *root)
 }
 
 //Function that reads value from file and build tree.
-orderedBT *orderedBT::BuildTree(orderedBT *root)
+Binary_Tree *Binary_Tree::BuildTree(Binary_Tree *root)
 {
     int x;
     cin >> x;
@@ -58,8 +57,8 @@ orderedBT *orderedBT::BuildTree(orderedBT *root)
 
 int main()
 {
-    orderedBT obj;
-    orderedBT *root = NULL;
+    Binary_Tree obj;
+    Binary_Tree *root = NULL;
     root = obj.BuildTree(root);
 
     obj.Postorder(root);
