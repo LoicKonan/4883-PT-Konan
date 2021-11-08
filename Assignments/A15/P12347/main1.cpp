@@ -1,51 +1,66 @@
-// C++ program to print Postorder traversal from
-// given Inorder and Preorder traversals.
 #include <bits/stdc++.h>
 using namespace std;
 
-int preIndex = 0;
-
-void printPost(vector<int> pre, int inStrt,
-               int inEnd)
+class orderedBT
 {
-    if (inStrt > inEnd)
-        return;
+    int data;
+    orderedBT *left, *right;
 
-    // Find index of next item in preorder traversal in inorder.
-    int inIndex = pre[preIndex++];
+    public:
+        orderedBT();
+        orderedBT(int);
+        orderedBT *Insert(orderedBT *, int);
+        orderedBT *BuildTree(orderedBT *root);
+        void Postorder(orderedBT *);
+};
 
-    // traverse left tree
-    printPost( pre, inStrt, inIndex);
-
-    // traverse right tree
-    printPost( pre, inIndex, inEnd);
+// Default Constructor definition.
+orderedBT::orderedBT() : data(0), left(NULL), right(NULL) {}
+// Parameterized Constructor definition.
+orderedBT::orderedBT(int value)
+{
+    data = value;
+    left = right = NULL;
+}
+// Insert function definition.
+orderedBT *orderedBT::Insert(orderedBT *root, int value)
+{
+    if (root == NULL)
+        return new orderedBT(value);
+    if (value > root->data)
+        root->right = Insert(root->right, value);
+    else
+        root->left = Insert(root->left, value);
+    return root;
+}
+//Postorder traversal function
+void orderedBT::Postorder(orderedBT *root)
+{
+    if (root)
+    {
+        Postorder(root->left);
+        Postorder(root->right);
+        cout << root->data << '\n';
+    }
+    return;
 }
 
-void printPostMain( vector<int> pre, int n)
+//Function that reads value from file and build tree.
+orderedBT *orderedBT::BuildTree(orderedBT *root)
 {
-    for (int i = 0; i < n; i++)
-        pre[i] = i;
-
-    printPost(pre, 0, n - 1);
+    int x;
+    cin >> x;
+    root = Insert(root, x);
+    while (cin >> x)
+        Insert(root, x);
+    return root;
 }
 
-// Driver code
 int main()
 {
-     int node;
+    orderedBT obj;
+    orderedBT *root = NULL;
+    root = obj.BuildTree(root);
 
-    vector<int> pre;
-    // vector<int> InOrder;
-
-    while (cin >> node)
-    {
-        pre.push_back(node);                          // Added it to the vector PreOrder.
-    }
-    // int pre[] = {1, 2, 4, 5, 3, 6};
-    // int n = sizeof(pre) / sizeof(pre[0]);
-
-    printPostMain(pre, node-1);
-    return 0;
+    obj.Postorder(root);
 }
-
-// This code is contributed by Arnab Kundu
