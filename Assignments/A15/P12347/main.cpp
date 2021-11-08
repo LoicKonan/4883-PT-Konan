@@ -65,8 +65,8 @@ int main()
 
     while (cin >> node)
     {
-        PreOrder.pb(node);
-        InOrder.pb(node);
+        PreOrder.pb(node);                          // Added it to the vector PreOrder.
+        InOrder.pb(node);                           // Added it to the vector Inorder.
     }
 
     sort(InOrder.begin(), InOrder.end());          // sorts the inorder vector to put into inorder
