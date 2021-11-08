@@ -21,4 +21,21 @@ Binary_Search_Tree::Binary_Search_Tree()
 {
     root = NULL
 }
-void Binary_Search_Tree::
+
+void Binary_Search_Tree::insert(int key, node *left)
+{
+    if(key < leaf->value)
+    {
+        if(leaf->left != NULL)
+        {
+            insert(key, leaf->left)
+        }
+    }
+    else
+    {
+        root = new node;
+        root->value = key;
+        root->left = NULL;
+        root->right = NULL;
+    }
+}
