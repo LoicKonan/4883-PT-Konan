@@ -1,73 +1,51 @@
-#include <algorithm>
-#include <bitset>
-#include <cctype>
-#include <cmath>
-#include <cstdio>
-#include <cstring>
-#include <iostream>
-#include <map>
-#include <queue>
-#include <stack>
-#include <string>
-#include <vector>
-
-#define FileIn(file) freopen(file ".inp", "r", stdin)
-#define FileOut(file) freopen(file ".out", "w", stdout)
-#define FOR(i, a, b) for (int i = a; i <= b; i++)
-#define REP(i, n) for (int i = 0; i < n; i++)
-#define Fill(ar, val) memset(ar, val, sizeof(ar))
-#define PI 3.1415926535897932385
-#define uint64 unsigned long long
-#define int64 long long
-#define all(ar) ar.begin(), ar.end()
-#define pb push_back
-#define bit(n) (1 << (n))
-#define Last(i) (i & -i)
-#define INF 500000000
-#define EPS 1e-7
-#define maxN 10000
+// C++ program to print Postorder traversal from
+// given Inorder and Preorder traversals.
+#include <bits/stdc++.h>
 using namespace std;
-#define endl "\n"
 
-/* A binary tree node has data, pointer to left child
-and a pointer to right child */
-struct Node
-{
-    int data;
-    struct Node *left, *right;
-    Node(int data)
-    {
-        this->data = data;
-        left = right = NULL;
-    }
-};
+int preIndex = 0;
 
-/* Given a binary tree, print its nodes in preorder*/
-void printPreorder(struct Node *node)
+void printPost(vector<int> pre, int inStrt,
+               int inEnd)
 {
-    if (node == NULL)
+    if (inStrt > inEnd)
         return;
 
-    /* first print data of node */
-    cout << node->data << " ";
+    // Find index of next item in preorder traversal in inorder.
+    int inIndex = pre[preIndex++];
 
-    /* then recur on left subtree */
-    printPreorder(node->left);
+    // traverse left tree
+    printPost( pre, inStrt, inIndex);
 
-    /* now recur on right subtree */
-    printPreorder(node->right);
+    // traverse right tree
+    printPost( pre, inIndex, inEnd);
 }
 
-/* Driver program to test above functions*/
+void printPostMain( vector<int> pre, int n)
+{
+    for (int i = 0; i < n; i++)
+        pre[i] = i;
+
+    printPost(pre, 0, n - 1);
+}
+
+// Driver code
 int main()
 {
-    struct Node *root = new Node(1);
-    root->left = new Node(2);
-    root->right = new Node(3);
-    root->left->left = new Node(4);
-    root->left->right = new Node(5);
+     int node;
 
-    cout << "\nPreorder traversal of binary tree is \n";
-    printPreorder(root);
+    vector<int> pre;
+    // vector<int> InOrder;
+
+    while (cin >> node)
+    {
+        pre.push_back(node);                          // Added it to the vector PreOrder.
+    }
+    // int pre[] = {1, 2, 4, 5, 3, 6};
+    // int n = sizeof(pre) / sizeof(pre[0]);
+
+    printPostMain(pre, node-1);
     return 0;
 }
+
+// This code is contributed by Arnab Kundu
