@@ -4,7 +4,8 @@ using namespace std;
 class Binary_Tree
 {
     int data;
-    Binary_Tree *left, *right;
+    Binary_Tree *left;
+    Binary_Tree *right;
 
 public:
     // Default Constructor definition.
@@ -57,6 +58,13 @@ Binary_Tree *Binary_Tree::BuildTree(Binary_Tree *root)
 
 int main()
 {
+
+    int x;
+    cin >> x;
+    root = Insert(root, x);
+    while (cin >> x)
+        Insert(root, x);
+        
     Binary_Tree obj;
     Binary_Tree *root = NULL;
     root = obj.BuildTree(root);

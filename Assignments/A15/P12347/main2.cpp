@@ -24,8 +24,10 @@ public:
             return;
         if (root == NULL)
             return;
+
         postorderTraversal(root->left, maxNodes, numNodes);
         postorderTraversal(root->right, maxNodes, numNodes);
+        
         if (numNodes < maxNodes)
         {
             cout << root->data << " ";
@@ -62,6 +64,7 @@ public:
         cout << endl;
     }
 };
+
 int main()
 {
     int val;
