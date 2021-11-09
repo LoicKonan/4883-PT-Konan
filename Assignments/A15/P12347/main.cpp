@@ -8,7 +8,18 @@
 *    Semester:         Fall 2021
 *    Description:
 *
-*       This program .
+*                      This program takes in a re ordered output of a  
+*                      binary search tree  and then display the post order output.
+*
+*                      Algorithm Postorder(tree):**<br>
+*                           1.Traverse the left subtree, i.e., call Postorder(left-subtree)
+*                           2.Traverse the right subtree, i.e., call Postorder(right-subtree)<br>
+*                           3.Visit the root.
+*
+*                      Implemented 2 version of the insert function** in order to see which one is faster:
+*
+*                           - Recursive Version
+*                           - Iterative Version
 *
 *    Files:
 *         main.cpp
