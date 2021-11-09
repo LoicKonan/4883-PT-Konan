@@ -1,3 +1,32 @@
+/*****************************************************************************
+*
+*    Author:           Loic Konan
+*    Email:            loickonan.lk@gmail.com
+*    Label:            Presentation
+*    Title:            
+*    Course:           
+*    Semester:         Fall 2021
+*    Description:
+*
+*       This program .
+*
+*    Files:
+*         main.cpp
+*         Timer.hpp
+*         mygetch.hpp
+*         termcolor.hpp
+*         infile 
+*         infile1
+*         infile 2
+*         infile3
+*
+*    Usage:
+*           main.cpp          : driver program
+*           animals.txt       : Input file
+*
+*           output will be display on the console in color.
+*
+******************************************************************************/
 #include <iostream>
 #include <vector>
 #include "termcolor.hpp"
