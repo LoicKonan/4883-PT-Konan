@@ -177,6 +177,8 @@ Node *insert(Node *root, int key)
 Node *constructBST(vector<int> const &keys)
 {
     Node *root = nullptr;
+
+    // foreach loop C++ 11, like in java
     for (int key : keys)
     {
         root = insert(root, key);                  // Use this for the recursive version
