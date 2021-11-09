@@ -12,10 +12,10 @@
 >
 > This program takes in a **pre ordered output** of a _binary search tree_ and then display the **post order output**.
 >
-> I implemented 2 version of the insert function in order to see which one is faster:
+> Implemented **2 version of the insert function** in order to see which one is faster:
 >
-> - Recursive Version
-> - Iterative Version
+> - **Recursive Version**
+> - **Iterative Version**
 >
 ### Files
 
