@@ -79,17 +79,29 @@ struct Node
  */
 void postorder(Node *root)
 {
+    // if the tree is empty then return. stop... go home.
     if (root == nullptr)
     {
         return;
     }
 
+    // 1. Visit all the nodes in the left subtree
     postorder(root->left);
-    cout << root->data << "\n";
+
+    // 2. Visit all the nodes in the right subtree
     postorder(root->right);
+
+    // 3. Visit the root node
+    cout << root->data << "\n";
+
 }
 
 // Recursive function to insert a key into a BST
+
+/**
+ * 
+ * 
+ **/
 Node *insert(Node *root, int key)
 {
     // if the root is null, create a new node and return it
@@ -172,9 +184,10 @@ Node *constructBST(vector<int> const &keys)
 
 int main()
 {
-    Timer clock;                  // Timer 
-    clock.Start();
+    Timer clock;                                                    
+    clock.Start();                                 // Start the clock
 
+    // vector int for our numbers.
     vector<int> keys;
     int node;
 
@@ -187,7 +200,8 @@ int main()
 
     postorder(root);
 
-    clock.End();
+    clock.End();                                    // Stop the clock
+                                                    // Display the time.
     cout << termcolor::green << clock.MilliSeconds() << termcolor::reset << " MilliSeconds\n";
 
     return 0;
