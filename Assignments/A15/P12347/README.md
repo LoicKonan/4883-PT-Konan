@@ -15,9 +15,9 @@
 >
 >
 > **Algorithm Postorder(tree):**<br>
-> **1.** Traverse the left subtree, i.e., call Postorder(left-subtree)<br>
-> **2.** Traverse the right subtree, i.e., call Postorder(right-subtree)<br>
-> **3.** Visit the root.
+>   **1.** Traverse the left subtree, i.e., call Postorder(left-subtree)<br>
+>   **2.** Traverse the right subtree, i.e., call Postorder(right-subtree)<br>
+>   **3.** Visit the root.
 >
 >
 > Implemented **2 version of the insert function** in order to see which one is **faster**:
