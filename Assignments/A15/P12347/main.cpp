@@ -29,51 +29,51 @@
 using namespace std;
 #define endl "\n"
 
-int preIndex = 0;                                                // Initializing  our preIndex variable to zero
+int index = 0;                                                  // Initializing  our index variable to zero
 
-void PreToPost(vector<int> PreOrder, int min, int max)
+void Postorder(vector<int> PreOrder, int min, int max)
 {
     // cout << "min is: " << min << " max is: " << max << endl;
 
-    if (PreOrder[preIndex] < min || PreOrder[preIndex] > max)    // breaks if not part of current subtree.                                       
+    if (PreOrder[index] < min || PreOrder[index] > max)         // breaks if not part of current subtree.                                       
     {
         return;
     }
 
-    if (preIndex == PreOrder.size())                            // breaks if the whole vector has been searched through
+    if (index == PreOrder.size())                               // breaks if the whole vector has been searched through
     {
         return;
     }
 
-    int NodeHead = PreOrder[preIndex++];          
+    int NodeHead = PreOrder[index++];          
                                                                 // used for recursion as the value at the head
 
-    PreToPost(PreOrder, min, NodeHead);                         // all values in the left subtree
+    Postorder(PreOrder, min, NodeHead);                         // all values in the left subtree
 
-    PreToPost(PreOrder, NodeHead, max);                         // all values in the right subtree
+    Postorder(PreOrder, NodeHead, max);                         // all values in the right subtree
                                                         
     cout << NodeHead << '\n';
 }
 
 int main()
 {
-    int node;
-
     vector<int> PreOrder;
-    vector<int> InOrder;
+    vector<int> PreOrder;
+
+    int node;
 
     while (cin >> node)
     {
         PreOrder.pb(node);                                      // Added it to the vector PreOrder.
-        InOrder.pb(node);                                       // Added it to the vector Inorder.
+        PreOrder.pb(node);                                      // Added it to the vector PreOrder.
     }
 
-    sort(InOrder.begin(), InOrder.end());                       // sorts the inorder vector to put into inorder
+    sort(PreOrder.begin(), PreOrder.end());                     // sorts the PreOrder vector to put into PreOrder
                                                    
                                                    
                                                                 // get the first element using front()
                                                                 // get the Last element using back()
-    PreToPost(PreOrder, InOrder.front(), InOrder.back());
+    Postorder(PreOrder, PreOrder.front(), PreOrder.back());
 
     return 0;
 }

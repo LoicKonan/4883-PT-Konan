@@ -1,44 +1,77 @@
-// Tree traversal in C++
-
 #include <iostream>
+#include <vector>
 using namespace std;
 
+// Data structure to store a BST node
 struct Node
 {
     int data;
-    struct Node *left;
-    struct Node *right;
+    Node *left = nullptr;
+    Node *right = nullptr;
 
-    Node(int data)
-    {
-        this->data = data;
-        left = NULL;
-        right = NULL;
-    }
+    Node() {}
+    Node(int data) : data(data) {}
 };
 
-// Postorder traversal
-void postorderTraversal(struct Node *node)
+// Function to perform postorder traversal on the tree
+void postorder(Node *root)
 {
-    if (node == NULL)
-        return;
+    if (root)
+    {
+        postorder(root->left);
+        postorder(root->right);
+        cout << root->data << '\n';
+    }
+    return;
+}
 
-    postorderTraversal(node->left);
-    postorderTraversal(node->right);
-    cout << node->data << "\n";
+// Recursive function to insert a key into a BST
+Node *insert(Node *root, int key)
+{
+    // if the root is null, create a new node and return it
+    if (root == nullptr)
+    {
+        return new Node(key);
+    }
+
+    // if the given key is less than the root node, recur for the left subtree
+    if (key < root->data)
+    {
+        root->left = insert(root->left, key);
+    }
+    // if the given key is more than the root node, recur for the right subtree
+    else
+    {
+        root->right = insert(root->right, key);
+    }
+
+    return root;
+}
+
+// Function to construct a BST from given keys
+Node *constructBST(vector<int> const &keys)
+{
+    Node *root = nullptr;
+    for (int key : keys)
+    {
+        root = insert(root, key);
+    }
+    return root;
 }
 
 int main()
 {
-    int Number;
-    struct Node *node = new Node(Number);
+    vector<int> keys;
+    int node;
 
-    while (cin >> Number)
+    while (cin >> node)
     {
-        
+        keys.push_back(node);
     }
 
-    cout << "\nPostorder traversal ";
-    postorderTraversal(node);
+    Node *root = constructBST(keys);
+
+    postorder(root);
+
     return 0;
 }
