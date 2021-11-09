@@ -47,18 +47,36 @@
 
 using namespace std;
 
-// Data structure to store a BST node
+/**
+ * 
+ * Data structure to store a BST node
+ * 
+ *  - A node carrying data
+ *   - Two subtrees
+ * 
+ */
 struct Node
 {
     int data;
     Node *left = nullptr;
     Node *right = nullptr;
 
+    // Default Constructor.
     Node() {}
+
+    // Parametized Constructor
     Node(int data) : data(data) {}
 };
 
-// Function to perform postorder traversal on the tree
+
+/**
+ * 
+ * Function to perform postorder traversal on the tree.
+ * 
+ *  1. Visit all the nodes in the left subtree
+ *  2. Visit all the nodes in the right subtree
+ *  3. Visit the root node
+ */
 void postorder(Node *root)
 {
     if (root == nullptr)
