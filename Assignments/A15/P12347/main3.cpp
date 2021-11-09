@@ -12,11 +12,10 @@ struct Node
     Node(int data)
     {
         this->data = data;
-        left       = NULL;
-        right      = NULL;
+        left = NULL;
+        right = NULL;
     }
 };
-
 
 // Postorder traversal
 void postorderTraversal(struct Node *node)
@@ -29,21 +28,36 @@ void postorderTraversal(struct Node *node)
     cout << node->data << "\n";
 }
 
-
+// insert element in the tree
+static insert(struct Node *node, int val)
+{
+    if (node == NULL)
+    {
+        return;
+    }
+    if (val < node->data)
+    {
+        node->left = insert(val, node->left);
+    }
+    else
+    {
+        node->right = insert(val, node->right);
+    }
+    return node;
+}
 int main()
 {
     int Number;
-    struct Node *root = new Node(Number);
-    
+    struct Node *node = new Node(Number);
 
-    // TreeNode *root = NULL;
+    // TreeNode *node = NULL;
     // while (cin >> val)
     // {
-    //     root = TreeNode::insert(val, root);
+    //     node = TreeNode::insert(val, node);
     // }
-    // root->postorder(root, val);
+    // node->postorder(node, val);
 
     cout << "\nPostorder traversal ";
-    postorderTraversal(root);
+    postorderTraversal(node);
     return 0;
 }
