@@ -2,9 +2,9 @@
 *
 *    Author:           Loic Konan
 *    Email:            loickonan.lk@gmail.com
-*    Label:            Presentation
-*    Title:            
-*    Course:           
+*    Label:            Presentation (Binary Search Tree Postorder Traversal)
+*    Title:            (12347)
+*    Course:           CMPS 4883
 *    Semester:         Fall 2021
 *    Description:
 *
