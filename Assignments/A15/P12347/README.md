@@ -10,12 +10,10 @@
 > - **Pre-order:** **50 30 24 5 28 45 98 52 60** <br>
 > - **Post-order:** **5 28 24 45 30 60 52 98 50** <br>
 >
-> ```
 >   **Algorithm Postorder(tree)**
 >       1. Traverse the left subtree, i.e., call Postorder(left-subtree)
 >       2. Traverse the right subtree, i.e., call Postorder(right-subtree)
 >       3. Visit the root.
->   ```
 >
 > This program takes in a **pre ordered output** of a _binary search tree_ and then display the **post order output**.
 >
