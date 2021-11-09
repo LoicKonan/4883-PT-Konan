@@ -24,7 +24,7 @@
 *           main.cpp          : driver program
 *           animals.txt       : Input file
 *
-*           output will be display on the console in color.
+*           The Time will be display on the console in color.
 *
 ******************************************************************************/
 #include <iostream>
