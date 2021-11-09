@@ -52,7 +52,7 @@ using namespace std;
  * Data structure to store a BST node
  * 
  *  - A node carrying data
- *   - Two subtrees
+ *  - Two subtrees
  * 
  */
 struct Node
@@ -64,7 +64,7 @@ struct Node
     // Default Constructor.
     Node() {}
 
-    // Parametized Constructor
+    // User defined constructor.
     Node(int data) : data(data) {}
 };
 
@@ -96,10 +96,10 @@ void postorder(Node *root)
 
 }
 
-// Recursive function to insert a key into a BST
 
 /**
  * 
+ * Recursive function to insert a key into a BST
  * 
  **/
 Node *insert(Node *root, int key)
@@ -124,51 +124,56 @@ Node *insert(Node *root, int key)
     return root;
 }
 
-// // Iterative function to insert a key into a BST.
-// // Root is passed by reference to the function
-// void insert(Node *&root, int key)
-// {
-//     // start with the root node
-//     Node *curr = root;
 
-//     // pointer to store the parent of the current node
-//     Node *parent = nullptr;
+/**
+ * 
+ * Iterative function to insert a key into a BST.
+ * Root is passed by reference to the function
+ * 
+ **/
+void insert(Node *&root, int key)
+{
+    // start with the root node
+    Node *curr = root;
 
-//     // if the tree is empty, create a new node and set it as root
-//     if (root == nullptr)
-//     {
-//         root = new Node(key);
-//         return;
-//     }
+    // pointer to store the parent of the current node
+    Node *parent = nullptr;
 
-//     // traverse the tree and find the parent node of the given key
-//     while (curr != nullptr)
-//     {
-//         // update the parent to the current node
-//         parent = curr;
+    // if the tree is empty, create a new node and set it as root
+    if (root == nullptr)
+    {
+        root = new Node(key);
+        return;
+    }
 
-//         // if the given key is less than the current node, go to the
-//         // left subtree; otherwise, go to the right subtree.
-//         if (key < curr->data)
-//         {
-//             curr = curr->left;
-//         }
-//         else
-//         {
-//             curr = curr->right;
-//         }
-//     }
+    // traverse the tree and find the parent node of the given key
+    while (curr != nullptr)
+    {
+        // update the parent to the current node
+        parent = curr;
 
-//     // construct a node and assign it to the appropriate parent pointer
-//     if (key < parent->data)
-//     {
-//         parent->left = new Node(key);
-//     }
-//     else
-//     {
-//         parent->right = new Node(key);
-//     }
-// }
+        // if the given key is less than the current node, go to the
+        // left subtree, otherwise, go to the right subtree.
+        if (key < curr->data)
+        {
+            curr = curr->left;
+        }
+        else
+        {
+            curr = curr->right;
+        }
+    }
+
+    // construct a node and assign it to the appropriate parent pointer
+    if (key < parent->data)
+    {
+        parent->left = new Node(key);
+    }
+    else
+    {
+        parent->right = new Node(key);
+    }
+}
 
 // Function to construct a BST from my vector of keys(Numbers)
 Node *constructBST(vector<int> const &keys)
@@ -191,13 +196,32 @@ int main()
     vector<int> keys;
     int node;
 
+    /**      
+     * 
+     *  Read in each number and push to 
+     *  the vector keys
+     * 
+     */
     while (cin >> node)
     {
         keys.push_back(node);
     }
 
+    /**  
+     * 
+     * Pass the vector to our function
+     * ConstructBST to build our binary search Tree.
+     * then assign it to the root.  
+     * 
+     */
     Node *root = constructBST(keys);
 
+    /**  
+     * 
+     * pass root to the function postorder to 
+     * Perform the post order traversal
+     * 
+     */
     postorder(root);
 
     clock.End();                                    // Stop the clock
