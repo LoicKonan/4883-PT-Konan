@@ -14,9 +14,9 @@
 > This program takes in a **pre ordered output** of a _binary search tree_ and then display the **post order output**.
 >
 >
-> **Algorithm Postorder(tree):**
-> **1.** Traverse the left subtree, i.e., call Postorder(left-subtree)
-> **2.** Traverse the right subtree, i.e., call Postorder(right-subtree)
+> **Algorithm Postorder(tree):**<br>
+> **1.** Traverse the left subtree, i.e., call Postorder(left-subtree)<br>
+> **2.** Traverse the right subtree, i.e., call Postorder(right-subtree)<br>
 > **3.** Visit the root.
 >
 >
