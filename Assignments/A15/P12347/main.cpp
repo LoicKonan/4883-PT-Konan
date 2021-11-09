@@ -33,7 +33,6 @@
 *
 *    Usage:
 *           main.cpp          : driver program
-*           animals.txt       : Input file
 *
 *           The Time will be display on the console in color.
 *
