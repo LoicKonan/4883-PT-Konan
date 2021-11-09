@@ -95,7 +95,6 @@ void postorder(Node *root)
 
 }
 
-
 /**
  * 
  * Recursive function to insert a key into a BST
@@ -122,7 +121,6 @@ Node *insert(Node *root, int key)
 
     return root;
 }
-
 
 /**
  * 
