@@ -1,5 +1,10 @@
 #include <iostream>
 #include <vector>
+#include "termcolor.hpp"
+#include <time.h>
+#include <chrono>
+#include "Timer.hpp"
+
 using namespace std;
 
 // Data structure to store a BST node
@@ -48,7 +53,6 @@ void postorder(Node *root)
 
 //     return root;
 // }
-
 
 // Iterative function to insert a key into a BST.
 // Root is passed by reference to the function
@@ -104,13 +108,15 @@ Node *constructBST(vector<int> const &keys)
     {
         // root = insert(root, key);
         insert(root, key);
-
     }
     return root;
 }
 
 int main()
 {
+    Timer clock;                  // Timer 
+    clock.Start();
+
     vector<int> keys;
     int node;
 
@@ -123,5 +129,8 @@ int main()
 
     postorder(root);
 
+    clock.End();
+    cout << termcolor::green << clock.Seconds() << termcolor::reset << " seconds\n";
+    
     return 0;
 }
