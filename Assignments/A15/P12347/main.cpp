@@ -128,50 +128,50 @@ Node *insert(Node *root, int key)
  * Iterative function to insert a key into a BST.
  * Root is passed by reference to the function
  * 
- **/
-void insert(Node *&root, int key)
-{
-    // start with the root node
-    Node *curr = root;
+//  **/
+// void insert(Node *&root, int key)
+// {
+//     // start with the root node
+//     Node *curr = root;
 
-    // pointer to store the parent of the current node
-    Node *parent = nullptr;
+//     // pointer to store the parent of the current node
+//     Node *parent = nullptr;
 
-    // if the tree is empty, create a new node and set it as root
-    if (root == nullptr)
-    {
-        root = new Node(key);
-        return;
-    }
+//     // if the tree is empty, create a new node and set it as root
+//     if (root == nullptr)
+//     {
+//         root = new Node(key);
+//         return;
+//     }
 
-    // traverse the tree and find the parent node of the given key
-    while (curr != nullptr)
-    {
-        // update the parent to the current node
-        parent = curr;
+//     // traverse the tree and find the parent node of the given key
+//     while (curr != nullptr)
+//     {
+//         // update the parent to the current node
+//         parent = curr;
 
-        // if the given key is less than the current node, go to the
-        // left subtree, otherwise, go to the right subtree.
-        if (key < curr->data)
-        {
-            curr = curr->left;
-        }
-        else
-        {
-            curr = curr->right;
-        }
-    }
+//         // if the given key is less than the current node, go to the
+//         // left subtree, otherwise, go to the right subtree.
+//         if (key < curr->data)
+//         {
+//             curr = curr->left;
+//         }
+//         else
+//         {
+//             curr = curr->right;
+//         }
+//     }
 
-    // construct a node and assign it to the appropriate parent pointer
-    if (key < parent->data)
-    {
-        parent->left = new Node(key);
-    }
-    else
-    {
-        parent->right = new Node(key);
-    }
-}
+//     // construct a node and assign it to the appropriate parent pointer
+//     if (key < parent->data)
+//     {
+//         parent->left = new Node(key);
+//     }
+//     else
+//     {
+//         parent->right = new Node(key);
+//     }
+//}
 
 // Function to construct a BST from my vector of keys(Numbers)
 Node *constructBST(vector<int> const &keys)
