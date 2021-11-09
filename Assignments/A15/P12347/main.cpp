@@ -43,6 +43,7 @@
 #include <time.h>
 #include <chrono>
 #include "Timer.hpp"
+#define pb push_back
 
 using namespace std;
 
@@ -201,7 +202,7 @@ int main()
      */
     while (cin >> node)
     {
-        keys.push_back(node);
+        keys.pb(node);
     }
 
     /**  
