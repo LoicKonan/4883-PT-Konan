@@ -25,7 +25,7 @@
 > - **Recursive Version**
 > - **Iterative Version**
 >
-> - **After multiple iterations, and analyzing the results, it shows that the iterative way is faster than the recursive way.**
+> - **After multiple iterations, and analyzing the results, the iterative way is faster than the recursive way by a factor of at least 1 second.**
 >
 >
 ### Files
