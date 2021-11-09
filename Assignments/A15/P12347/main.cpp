@@ -31,74 +31,74 @@ void postorder(Node *root)
     postorder(root->right);
 }
 
-// // Recursive function to insert a key into a BST
-// Node *insert(Node *root, int key)
-// {
-//     // if the root is null, create a new node and return it
-//     if (root == nullptr)
-//     {
-//         return new Node(key);
-//     }
-
-//     // if the given key is less than the root node, recur for the left subtree
-//     if (key < root->data)
-//     {
-//         root->left = insert(root->left, key);
-//     }
-//     // if the given key is more than the root node, recur for the right subtree
-//     else
-//     {
-//         root->right = insert(root->right, key);
-//     }
-
-//     return root;
-// }
-
-// Iterative function to insert a key into a BST.
-// Root is passed by reference to the function
-void insert(Node *&root, int key)
+// Recursive function to insert a key into a BST
+Node *insert(Node *root, int key)
 {
-    // start with the root node
-    Node *curr = root;
-
-    // pointer to store the parent of the current node
-    Node *parent = nullptr;
-
-    // if the tree is empty, create a new node and set it as root
+    // if the root is null, create a new node and return it
     if (root == nullptr)
     {
-        root = new Node(key);
-        return;
+        return new Node(key);
     }
 
-    // traverse the tree and find the parent node of the given key
-    while (curr != nullptr)
+    // if the given key is less than the root node, recur for the left subtree
+    if (key < root->data)
     {
-        // update the parent to the current node
-        parent = curr;
-
-        // if the given key is less than the current node, go to the
-        // left subtree; otherwise, go to the right subtree.
-        if (key < curr->data)
-        {
-            curr = curr->left;
-        }
-        else
-        {
-            curr = curr->right;
-        }
+        root->left = insert(root->left, key);
     }
-
-    // construct a node and assign it to the appropriate parent pointer
-    if (key < parent->data)
-    {
-        parent->left = new Node(key);
-    }
+    // if the given key is more than the root node, recur for the right subtree
     else
     {
-        parent->right = new Node(key);
+        root->right = insert(root->right, key);
     }
+
+    return root;
 }
+
+// // Iterative function to insert a key into a BST.
+// // Root is passed by reference to the function
+// void insert(Node *&root, int key)
+// {
+//     // start with the root node
+//     Node *curr = root;
+
+//     // pointer to store the parent of the current node
+//     Node *parent = nullptr;
+
+//     // if the tree is empty, create a new node and set it as root
+//     if (root == nullptr)
+//     {
+//         root = new Node(key);
+//         return;
+//     }
+
+//     // traverse the tree and find the parent node of the given key
+//     while (curr != nullptr)
+//     {
+//         // update the parent to the current node
+//         parent = curr;
+
+//         // if the given key is less than the current node, go to the
+//         // left subtree; otherwise, go to the right subtree.
+//         if (key < curr->data)
+//         {
+//             curr = curr->left;
+//         }
+//         else
+//         {
+//             curr = curr->right;
+//         }
+//     }
+
+//     // construct a node and assign it to the appropriate parent pointer
+//     if (key < parent->data)
+//     {
+//         parent->left = new Node(key);
+//     }
+//     else
+//     {
+//         parent->right = new Node(key);
+//     }
+// }
 
 // Function to construct a BST from my vector of keys(Numbers)
 Node *constructBST(vector<int> const &keys)
@@ -106,8 +106,8 @@ Node *constructBST(vector<int> const &keys)
     Node *root = nullptr;
     for (int key : keys)
     {
-        // root = insert(root, key);
-        insert(root, key);
+        root = insert(root, key);                  // Use this for the recursive version
+        // insert(root, key);                      // Use this for the iterative version
     }
     return root;
 }
@@ -130,7 +130,7 @@ int main()
     postorder(root);
 
     clock.End();
-    cout << termcolor::green << clock.Seconds() << termcolor::reset << " seconds\n";
-    
+    cout << termcolor::green << clock.MilliSeconds() << termcolor::reset << " MilliSeconds\n";
+
     return 0;
 }
