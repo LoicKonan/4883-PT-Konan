@@ -1,13 +1,22 @@
-## Assignment 16 -  Back to High School Physics
+## Assignment 21 - Comparing Sorts
 
 ### Loic Konan
 
 #### Description
 
-> 
-
 ### Files
 
-|   #   | File     | Description | Status                  |
-| :---: | -------- | ----------- | ----------------------- |
-|   1   | [P10071](./P10071) | Folder      | :ballot_box_with_check: |
+|   #   | File                     | Description           |
+| :---: | ------------------------ | --------------------- |
+|   3   | [main.cpp](main.cpp)     | Solution              |
+|   4   | [infile](infile)         | 1st sample file       |
+|   5   | [infile2](infile2)       | 2nd sample file       |
+
+### Instructions
+
+- Complied using **VScode** and **C++ 17**
+- main.exe < infile
+
+### Sources
+
+- <https://www.programiz.com/dsa/tree-traversal>
