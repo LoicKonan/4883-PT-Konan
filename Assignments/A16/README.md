@@ -12,7 +12,7 @@
 |   2   | [countSort.out](countSort.out) |             |
 |   3   | [driver.cpp](driver.cpp)       |             |
 |   4   | [genNums.py](genNums.py)       |             |
-|   5   | [heapSort.cpp](heapSort.cpp)   |             |
+|   5   | [heapSort.hpp](heapSort.hpp)   |             |
 |   6   | [heapSort.out](heapSort.out)   |             |
 |   6   | [quickSort.hpp](quickSort.hpp) |             |
 |   6   | [quickSort.out](quickSort.out) |             |
