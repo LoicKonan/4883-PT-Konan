@@ -8,7 +8,7 @@
 
 |   #   | File                           | Description |
 | :---: | ------------------------------ | ----------- |
-|   1   | [countSort.cpp](countSort.cpp) | Solution    |
+|   1   | [countSort.hpp](countSort.hpp) | Solution    |
 |   2   | [countSort.out](countSort.out) |             |
 |   3   | [driver.cpp](driver.cpp)       |             |
 |   4   | [genNums.py](genNums.py)       |             |
