@@ -14,7 +14,7 @@
 |   4   | [genNums.py](genNums.py)       |             |
 |   5   | [heapSort.cpp](heapSort.cpp)   |             |
 |   6   | [heapSort.out](heapSort.out)   |             |
-|   6   | [quickSort.cpp](quickSort.cpp) |             |
+|   6   | [quickSort.hpp](quickSort.hpp) |             |
 |   6   | [quickSort.out](quickSort.out) |             |
 |   6   | [radixSort.hpp](radixSort.hpp) |             |
 |   6   | [radixSort.out](radixSort.out) |             |
