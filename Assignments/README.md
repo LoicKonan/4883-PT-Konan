@@ -22,7 +22,7 @@
 | [18](./A18) | [A18](./A18) | [**Egypt**](A18)                | :heavy_check_mark: |
 | [19](./A19) | [A19](./A19) | [**Language Detection**](A19)   | :heavy_check_mark: |
 | [20](./A20) | [A20](./A20) | [**Cost Cutting**](A20)         | :heavy_check_mark: |
-| [21](./A21) | [A21](./A21) | [**loading...**](A21)           | 🔴 🔜 |
+| [21](./A21) | [A21](./A21) | [**Sorting Fun - Comparing Sorts**](A21)           | 🔴 🔜 |
 | [22](./A22) | [A22](./A22) | [**Peter's Smokes**](A22)       | :heavy_check_mark: |
 | [23](./A23) | [A23](./A23) | [**loading...**](A23)           | 🔴 🔜 |
 | [24](./A24) | [A24](./A24) | [**loading...**](A24)           | 🔴 🔜 |
