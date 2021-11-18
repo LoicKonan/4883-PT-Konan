@@ -24,7 +24,7 @@
 | [20](./A20) | [A20](./A20) | [**Cost Cutting**](A20)         | :heavy_check_mark: |
 | [21](./A21) | [A21](./A21) | [**Back to High School Physics**](A21) | :heavy_check_mark: |
 | [22](./A22) | [A22](./A22) | [**Peter's Smokes**](A22)       | :heavy_check_mark: |
-| [23](./A23) | [A23](./A23) | [**loading...**](A23)           | 🔴 🔜 |
+| [23](./A23) | [A23](./A23) | [**Tree Summing**](A23)         | 🔴 🔜 |
 | [24](./A24) | [A24](./A24) | [**loading...**](A24)           | 🔴 🔜 |
 | [25](./A25) | [A25](./A25) | [**loading...**](A25)           | 🔴 🔜 |
 | [26](./A26) | [A26](./A26) | [**loading...**](A26)           | 🔴 🔜 |
