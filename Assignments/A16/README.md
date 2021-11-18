@@ -16,7 +16,7 @@
 |   6   | [heapSort.out](heapSort.out)   |             |
 |   6   | [quickSort.cpp](quickSort.cpp) |             |
 |   6   | [quickSort.out](quickSort.out) |             |
-|   6   | [radixSort.cpp](radixSort.cpp) |             |
+|   6   | [radixSort.hpp](radixSort.hpp) |             |
 |   6   | [radixSort.out](radixSort.out) |             |
 |   6   | [rnums.dat](rnums.dat)         |             |
 
