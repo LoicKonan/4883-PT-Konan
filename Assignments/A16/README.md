@@ -6,19 +6,19 @@
 
 ### Files
 
-|   #   | File                           | Description |
-| :---: | ------------------------------ | ----------- |
-|   1   | [countSort.hpp](countSort.hpp) | Solution    |
-|   2   | [countSort.out](countSort.out) |             |
-|   3   | [driver.cpp](driver.cpp)       |             |
-|   4   | [genNums.py](genNums.py)       |             |
-|   5   | [heapSort.hpp](heapSort.hpp)   |             |
-|   6   | [heapSort.out](heapSort.out)   |             |
-|   6   | [quickSort.hpp](quickSort.hpp) |             |
-|   6   | [quickSort.out](quickSort.out) |             |
-|   6   | [radixSort.hpp](radixSort.hpp) |             |
-|   6   | [radixSort.out](radixSort.out) |             |
-|   6   | [rnums.dat](rnums.dat)         |             |
+|   #   | File                           | Description           |
+| :---: | ------------------------------ | --------------------- |
+|   1   | [countSort.hpp](countSort.hpp) | Solution              |
+|   2   | [countSort.out](countSort.out) | Count Sort program    |
+|   3   | [driver.cpp](driver.cpp)       | Main function program |  
+|   4   | [genNums.py](genNums.py)       | Number Generator      |
+|   5   | [heapSort.hpp](heapSort.hpp)   | Heap Sort program     |
+|   6   | [heapSort.out](heapSort.out)   | Heap Sort program     |
+|   6   | [quickSort.hpp](quickSort.hpp) | Quick Sort program    |
+|   6   | [quickSort.out](quickSort.out) | Quick Sort Output     |
+|   6   | [radixSort.hpp](radixSort.hpp) | Radix Sort program    |
+|   6   | [radixSort.out](radixSort.out) | Radix Sort Output     |
+|   6   | [rnums.dat](rnums.dat)         | Number data           |
 
 ### Instructions
 
