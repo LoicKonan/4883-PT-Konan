@@ -10,15 +10,15 @@
 | :---: | ------------------------------ | --------------------- |
 |   1   | [countSort.hpp](countSort.hpp) | Solution              |
 |   2   | [countSort.out](countSort.out) | Count Sort program    |
-|   3   | [driver.cpp](driver.cpp)       | Main function program |  
+|   3   | [driver.cpp](driver.cpp)       | Main function program |
 |   4   | [genNums.py](genNums.py)       | Number Generator      |
 |   5   | [heapSort.hpp](heapSort.hpp)   | Heap Sort program     |
 |   6   | [heapSort.out](heapSort.out)   | Heap Sort program     |
-|   6   | [quickSort.hpp](quickSort.hpp) | Quick Sort program    |
-|   6   | [quickSort.out](quickSort.out) | Quick Sort Output     |
-|   6   | [radixSort.hpp](radixSort.hpp) | Radix Sort program    |
-|   6   | [radixSort.out](radixSort.out) | Radix Sort Output     |
-|   6   | [rnums.dat](rnums.dat)         | Number data           |
+|   7   | [quickSort.hpp](quickSort.hpp) | Quick Sort program    |
+|   8   | [quickSort.out](quickSort.out) | Quick Sort Output     |
+|   9   | [radixSort.hpp](radixSort.hpp) | Radix Sort program    |
+|  10   | [radixSort.out](radixSort.out) | Radix Sort Output     |
+|  11   | [rnums.dat](rnums.dat)         | Number data           |
 
 ### Instructions
 
