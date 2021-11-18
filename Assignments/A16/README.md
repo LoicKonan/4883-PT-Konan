@@ -6,11 +6,18 @@
 
 ### Files
 
-|   #   | File                     | Description           |
-| :---: | ------------------------ | --------------------- |
-|   3   | [main.cpp](main.cpp)     | Solution              |
-|   4   | [infile](infile)         | 1st sample file       |
-|   5   | [infile2](infile2)       | 2nd sample file       |
+|   #   | File                           | Description |
+| :---: | ------------------------------ | ----------- |
+|   1   | [countSort.cpp](countSort.cpp) | Solution    |
+|   2   | [countSort.out](countSort.out) |             |
+|   3   | [driver.cpp](driver.cpp)       |             |
+|   4   | [genNums.py](genNums.py)       |             |
+|   5   | [heapSort.cpp](heapSort.cpp)   |             |
+|   6   | [heapSort.out](heapSort.out)   |             |
+
+|   6   | [heapSort.out](heapSort.out)   |             |
+|   6   | [heapSort.out](heapSort.out)   |             |
+|   6   | [heapSort.out](heapSort.out)   |             |
 
 ### Instructions
 
@@ -19,4 +26,8 @@
 
 ### Sources
 
-- <https://www.programiz.com/dsa/tree-traversal>
+- <https://www.programiz.com/dsa/quick-sort>
+- <https://www.programiz.com/dsa/counting-sort>
+- <https://www.programiz.com/dsa/radix-sort>
+- <https://www.programiz.com/dsa/bucket-sort>
+- <https://www.programiz.com/dsa/heap-sort>
