@@ -36,24 +36,34 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-   
-    string input;  
+    bool done = false;
+    string input;
     int counter = 1;
 
-    while (input != "*")
+    while (!done)
     {
         cin >> input;
 
-        if (input == "Hajj")
+        if (input == "*")
         {
-            cout << "Case " << counter << ": Hajj-e-Akbar" << endl;
-        }
-        else
-        {
-            cout << "Case "  << counter << ": Hajj-e-Asghar" << endl;
+            done = true;
+            break;
         }
 
-        counter++;
+        else
+        {
+            if (input == "Hajj")
+            {
+                cout << "Case " << counter << ": Hajj-e-Akbar" << endl;
+            }
+            else
+            {
+                cout << "Case " << counter << ": Hajj-e-Asghar" << endl;
+            }
+
+            counter++;
+        }
     }
+    cout << endl;
     return 0;
 }
