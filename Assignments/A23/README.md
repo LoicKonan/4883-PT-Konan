@@ -1,4 +1,4 @@
-## Assignment 15 - 
+## Assignment 23 - Tree Summing
 
 ### Loic Konan
 
@@ -10,4 +10,4 @@
 
 |   #   | File     | Description | Status                  |
 | :---: | -------- | ----------- | ----------------------- |
-|   1   | [P](./P) | Folder      | :ballot_box_with_check: |
+|   1   | [P112](./P112) | Folder      | :ballot_box_with_check: |
