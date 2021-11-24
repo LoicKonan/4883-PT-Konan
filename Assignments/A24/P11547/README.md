@@ -13,8 +13,8 @@
 > - **then divide by 47,**
 > - **then subtract 498.**
 >
-> - Then Divide the result by 10.
-> - Finally take the modulo 10 of that result to find **the digit in the tens column**
+> - Then **Divide the result by 10**.
+> - Finally take **the modulo 10 of that result** to find **the digit in the tens column**
 >
 
 ### Files
