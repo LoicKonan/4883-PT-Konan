@@ -34,14 +34,26 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-int main(int argc, char **argv)
+int main()
 {
    
+    string input;  
+    int counter = 1;
 
-    while (true)
+    while (input != "*")
     {
+        cin >> input;
 
-        
+        if (input == "Hajj")
+        {
+            cout << "Case " << counter << ": Hajj-e-Akbar" << endl;
+        }
+        else
+        {
+            cout << "Case "  << counter << ": Hajj-e-Asghar" << endl;
+        }
+
+        counter++;
     }
     return 0;
 }
