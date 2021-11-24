@@ -38,10 +38,23 @@ int main(int argc, char **argv)
 {
    
 
-    while (true)
-    {
+    int input;
+    long long number;   
 
+    cin >> input;
+
+    REP(i, input)    
+    {
+        cin >> number;
+        number = abs((((((number*567)/9)+7492)*235)/47)-498);
         
+        number /= 10;  
+        int answer = number % 10;
+
+        cout << answer << endl; 
     }
+
     return 0;
 }
+
+
