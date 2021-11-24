@@ -34,27 +34,37 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-int main(int argc, char **argv)
+
+int main()
 {
-   
 
-    int input;
-    long long number;   
+    int t;                          // number of test cases.
 
-    cin >> input;
-
-    REP(i, input)    
+    while ( cin >> t)               // Read in the Test Case.
     {
-        cin >> number;
-        number = abs((((((number*567)/9)+7492)*235)/47)-498);
-        
-        number /= 10;  
-        int answer = number % 10;
+        long long n;                // number of of integers.
 
-        cout << answer << endl; 
+        /**
+         * 
+         * Multiply n by 567
+         * then divide the result by 9, 
+         * then add 7492, 
+         * then multiply by 235, 
+         * then divide by 47, 
+         * then subtract 498
+         * 
+         */
+        long long answer = abs(n * 567 / 9 + 7492) * 235 / 47 - 498;
+
+        int result = answer / 10;   // Divide result by 10.
+
+        int tens = result % 10;     // Extrapolate the digit in the tens column.
+
+
+        cout << tens << endl;       // Display the result.
     }
 
-    return 0;
+    return 0; 
 }
 
 
