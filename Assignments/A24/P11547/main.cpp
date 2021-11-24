@@ -37,12 +37,14 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 int main()
 {
-
     int t;                          // number of test cases.
 
-    while ( cin >> t)               // Read in the Test Case.
+    cin >> t;                       // Read in the Test Case.
+
+    REP(i,t)                        
     {
         long long n;                // number of of integers.
+        cin >> n;                   // read in the numbers.                  
 
         /**
          * 
@@ -54,12 +56,12 @@ int main()
          * then subtract 498
          * 
          */
-        long long answer = abs(n * 567 / 9 + 7492) * 235 / 47 - 498;
+
+        long long answer = abs((((((n * 567) / 9) + 7492) * 235) / 47) - 498);
 
         int result = answer / 10;   // Divide result by 10.
 
         int tens = result % 10;     // Extrapolate the digit in the tens column.
-
 
         cout << tens << endl;       // Display the result.
     }
