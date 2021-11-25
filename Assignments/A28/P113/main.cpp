@@ -40,6 +40,7 @@ int main()
 
     while (cin >> n >> p)            // Read in the inputs numbers.
     {
+        // Formula to use: k = e ^((ln p)/n)
         cout << exp(log(p)/n) << endl;
     }
     return 0;

@@ -15,22 +15,20 @@
 >
 > **Note: (this integer is what your program must find)**.
 >
-> k^n=p
+> Equation:
 >
-> ln {k^{n}}=ln {p}
+> **k^n = p**
 >
-> ln {k^{n}}=\ln {p}
+> **ln k^ n = ln p**
 >
-> which is simply ln {k} = ln {p}
+> **n ln k^n = ln p**
 >
-> ln {k}=ln {p}
+> **which is simply: ln k = ln p**
 >
-> or
-> ln {k}={\frac {\ln {p}}{n}}}{\displaystyle \ln {k}={\frac {\ln {p}}{n}}}
+> **or:**
 >
-> thus k is:
-> k = e^{({\frac {\ln {p}}{n}})}}
-> k=e^{({\frac {\ln {p}}{n}})}}
+> - **ln k = (ln p) / (n)**  
+> - thus **k** is: **k = e ^((ln p)/n)**
 >
 ### Files
 
