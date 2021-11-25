@@ -42,7 +42,7 @@ int main()
     while(scanf("%lf\n%lf",&n,&p)!=EOF)
     {
                                     // Formula to use: k = e ^((ln p)/n) or pow(pber, 1.0 / n)
-		printf("%.0lf\n",pow(p,1.0/n));
+		printf("%.0lf\n",pow(p, 1.0 / n));
 	}
     return 0;
 }
