@@ -35,13 +35,13 @@ typedef vector<vi> vvi;             // vector of vector of ints
 
 int main()
 {
-    int n;                           // number of     
-    long double p;                     // number of
+    int n;                           // The base n.    
+    long double p;                   // the number p.
 
     while (cin >> n >> p)            // Read in the inputs numbers.
     {
-        // Formula to use: k = e ^((ln p)/n)
-        cout << exp(log(p)/n) << endl;
+                                    // Formula to use: k = e ^((ln p)/n) or pow(number, 1.0 / base)
+        cout << pow( p, 1.0 / n) << endl;
     }
     return 0;
 }
