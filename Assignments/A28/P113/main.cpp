@@ -35,13 +35,14 @@ typedef vector<vi> vvi;             // vector of vector of ints
 
 int main()
 {
-    int n;                           // The base n.    
-    long double p;                   // the number p.
-
-    while (cin >> n >> p)            // Read in the inputs numbers.
+    int n;                           // The n n.    
+    long double p;                   // the pber p.
+       
+                                     // Read in the inputs pbers.
+    while(scanf("%lf\n%lf",&n,&p)!=EOF)
     {
-                                    // Formula to use: k = e ^((ln p)/n) or pow(number, 1.0 / base)
-        cout << pow( p, 1.0 / n) << endl;
-    }
+                                    // Formula to use: k = e ^((ln p)/n) or pow(pber, 1.0 / n)
+		printf("%.0lf\n",pow(p,1.0/n));
+	}
     return 0;
 }
