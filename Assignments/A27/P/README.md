@@ -1,4 +1,4 @@
-## Assignment 27 - Etruscan Warriors Never Play Chess
+## Assignment 27 - 
 
 ### Loic Konan
 
