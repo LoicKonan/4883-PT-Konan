@@ -1,4 +1,4 @@
-## Assignment 27 -  
+## Assignment 27 - Etruscan Warriors Never Play Chess
 
 ### Loic Konan
 
@@ -10,6 +10,6 @@
 
 ### Files
 
-|   #   | File     | Description | Status                  |
-| :---: | -------- | ----------- | ----------------------- |
-|   1   | [P12468](./P12468) | Folder      | :ballot_box_with_check: |
+|   #   | File               | Description | Status                  |
+| :---: | ------------------ | ----------- | ----------------------- |
+|   1   | [P11614](./P11614) | Folder      | :ballot_box_with_check: |
