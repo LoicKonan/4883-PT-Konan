@@ -10,6 +10,7 @@
 #include <stack>
 #include <string>
 #include <vector>
+#include <iomanip>
 
 #define FileIn(file) freopen(file ".inp", "r", stdin)
 #define FileOut(file) freopen(file ".out", "w", stdout)
@@ -29,18 +30,40 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;                             // vector if ints
-typedef pair<int, int> ii;                          // pair of ints
-typedef vector<ii> vii;                             // vector of pairs
-typedef vector<vi> vvi;                             // vector of vector of ints
+typedef vector<int> vi;             // vector if ints
+typedef pair<int, int> ii;          // pair of ints
+typedef vector<ii> vii;             // vector of pairs
+typedef vector<vi> vvi;             // vector of vector of ints
 
 int main()
 {
-    double a,b;                                       // input;
+    int a;                          // First input number.
+    int b;                          // Second input number.
+    int c;                          // Third input number.
 
-    while (cin >> a >> b)                           // Read in the a,b
+    int n;                          // Number of of inputs.
+
+    while (cin >> n)                // Read in the number of input.
     {
-        cout <<  pow(b, 1.0/a) << endl;             //  print the result.
+        while (cin >> a >> b >> c)  // Read in the 3 triangle sides.
+        {
+            /**
+             * 
+             * If the addition of two side of the triangle
+             * is less than one side then display Wrong.
+             * 
+             */
+            if ((a + b <= c) || (c + b <= a) || (a + b <= c))
+            {
+                    cout << "Wrong!!\n";
+            }
+
+            /** Display OK**/
+            else
+                    cout << "OK\n";
+        }
     }
     return 0;
 }
+
+
