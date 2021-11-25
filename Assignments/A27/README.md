@@ -1,4 +1,4 @@
-## Assignment 27 - 
+## Assignment 27 - The Lazy Lumberjacks
 
 ### Loic Konan
 
@@ -12,4 +12,4 @@
 
 |   #   | File               | Description | Status                  |
 | :---: | ------------------ | ----------- | ----------------------- |
-|   1   | [P11614](./P11614) | Folder      | :ballot_box_with_check: |
+|   1   | [P11936](./P11936) | Folder      | :ballot_box_with_check: |

@@ -1,4 +1,4 @@
-## Assignment 27 - 
+## Assignment 27 - The Lazy Lumberjacks
 
 ### Loic Konan
 
@@ -11,7 +11,7 @@
 |   #   | File                     | Description           |
 | :---: | ------------------------ | --------------------- |
 |   1   | [Banner](Banner)         | Banner for Assignment |
-|   2   | [P11614.pdf](P11614.pdf) | The Problem           |
+|   2   | [P11936.pdf](P11936.pdf) | The Problem           |
 |   3   | [main.cpp](main.cpp)     | Solution              |
 |   4   | [infile](infile)         | 1st sample file       |
 |   5   | [infile2](infile2)       | 2nd sample file       |
