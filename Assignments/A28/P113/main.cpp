@@ -10,7 +10,6 @@
 #include <stack>
 #include <string>
 #include <vector>
-
 #define FileIn(file) freopen(file ".inp", "r", stdin)
 #define FileOut(file) freopen(file ".out", "w", stdout)
 #define FOR(i, a, b) for (int i = a; i <= b; i++)
@@ -36,26 +35,12 @@ typedef vector<vi> vvi;             // vector of vector of ints
 
 int main()
 {
-    string input;                   // variable string for the input.
-    int counter = 1;                // counter to keep the case number.
+    int n;                           // number of     
+    long long p;                     // number of
 
-    while (cin >> input)            // Read in the input
+    while (cin >> n >> p)            // Read in the inputs numbers.
     {
-        if (input == "*")           // If the input is "*" that mean stop.
-        {
-            break;
-        }
-
-        else if (input == "Hajj")   // if the input is "Hajj" Display that below.
-        {
-            cout << "Case " << counter << ": Hajj-e-Akbar" << endl;
-        }
-        else                        // else Display that below.
-        {
-            cout << "Case " << counter << ": Hajj-e-Asghar" << endl;
-        }
-
-        counter++;                  // Increment the counter.
+        cout << log(p)/log(n) << endl;
     }
     return 0;
 }
