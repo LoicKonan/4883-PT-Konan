@@ -35,10 +35,10 @@ typedef vector<vi> vvi;             // vector of vector of ints
 
 int main()
 {
-    int n;                           // The n n.    
-    long double p;                   // the pber p.
+    int n;                           // the base n.    
+    long double p;                   // the number p.
        
-                                     // Read in the inputs pbers.
+                                     // Read in the inputs numbers.
     while(scanf("%lf\n%lf",&n,&p)!=EOF)
     {
                                     // Formula to use: k = e ^((ln p)/n) or pow(pber, 1.0 / n)
