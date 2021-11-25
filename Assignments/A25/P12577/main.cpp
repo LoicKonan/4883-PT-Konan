@@ -29,41 +29,33 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;    // vector if ints
-typedef pair<int, int> ii; // pair of ints
-typedef vector<ii> vii;    // vector of pairs
-typedef vector<vi> vvi;    // vector of vector of ints
+typedef vector<int> vi;             // vector if ints
+typedef pair<int, int> ii;          // pair of ints
+typedef vector<ii> vii;             // vector of pairs
+typedef vector<vi> vvi;             // vector of vector of ints
 
 int main()
 {
-    bool done = false;
-    string input;
-    int counter = 1;
+    string input;                   // variable string for the input.
+    int counter = 1;                // counter to keep the case number.
 
-    while (!done)
+    while (cin >> input)            // Read in the input
     {
-        cin >> input;
-
-        if (input == "*")
+        if (input == "*")           // If the input is "*" that mean stop.
         {
-            done = true;
             break;
         }
 
-        else
+        else if (input == "Hajj")   // if the input is "Hajj" Display that below.
         {
-            if (input == "Hajj")
-            {
-                cout << "Case " << counter << ": Hajj-e-Akbar" << endl;
-            }
-            else
-            {
-                cout << "Case " << counter << ": Hajj-e-Asghar" << endl;
-            }
-
-            counter++;
+            cout << "Case " << counter << ": Hajj-e-Akbar" << endl;
         }
+        else                        // else Display that below.
+        {
+            cout << "Case " << counter << ": Hajj-e-Asghar" << endl;
+        }
+
+        counter++;                  // Increment the counter.
     }
-    cout << endl;
     return 0;
 }

@@ -4,8 +4,17 @@
 
 #### Description
 
-> 
-
+> There will be several lines in the input terminated with a line containing a single ‘*’.
+> This last line should not be processed.
+> Each of the lines will contain either **Hajj or Umrah**.
+> For each line of the input, output either:
+>
+> - **‘Hajj-e-Akbar’**
+> - **‘Hajj-e-Asghar’**
+>
+> in separate lines without quotations.
+>
+>
 ### Files
 
 |   #   | File     | Description | Status                  |
