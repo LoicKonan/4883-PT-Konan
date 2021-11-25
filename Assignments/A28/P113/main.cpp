@@ -36,7 +36,7 @@ typedef vector<vi> vvi;             // vector of vector of ints
 int main()
 {
     int n;                           // number of     
-    long long p;                     // number of
+    double p;                     // number of
 
     while (cin >> n >> p)            // Read in the inputs numbers.
     {
