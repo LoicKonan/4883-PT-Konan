@@ -36,11 +36,11 @@ typedef vector<vi> vvi;             // vector of vector of ints
 int main()
 {
     int n;                           // number of     
-    double p;                     // number of
+    long double p;                     // number of
 
     while (cin >> n >> p)            // Read in the inputs numbers.
     {
-        cout << log(p)/log(n) << endl;
+        cout << exp(log(p)/n) << endl;
     }
     return 0;
 }
