@@ -1,4 +1,4 @@
-## Assignment 21 - Comparing Sorts
+## Assignment 16 - Comparing Sorts
 
 ### Loic Konan
 
