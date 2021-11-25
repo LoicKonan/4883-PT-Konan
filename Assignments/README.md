@@ -27,8 +27,8 @@
 | [23](./A23) | [A23](./A23) | [**Tree Summing**](A23)         | 🔴 🔜 |
 | [24](./A24) | [A24](./A24) | [**Automatic Answer**](A24)     | :heavy_check_mark: |
 | [25](./A25) | [A25](./A25) | [**Hajj-e-Akbar**](A25)         | :heavy_check_mark: |
-| [26](./A26) | [A26](./A26) | [**Zapping**](A26)              |:heavy_check_mark: |
-| [27](./A27) | [A27](./A27) | [**The Lazy Lumberjacks**](A27) |:heavy_check_mark: |
-| [28](./A28) | [A28](./A28) | [**loading...**](A28)           | 🔴 🔜 |
+| [26](./A26) | [A26](./A26) | [**Zapping**](A26)              | :heavy_check_mark: |
+| [27](./A27) | [A27](./A27) | [**The Lazy Lumberjacks**](A27) | :heavy_check_mark: |
+| [28](./A28) | [A28](./A28) | [**Power of Cryptography**](A28)| :heavy_check_mark: |
 | [29](./A29) | [A29](./A29) | [**loading...**](A29)           | 🔴 🔜 |
 | [30](./A30) | [A30](./A30) | [**loading...**](A30)           | 🔴 🔜 |
