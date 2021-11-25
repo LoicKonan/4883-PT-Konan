@@ -36,12 +36,11 @@ typedef vector<vi> vvi;                             // vector of vector of ints
 
 int main()
 {
-    long long a;                                    // input a;
-    long long b;                                    // input b;
+    double a,b;                                       // input;
 
     while (cin >> a >> b)                           // Read in the a,b
     {
-        cout << log(b)/log(a) << endl;              //  print the result.
+        cout <<  pow(b, 1.0/a) << endl;             //  print the result.
     }
     return 0;
 }
