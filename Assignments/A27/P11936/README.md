@@ -4,8 +4,18 @@
 
 #### Description
 >
+> Write the program that the foreman has to use to determine if the numbers (allintegers)
+> passed by the lumberjacks can be the sides of a triangle.
 >
+> - If they can, you have to print ‘OK’
+> - else you have to print ‘Wrong!!’
 >
+> Read in the 3 input for the triangle side
+> 
+> - If the addition of two side of the triangle is less than one side print **Wrong**
+> - Else print **OK**.
+>
+
 ### Files
 
 |   #   | File                     | Description           |
