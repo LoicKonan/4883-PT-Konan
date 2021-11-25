@@ -29,24 +29,34 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;             // vector if ints
-typedef pair<int, int> ii;          // pair of ints
-typedef vector<ii> vii;             // vector of pairs
-typedef vector<vi> vvi;             // vector of vector of ints
+typedef vector<int> vi;                     // vector if ints
+typedef pair<int, int> ii;                  // pair of ints
+typedef vector<ii> vii;                     // vector of pairs
+typedef vector<vi> vvi;                     // vector of vector of ints
 
 int main()
 {
-    int a,b;                        // variable string for the a,b.
-    int counter = 1;                // counter to keep the case number.
+    int a;                                  // input a;
+    int b;                                  // input b;
 
-    while (cin >> a >> b)           // Read in the a,b
+    while (cin >> a >> b)                   // Read in the a,b
     {
-        if (a && b == -1)           // If the a,b is "*" that mean stop.
+        if (a && b == -1)                   // If the input a,b is "-1" then stop.
         {
             break;
         }
 
-        
+        int result = abs(a - b);            // Take the absolute value of the difference between a and b.
+
+                                            // If the result is less than 50 then 
+        if (result > 50)                    //the result is 100 minus the previous result.
+        {
+            cout << 100 - result << endl;
+        }
+        else
+        {
+            cout << result << endl;         // else print the result.
+        }
     }
     return 0;
 }
