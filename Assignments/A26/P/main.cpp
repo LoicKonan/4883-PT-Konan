@@ -39,7 +39,7 @@ int main()
     int a,b;                        // variable string for the a,b.
     int counter = 1;                // counter to keep the case number.
 
-    while (cin >> a,b)              // Read in the a,b
+    while (cin >> a >> b)           // Read in the a,b
     {
         if (a && b == -1)           // If the a,b is "*" that mean stop.
         {
