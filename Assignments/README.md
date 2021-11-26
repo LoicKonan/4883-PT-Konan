@@ -13,7 +13,7 @@
 | [09](./A09) | [A09](./A09) | [**The Never Ending Towers of Hanoi (Recursion)**](A09)| 🔴 🔜 |
 | [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      |:heavy_check_mark:|
 | [11](./A11) | [A11](./A11) | [**Brick Wall Patterns**](A11)  |:heavy_check_mark:|
-| [12](./A12) | [A12](./A12) | [**Hajj-e-Akba**](A12)           |:heavy_check_mark:|
+| [12](./A12) | [A12](./A12) | [****](A12)           |:heavy_check_mark:|
 | [13](./A13) | [A13](./A13) | [**Maximum Sum**](A13)          |:heavy_check_mark:|
 | [14](./A14) | [A14](./A14) | [**Mice and Maze**](A14)        |:heavy_check_mark:|
 | [15](./A15) | [A15](./A15) | [**Presentation**](A15)         |:heavy_check_mark:|
@@ -26,7 +26,7 @@
 | [22](./A22) | [A22](./A22) | [**Peter's Smokes**](A22)       | :heavy_check_mark: |
 | [23](./A23) | [A23](./A23) | [**Tree Summing**](A23)         | 🔴 🔜 |
 | [24](./A24) | [A24](./A24) | [**Automatic Answer**](A24)     | :heavy_check_mark: |
-| [25](./A25) | [A25](./A25) | [**r**](A25)         | 🔴 🔜  |
+| [25](./A25) | [A25](./A25) | [**Hajj-e-Akba**](A25)          | :heavy_check_mark:  |
 | [26](./A26) | [A26](./A26) | [**Zapping**](A26)              | :heavy_check_mark: |
 | [27](./A27) | [A27](./A27) | [**The Lazy Lumberjacks**](A27) | :heavy_check_mark: |
 | [28](./A28) | [A28](./A28) | [**Power of Cryptography**](A28)| :heavy_check_mark: |
