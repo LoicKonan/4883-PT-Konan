@@ -1,28 +1,24 @@
-## Assignment 11 - Brick Wall Patterns
+## Assignment 11 - Hay Points
 
 ### Loic Konan
 
 #### Description
 
-> If we want to build a brick wall out of the usual size<br>
-> of brick which has a length twice as long as its height,<br>
-> and if our wall is to be two units tall, we can make our<br>
-> wall in a number of patterns, depending on how long<br>
-> we want it. From the figure one observe that:<br>
+> Each employee of a bureaucracy has a job description — a few paragraphs that describe the<br>
+> responsibilities of the job. The employee’s job description, combined with other factors,<br>
+> such as seniority, is used to determine his or her salary.<br>
+> The Hay Point system frees the Human Resources department from having to make an intelligent judgement<br>
+> as to the value of the employee; the job description is merely scanned for<br>
+> words and phrases that indicate responsibility.<br>
+> In particular, job descriptions that indicate control over a large budget or management<br>
+> over a large number of people yield high Hay Point scores.<br>
 >
-> - There is just one wall pattern which is 1 unit wide made by putting the brick on its end.
-> - There are 2 patterns for a wall of length 2:<br>
-> two side-ways bricks laid on top of each other and<br>
-> two bricks long-ways up put next to each other.
-> - There are three patterns for walls of length 3.
->
-> How many patterns can you find for a wall of **length 4?** And, for a wall of **length 5?**<br>
->
-> Your task is to write a program that given the length of a wall,<br>
-> **determines how many patterns there may be for a wall of that length.**
+> - You are to implement a simplified Hay Point system.
+> - You will be given a Hay Point dictionary and a number of job descriptions.
+> - For each job description you are to compute the salary associated with the job, according to the system.
 
 ### Files
 
-|   #   | File        | Description | Status                  |
-| :---: | ----------- | ----------- | ----------------------- |
-|   1   | [P900](./P900) | Folder      | :ballot_box_with_check: |
+|   #   | File     | Description | Status                  |
+| :---: | -------- | ----------- | ----------------------- |
+|   1   | [P10295](./P10295) | Folder      | :ballot_box_with_check: |
