@@ -1,24 +1,36 @@
-## Assignment 11 - Hay Points
+## Assignment 11 - Maximum Sum
 
 ### Loic Konan
 
 #### Description
 
-> Each employee of a bureaucracy has a job description — a few paragraphs that describe the<br>
-> responsibilities of the job. The employee’s job description, combined with other factors,<br>
-> such as seniority, is used to determine his or her salary.<br>
-> The Hay Point system frees the Human Resources department from having to make an intelligent judgement<br>
-> as to the value of the employee; the job description is merely scanned for<br>
-> words and phrases that indicate responsibility.<br>
-> In particular, job descriptions that indicate control over a large budget or management<br>
-> over a large number of people yield high Hay Point scores.<br>
+> A problem that is simple to solve in one dimension is often much more difficult to solve in more than
+> one dimension.<br>
+> Consider satisfying a boolean expression in conjunctive normal form in which each
+> conjunct consists of exactly 3 disjuncts.<br>
+> This problem **(3-SAT) is NP-complete**. The problem 2-SAT is solved quite efficiently, however.<br>
+> In contrast, some problems belong to the same complexity class regardless of the dimensionality of the problem.<br>
 >
-> - You are to implement a simplified Hay Point system.
-> - You will be given a Hay Point dictionary and a number of job descriptions.
-> - For each job description you are to compute the salary associated with the job, according to the system.
+> Given a 2-dimensional array of positive and negative integers, ***find the sub-rectangle with the largest sum***.<br>
+> The ***sum of a rectangle is the sum of all the elements in that rectangle***.<br>
+> In this problem the subrectangle with the ***largest sum is referred to as the maximal sub-rectangle***.<br>
+> A ***sub-rectangle is any contiguous sub-array of size 1 X 1 or greater located within the whole array***.<br>
+> As an example, the maximal sub-rectangle of the array:<br>
+>
+>           0 -2 -7 0
+>           9 2 -6 2
+>           -4 1 -4 1
+>           -1 8 0 -2
+> **is in the lower-left-hand corner:**
+>
+>           9 2
+>          -4 1
+>          -1 8
+> **and has the sum of 15**.
 
 ### Files
 
 |   #   | File     | Description | Status                  |
 | :---: | -------- | ----------- | ----------------------- |
-|   1   | [P10295](./P10295) | Folder      | :ballot_box_with_check: |
+|   1   | [P108](./P108) | Folder      | :ballot_box_with_check: |
+
