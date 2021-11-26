@@ -1,16 +1,23 @@
-## Assignment 22 -  Peter's Smokes
+## Assignment 25 - Hajj-e-Akbar
 
 ### Loic Konan
 
 #### Description
 
-> Peter has n cigarettes. He smokes them one by one keeping all the butts. <br> 
-> Out of k > 1 butts he can roll a new cigarette.<br>
+> There will be several lines in the input terminated with a line containing a single ‘*’.
+> This last line should not be processed.
+> Each of the lines will contain either **Hajj or Umrah**.
+> For each line of the input, output either:
 >
-> - How many cigarettes can Peter have?
-
+> - **‘Hajj-e-Akbar’**
+> - **‘Hajj-e-Asghar’**
+>
+> in separate lines without quotations.
+>
+>
 ### Files
 
-|   #   | File               | Description | Status                  |
-| :---: | ------------------ | ----------- | ----------------------- |
-|   1   | [P10346](./P10346) | Folder      | :ballot_box_with_check: |
+|   #   | File     | Description | Status                  |
+| :---: | -------- | ----------- | ----------------------- |
+|   1   | [P12577](./P12577) | Folder      | :ballot_box_with_check: |
+

@@ -1,4 +1,4 @@
-## Assignment 17 - Relational Operators 
+## Assignment 23 - Tree Summing
 
 ### Loic Konan
 
@@ -8,6 +8,6 @@
 
 ### Files
 
-|   #   | File               | Description | Status                  |
-| :---: | ------------------ | ----------- | ----------------------- |
-|   1   | [P11172](./P11172) | Folder      | :ballot_box_with_check: |
+|   #   | File     | Description | Status                  |
+| :---: | -------- | ----------- | ----------------------- |
+|   1   | [P112](./P112) | Folder      | :ballot_box_with_check: |

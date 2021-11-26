@@ -1,23 +1,22 @@
-## Assignment 25 - Hajj-e-Akbar
+## Assignment 28 - Power of Cryptography
 
 ### Loic Konan
 
 #### Description
 
-> There will be several lines in the input terminated with a line containing a single ‘*’.
-> This last line should not be processed.
-> Each of the lines will contain either **Hajj or Umrah**.
-> For each line of the input, output either:
 >
-> - **‘Hajj-e-Akbar’**
-> - **‘Hajj-e-Asghar’**
+> **This problem involves the efficient computation of integer roots of numbers**.<br>
 >
-> in separate lines without quotations.
+> Given an integer **n ≥ 1** and **an integer p ≥ 1**
 >
+> - write a program that determines **√n p**, the **positive n-th root of p**.
+>
+> In this problem, given such integers **n and p, p will always be of the form k n for an integer k**<br>
+>
+> **Note: (this integer is what your program must find)**.
 >
 ### Files
 
 |   #   | File     | Description | Status                  |
 | :---: | -------- | ----------- | ----------------------- |
-|   1   | [P12577](./P12577) | Folder      | :ballot_box_with_check: |
-
+|   1   | [P113](./P113) | Folder      | :ballot_box_with_check: |
