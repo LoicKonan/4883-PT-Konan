@@ -14,7 +14,7 @@
 | [10](./A10) | [A10](./A10) | [**Sunny Mountains**](A10)      |:heavy_check_mark:|
 | [11](./A11) | [A11](./A11) | [**Maximum Sum**](A11)          |:heavy_check_mark:|
 | [12](./A12) | [A12](./A12) | [**Hay Points**](A12)           |:heavy_check_mark:|
-| [13](./A13) | [A13](./A13) | [**Mice and Maze**](A13)          |:heavy_check_mark:|
+| [13](./A13) | [A13](./A13) | [**Mice and Maze**](A13)        |🔴 🔜|
 | [14](./A14) | [A14](./A14) | [**Relational Operators & Egypt & Language Detection**](A14)|:heavy_check_mark:|
 | [15](./A15) | [A15](./A15) | [**Presentation**](A15)         |:heavy_check_mark:|
 | [16](./A16) | [A16](./A16) | [**Sorting Fun - Comparing Sorts**](A16) |🔴 🔜|
