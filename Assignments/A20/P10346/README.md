@@ -1,4 +1,4 @@
-## Assignment 22 - Peter's Smokes
+## Assignment 20 - Peter's Smokes
 
 ### Loic Konan
 

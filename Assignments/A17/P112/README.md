@@ -1,4 +1,4 @@
-## Assignment 112 - Tree Summing
+## Assignment 17 - Tree Summing
 
 ### Loic Konan
 

@@ -1,4 +1,4 @@
-## Assignment 20 - Cost Cutting 
+## Assignment 18 - Cost Cutting 
 
 ### Loic Konan
 

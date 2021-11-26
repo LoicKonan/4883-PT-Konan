@@ -1,4 +1,4 @@
-## Assignment 27 - The Lazy Lumberjacks
+## Assignment 24 - The Lazy Lumberjacks
 
 ### Loic Konan
 
