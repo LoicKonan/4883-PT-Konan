@@ -34,13 +34,28 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-
 int main()
 {
-
-    while (true)
+    string S;                           // The input string.
+    int counter = 1;                    // Initialize the while loop variable to 1;
+    while (cin >> S && S != "#")        // Read in the input string until the "#".
     {
+        if      (S == "HELLO")          cout << "Case " << counter << ": ENGLISH";
 
+        else if (S == "HOLA")           cout << "Case " << counter << ": SPANISH";
+
+        else if (S == "HALLO")          cout << "Case " << counter << ": GERMAN";
+
+        else if (S == "BONJOUR")        cout << "Case " << counter << ": FRENCH";
+    
+        else if (S == "CIAO")           cout << "Case " << counter << ": ITALIAN";
+    
+        else if (S == "ZDRAVSTVUJTE")   cout << "Case " << counter << ": RUSSIAN";
+    
+        else                            cout << "Case " << counter << ": UNKNOWN";
+
+        counter++;                      // Increment the counter
+        cout << "\n";                   // Print a new line.
     }
     return 0;
 }
