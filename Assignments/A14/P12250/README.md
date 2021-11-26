@@ -1,4 +1,4 @@
-## Assignment 19 - Language Detection
+## Assignment 14 - Language Detection
 
 ### Loic Konan
 

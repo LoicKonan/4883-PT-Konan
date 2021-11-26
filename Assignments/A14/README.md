@@ -1,4 +1,4 @@
-## Assignment 17 - Relational Operators & Language Detection & Egypt
+## Assignment 14 - Relational Operators & Language Detection & Egypt
 
 ### Loic Konan
 

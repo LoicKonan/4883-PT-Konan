@@ -1,4 +1,4 @@
-## Assignment 17 - Relational Operators 
+## Assignment 14 - Relational Operators 
 
 ### Loic Konan
 

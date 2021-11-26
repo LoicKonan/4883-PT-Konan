@@ -1,4 +1,4 @@
-## Assignment 13 - Maximum Sum
+## Assignment 11 - Maximum Sum
 
 ### Loic Konan
 
