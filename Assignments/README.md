@@ -19,7 +19,7 @@
 | [15](./A15) | [A15](./A15) | [**Presentation**](A15)         |:heavy_check_mark:|
 | [16](./A16) | [A16](./A16) | [**Sorting Fun - Comparing Sorts**](A16) |🔴 🔜|
 | [17](./A17) | [A17](./A17) | [**Tree Summing**](A17) | :heavy_check_mark: |
-| [18](./A18) | [A18](./A18) | [**Cost Cutting **](A18) | :heavy_check_mark: |
+| [18](./A18) | [A18](./A18) | [**Cost Cutting**](A18) | :heavy_check_mark: |
 | [19](./A19) | [A19](./A19) | [**Back to High School Physics**](A19) | :heavy_check_mark: |
 | [20](./A20) | [A20](./A20) | [**Peter's Smokes**](A20)         | :heavy_check_mark: |
 | [21](./A21) | [A21](./A21) | [**Automatic Answer**](A21) | :heavy_check_mark: |
