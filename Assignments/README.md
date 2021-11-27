@@ -18,17 +18,17 @@
 | [14](./A14) | [A14](./A14) | [**Relational Operators & Egypt & Language Detection**](A14)|:heavy_check_mark:|
 | [15](./A15) | [A15](./A15) | [**Presentation**](A15)         |:heavy_check_mark:|
 | [16](./A16) | [A16](./A16) | [**Sorting Fun - Comparing Sorts**](A16) |🔴 🔜|
-| [17](./A17) | [A17](./A17) | [****](A17) | :heavy_check_mark: |
-| [18](./A18) | [A18](./A18) | [****](A18) | :heavy_check_mark: |
-| [19](./A19) | [A19](./A19) | [****](A19) | :heavy_check_mark: |
-| [20](./A20) | [A20](./A20) | [**Cost Cutting**](A20)         | :heavy_check_mark: |
-| [21](./A21) | [A21](./A21) | [**Back to High School Physics**](A21) | :heavy_check_mark: |
-| [22](./A22) | [A22](./A22) | [**Peter's Smokes**](A22)       | :heavy_check_mark: |
-| [23](./A23) | [A23](./A23) | [**Tree Summing**](A23)         | 🔴 🔜 |
-| [24](./A24) | [A24](./A24) | [**Automatic Answer**](A24)     | :heavy_check_mark: |
-| [25](./A25) | [A25](./A25) | [**Hajj-e-Akba**](A25)          | :heavy_check_mark:  |
-| [26](./A26) | [A26](./A26) | [**Zapping**](A26)              | :heavy_check_mark: |
-| [27](./A27) | [A27](./A27) | [**The Lazy Lumberjacks**](A27) | :heavy_check_mark: |
-| [28](./A28) | [A28](./A28) | [**Power of Cryptography**](A28)| :heavy_check_mark: |
-| [29](./A29) | [A29](./A29) | [**f91**](A29)                  | 🔴 🔜 |
+| [17](./A17) | [A17](./A17) | [**Tree Summing**](A17) | :heavy_check_mark: |
+| [18](./A18) | [A18](./A18) | [**Cost Cutting **](A18) | :heavy_check_mark: |
+| [19](./A19) | [A19](./A19) | [**Back to High School Physics**](A19) | :heavy_check_mark: |
+| [20](./A20) | [A20](./A20) | [**Peter's Smokes**](A20)         | :heavy_check_mark: |
+| [21](./A21) | [A21](./A21) | [**Automatic Answer**](A21) | :heavy_check_mark: |
+| [22](./A22) | [A22](./A22) | [**Hajj-e-Akba**](A22)       | :heavy_check_mark: |
+| [23](./A23) | [A23](./A23) | [**Zapping**](A23)         | 🔴 🔜 |
+| [24](./A24) | [A24](./A24) | [**The Lazy Lumberjacks**](A24)     | :heavy_check_mark: |
+| [25](./A25) | [A25](./A25) | [**Power of Cryptography**](A25)          | :heavy_check_mark:  |
+| [26](./A26) | [A26](./A26) | [**f91**](A26)              | :heavy_check_mark: |
+| [27](./A27) | [A27](./A27) | [**loading...**](A27) | :heavy_check_mark: |
+| [28](./A28) | [A28](./A28) | [**loading...**](A28)| :heavy_check_mark: |
+| [29](./A29) | [A29](./A29) | [**loading...**](A29)                  | 🔴 🔜 |
 | [30](./A30) | [A30](./A30) | [**loading...**](A30)           | 🔴 🔜 |
