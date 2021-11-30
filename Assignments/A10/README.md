@@ -2,6 +2,8 @@
 
 ### Loic Konan
 
+## Sunny Mountains
+
 #### Description
 
 > **Note that, in this picture, the sunny mountainsides are emphasized by bold lines and the coordinates**<br>
