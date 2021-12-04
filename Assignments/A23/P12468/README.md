@@ -4,7 +4,7 @@
 
 #### Description
 >
-> Read in the **input a and b** until the last line that contains two -1.
+> Read in the **input a and b** until the last line that **contains two -1**.
 >
 > - **Take the absolute value of the difference between a and b.**
 > - **If the result is less than 50:**
