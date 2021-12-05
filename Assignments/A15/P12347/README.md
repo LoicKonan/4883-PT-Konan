@@ -22,7 +22,7 @@
 >
 > Implemented **2 version of the insert function** in order to see which one is **faster**:
 >
-> - **Recursive Version**
+> - **Recursive Version.**
 > - **Iterative Version**
 >
 > **After multiple iterations, and analyzing the results**
