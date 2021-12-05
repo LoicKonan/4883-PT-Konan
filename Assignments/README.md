@@ -17,7 +17,7 @@
 | [13](./A13) | [A13](./A13) | [**Mice and Maze**](A13)                 |🔴 🔜|
 | [14](./A14) | [A14](./A14) | [**Relational Operators & Egypt & Language Detection**](A14)|:heavy_check_mark:|
 | [15](./A15) | [A15](./A15) | [**Presentation**](A15)                  |:heavy_check_mark:|
-| [16](./A16) | [A16](./A16) | [**Sorting Fun - Comparing Sorts**](A16) |🔴 🔜|
+| [16](./A16) | [A16](./A16) | [**Sorting Fun - Comparing Sorts**](A16) |:heavy_check_mark:|
 | [17](./A17) | [A17](./A17) | [**Tree Summing**](A17)                  | :heavy_check_mark: |
 | [18](./A18) | [A18](./A18) | [**Cost Cutting**](A18)                  | :heavy_check_mark: |
 | [19](./A19) | [A19](./A19) | [**Back to High School Physics**](A19)   | :heavy_check_mark: |
