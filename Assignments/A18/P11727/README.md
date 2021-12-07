@@ -3,7 +3,13 @@
 ### Loic Konan
 
 #### Description
-
+>
+> - Create a **vector**.
+> - Using a while **loop read in the 3 integers**.
+> - **Push** each integer onto the vector.
+> - use the build in function to **sort the vector**.
+> - Then display the **result with their corresponding case numbers**.
+>
 ### Files
 
 |   #   | File                     | Description           |
