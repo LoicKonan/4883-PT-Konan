@@ -14,23 +14,30 @@
 >     - **reverse sorted (sort into ascending order a set that is descending)**
 >     _ **passed already sorted**
 >
+> **Note:** Some of this algorithm are so slow they will be measure in **seconds** instead of **milliseconds**.
+> 
 > <br><br>
 > 
-> - When we Compare the **Algorithm** with **Numbers** that are _**Semi-Sorted**_:
+> - When we Compare the **Algorithms** with **Numbers** that are _**Semi-Sorted**_:
 >
 > <img src = "semi.png">
 > <img src = "semisorted.png">
 >
 > <br></br>
 >
-> - When we Compare the **Algorithm** with **Random Numbers**:
+> - When we Compare the **Algorithms** with **Random Numbers**:
 >
 > <img src = "random.png">
 > <img src = "randnums.png">
 >
 > <br></br>
-> 
-
+>
+> - When we Compare the **Algorithms** with **Already Sorted Numbers**:
+>
+> <img src = "sorted.png">
+> <img src = "sortingsorted.png">
+>
+> <br></br>
 
 
 ### Files
