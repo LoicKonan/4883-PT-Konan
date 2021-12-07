@@ -6,7 +6,7 @@
 
 >
 > - For each test case, print the numerical value of the word.
->
+> - No Algorithm required just basic if and else statement and print.
 >
 
 ### Files
