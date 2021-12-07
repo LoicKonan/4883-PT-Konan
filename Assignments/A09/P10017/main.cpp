@@ -54,6 +54,11 @@ int RODS = 3;
 int moves,
     m;
 
+/**
+ *  
+ * Using this function to display the results.
+ * 
+ */
 void print()
 {
     cout << endl;
