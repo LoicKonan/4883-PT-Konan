@@ -13,13 +13,12 @@
 >     - **partially unsorted (start with a sorted set and swap a percentage of the values)**
 >     - **reverse sorted (sort into ascending order a set that is descending)**
 >     _ **passed already sorted**
-> <br></br>
+> <br><br>
 > - When we Compare the **Algorithm** with **Numbers** that are _**Semi-Sorted**_:
 >
 > <img src = "semi.png">
 > <img src = "semisorted.png">
 > <br></br>
-
 
 ### Files
 
