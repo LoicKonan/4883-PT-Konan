@@ -4,7 +4,7 @@
 
 #### Description
 
-> No Algorithm required.
+> **No Algorithm required.**
 >
 > - Just If and else statement required for comparison and some print line.
 >
