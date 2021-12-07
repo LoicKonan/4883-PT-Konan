@@ -14,7 +14,7 @@
 >     - **reverse sorted (sort into ascending order a set that is descending)**
 >     _ **passed already sorted**
 >
-> **Note:** Some of this algorithm are so slow they will be measure in **seconds** instead of **milliseconds**.
+> **Note:** Some of these **algorithm** are so **slow** they will be measure in **seconds** instead of **milliseconds**.
 > 
 > <br><br>
 > 
