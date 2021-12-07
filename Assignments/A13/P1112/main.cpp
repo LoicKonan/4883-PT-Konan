@@ -37,7 +37,6 @@ typedef vector<vi> vvi;    // vector of vector of ints
 
 #define infinity 1 << 30
 #define mx 10000
-
 vector<int> g[mx], cost[mx];
 
 struct node
@@ -47,9 +46,7 @@ struct node
 
     node(int _u, int _cost)
     {
-
         u = _u;
-
         cost = _cost;
     }
 
@@ -63,7 +60,6 @@ struct node
 void reset()
 {
     for (int i = 0; i < mx; i++)
-
     {
         g[i].clear();
 
