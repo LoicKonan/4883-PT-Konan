@@ -3,6 +3,15 @@
 ### Loic Konan
 
 #### Description
+>
+> - Peter has n cigarettes.
+> - He smokes them one by one keeping all the butts.
+> - Out of k > 1 butts he can roll a new cigarette.
+>
+> **How many cigarettes can Peter have?**
+>
+> - Keep track of the number of **cigarettes** as well as the number of **leftover** butts.
+>
 
 ### Files
 

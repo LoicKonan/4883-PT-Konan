@@ -6,7 +6,7 @@
 
 >
 > - Use a while loop to read the in the **velocity and the time**.
-> - Display the **velocity** _**multiply**_ by the **time** and by** 2**.
+> - Display the **velocity** _**multiply**_ by the **time** and by **2**.
 >
 
 ### Files
