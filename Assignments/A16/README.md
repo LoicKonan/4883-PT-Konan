@@ -20,7 +20,18 @@
 >
 > <img src = "semi.png">
 > <img src = "semisorted.png">
+>
 > <br></br>
+>
+> - When we Compare the **Algorithm** with **Random Numbers**:
+>
+> <img src = "random.png">
+> <img src = "randnums.png">
+>
+> <br></br>
+> 
+
+
 
 ### Files
 
