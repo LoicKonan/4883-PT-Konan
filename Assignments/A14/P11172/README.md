@@ -1,9 +1,14 @@
-## Assignment 14 - Relational Operators 
+## Assignment 14 - Relational Operators
 
 ### Loic Konan
 
 #### Description
 
+> No Algorithm required.
+>
+> - Just If and else statement required for comparison and some print line.
+>
+>
 ### Files
 
 |   #   | File                    | Description           |
