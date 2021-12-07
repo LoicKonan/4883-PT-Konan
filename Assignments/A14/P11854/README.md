@@ -4,6 +4,13 @@
 
 #### Description
 
+>
+> Determining if a triangle is a right triangle or not, lengths of the 3 sides of the triangle are given.
+>
+> - Just implementation **of Pythagorean theorem**.
+> - Use a while loop to read in the info.
+> - Use if and else statement.
+>
 ### Files
 
 |   #   | File                     | Description           |

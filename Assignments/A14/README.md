@@ -26,7 +26,11 @@
 
 #### Description
 
->
+> Input file contains around 2000 lines of inputs.
+> Each line contains a string S. You can assume that all the letters of the string are uppercase English
+> letters and the **maximum length of the string is 14**.
+> Input is terminated by a line containing a single **‘#’** character (without the quote).
+> This line should not be processed.
 
 ### Files
 
@@ -39,9 +43,13 @@
 ## Egypt
 
 #### Description
-
 >
-
+> Input represents several test cases, followed by a line containing ‘0 0 0’.
+> Each test case has three positive integers, less than 30,000, denoting the
+> lengths of the sides of a triangle.
+> For each test case, a line containing **‘right’** if the triangle is a right triangle,
+> and a line containing **‘wrong’** if the triangle is not a right triangle
+>
 ### Files
 
 |   #   | File               | Description | Status                  |

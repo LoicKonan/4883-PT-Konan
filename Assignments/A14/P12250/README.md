@@ -3,7 +3,12 @@
 ### Loic Konan
 
 #### Description
-
+>
+> **No Algorithm required.**
+>
+> - Use while loop to read the words in and stop if you see this character: **#**.
+> - Use basic if and else statement to check then print the language corresponding.
+>
 ### Files
 
 |   #   | File                     | Description           |
