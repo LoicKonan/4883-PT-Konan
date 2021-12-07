@@ -3,7 +3,17 @@
 ### Loic Konan
 
 #### Description
-
+>
+> **Dijstra algorithm** .
+>
+> - Firstly, **Dijstra** run from exit node to other all node and find out all shortest time.
+> - Then **i** just check the **time is less or equal** to given **time and count it**.
+>
+>
+>
+>
+>
+>
 ### Files
 
 |   #   | File                   | Description           |
