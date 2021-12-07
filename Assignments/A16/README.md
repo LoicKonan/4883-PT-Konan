@@ -4,8 +4,15 @@
 
 #### Description
 >
+> - This program is an **experiment to compare the sorting routines** by using these datasets
 >
->
+>   - **size**
+>   - **type (integers, floats, strings)**
+>   - **discombulation of data:**
+>     - **completely unsorted or random**
+>     - **partially unsorted (start with a sorted set and swap a percentage of the values)**
+>     - **reverse sorted (sort into ascending order a set that is descending)**
+>     _ **passed already sorted**
 >
 >
 ### Files
