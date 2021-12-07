@@ -12,6 +12,14 @@
 >   - 4. **Less games played.**
 >   - 5. **Lexicographic order**.
 >
+>
+> **Note:**
+>
+> - The output format for each line is shown bellow:
+>   - **[a]) Team_name [b]p, [c]g ([d]-[e]-[f]), [g]gd ([h]-[i])**
+>
+>
+>
 ### Files
 
 |   #   | File                   | Description           |
