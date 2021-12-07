@@ -4,9 +4,9 @@
 
 #### Description
 >
-> The first line contains the number of words that your little brother has written. 
-> Each of the following lines contains a single word with all letters in lower-case. 
-> The words satisfy the constraints above: at most one letter might be wrong, but the word length is always correct. 
+> The first line contains the number of words that your little brother has written.
+> Each of the following lines contains a single word with all letters in lower-case.
+> The words satisfy the constraints above: at most one letter might be wrong, but the word length is always correct.
 > There will be at most 10 words in the input.
 >
 
