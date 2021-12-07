@@ -15,7 +15,9 @@
 >     _ **passed already sorted**
 >
 > - When we Compare the **Algorithm** with **Numbers** that are _**Semi-Sorted**_:
-> <img src = "semi.png"><img src = "semisorted.png">
+>
+> <img src = "semi.png">
+> <img src = "semisorted.png">
 >
 
 ### Files
