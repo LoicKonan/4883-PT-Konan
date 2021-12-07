@@ -10,7 +10,10 @@
 > - Just implementation **of Pythagorean theorem**.
 > - Use a while loop to read in the info.
 > - Use if and else statement.
->
+> - **The input values may not be in sorted order, so, any of the three values can be the length of the hypotenuse.** 
+> - _**So, check for all the three values.**_
+
+
 ### Files
 
 |   #   | File                     | Description           |
