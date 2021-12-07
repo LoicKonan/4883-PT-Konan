@@ -3,7 +3,9 @@
 ### Loic Konan
 
 #### Description
->
+
+> We need to find the exit cell and the number of connections.
+> 
 > **Dijstra algorithm** .
 >
 > - Firstly, **Dijstra** run from exit node to other all node and find out all shortest time.
@@ -26,3 +28,8 @@
 
 - Complied using **VScode** and **C++ 17**
 - main.exe < infile
+
+## # Sources
+
+- <https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/>
+- <https://brilliant.org/wiki/dijkstras-short-path-finder/>
