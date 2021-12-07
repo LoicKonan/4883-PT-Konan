@@ -3,7 +3,15 @@
 ### Loic Konan
 
 #### Description
-
+>
+> - This program will recieve tournament name, team names and games played and will output the tournament standings.
+> - Teams will be ranked as follows:
+>   - 1. **Most points earned.**
+>   - 2. **Most wins**.
+>   - 3. **Most goal difference.**
+>   - 4. **Less games played.**
+>   - 5. **Lexicographic order**.
+>
 ### Files
 
 |   #   | File                   | Description           |
