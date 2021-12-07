@@ -41,3 +41,105 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
+
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+using namespace std;
+
+vector<int>s[3];
+int RODS = 3;
+
+int moves,
+    m;
+
+void print()
+{
+    cout << endl;
+    for (int i = 0; i < RODS; i++)
+    {
+        if (i == 0)
+            cout << "A=>";
+        if (i == 1)
+            cout << "B=>";
+        if (i == 2)
+            cout << "C=>";
+
+        for (int j = 0; j < s[i].size(); j++)
+        {
+            if (s[i].size() == 0)
+                break;
+            if (j == 0)
+                cout << "  ";
+            cout << " " << s[i][j];
+        }
+        cout << endl;
+    }
+}
+
+void towerofHanoi(int n, char from_rod, char to_rod, char aux_rod)
+{
+    if (n == 1)
+    {
+        s[to_rod].push_back(s[from_rod].back());
+        s[from_rod].pop_back();
+        m++;
+
+        if (m <= moves)
+        {
+            print();
+        }
+        if (m > moves)
+        {
+            return;
+        }
+        return;
+    }
+    else
+    {
+        towerofHanoi(n - 1, from_rod, aux_rod, to_rod);
+        
+        s[to_rod].push_back(s[from_rod].back());
+        s[from_rod].pop_back();
+        m++;
+        if (m <= moves)
+        {
+            print();
+        }
+        if (m > moves)
+        {
+            return;
+        }
+        towerofHanoi(n - 1, aux_rod, to_rod, from_rod);
+    }
+}
+
+int main() 
+{
+    int n;      // number of disks
+    int problem = 1;
+
+    while (cin >> n >> moves && n != 0)
+    { 
+        cout << "Problem #" << problem << endl;
+        m = 0;
+        
+        // all disks start in 0 rod
+        for (int i = n; i > 0; i--)
+        {
+            s[0].push_back(i);
+        }
+
+        // print initial set up
+        print();
+        towerofHanoi(n, 0, 2, 1);
+
+        for (int i = 0; i < 3; i++)
+            s[i].clear();
+        
+        problem++;
+        cout << endl;
+    }
+    return 0;
+}
