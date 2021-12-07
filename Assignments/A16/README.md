@@ -38,8 +38,14 @@
 > <img src = "sortingsorted.png">
 >
 > <br></br>
-
-
+>
+> - When we Compare the **Algorithms** with **Reverse Sorted Numbers**:
+>
+> <img src = "reverse.png">
+> <img src = "reversesorted.png">
+>
+>
+>
 ### Files
 
 |   #   | File                           | Description           |
