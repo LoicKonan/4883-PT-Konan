@@ -14,7 +14,10 @@
 >     - **reverse sorted (sort into ascending order a set that is descending)**
 >     _ **passed already sorted**
 >
-> 
+> - When we Compare the **Algorithm** with **Numbers** that are _**Semi-Sorted**_:
+> <img src = "semi.png"><img src = "semisorted.png">
+>
+
 ### Files
 
 |   #   | File                           | Description           |
