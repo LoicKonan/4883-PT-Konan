@@ -27,3 +27,4 @@
 | [23](./A23) | [A23](./A23) | [**Zapping**](A23)                       | :heavy_check_mark: |
 | [24](./A24) | [A24](./A24) | [**The Lazy Lumberjacks**](A24)          | :heavy_check_mark: |
 | [25](./A25) | [A25](./A25) | [**Power of Cryptography**](A25)         | :heavy_check_mark: |
+| [26](./A26) | [A26](./A26) | [**One-Two-Three**](A26)                 | :heavy_check_mark: |
