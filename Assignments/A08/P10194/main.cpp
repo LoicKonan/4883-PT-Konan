@@ -35,6 +35,34 @@ typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
 
+struct team 
+{
+    char name[105];
+    int pt, win, lose, tie, score, invscore;
+    void init() {
+        pt = win = lose = tie = 0;
+        score = invscore = 0;
+    }
+    void record(int a, int b) 
+    {
+        if(a > b)   win++, pt += 3;
+        else if(a < b)  lose++;
+        else    tie++, pt++;
+        score += a, invscore += b;
+    }
+};
+bool cmp(team a, team b) 
+{
+    if(a.pt != b.pt)    return a.pt > b.pt;
+    if(a.win != b.win)  return a.win > b.win;
+    if(a.score-a.invscore != b.score-b.invscore)
+        return a.score-a.invscore > b.score-b.invscore;
+    if(a.score != b.score)
+        return a.score > b.score;
+    if(a.win+a.lose+a.tie != b.win+b.lose+b.tie)
+        return a.win+a.lose+a.tie < b.win+b.lose+b.tie;
+    return strcasecmp(a.name, b.name) < 0;
+}
 
 int main(int argc, char **argv)
 {
