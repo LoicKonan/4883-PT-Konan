@@ -3,7 +3,6 @@
 * 4883 - Programming Techniques.
 * P10017
 * 09/25/2021
-* This gave me a run time of 0.00 seconds.
 */
 
 #include <algorithm>
@@ -42,12 +41,3 @@ typedef pair<int, int> ii; // pair of ints
 typedef vector<ii> vii;    // vector of pairs
 typedef vector<vi> vvi;    // vector of vector of ints
 
-int main(int argc, char **argv)
-{
-
-    while (true)
-    {
-
-    }
-    return 0;
-}
