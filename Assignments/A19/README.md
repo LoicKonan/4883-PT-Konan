@@ -4,7 +4,7 @@
 
 #### Description
 >
-> A particle has initial velocity and acceleration. 
+> A particle has initial velocity and acceleration.
 > If its velocity after certain time is v then what will its displacement be in twice of that time?
 >
 > The input will contain two integers in each line. Each line makes one set of input.
