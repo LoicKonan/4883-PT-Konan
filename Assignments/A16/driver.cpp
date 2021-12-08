@@ -8,6 +8,7 @@
 #include "heapSort.hpp"
 #include "quickSort.hpp"
 #include "radixSort.hpp"
+#include "BubbleSort.hpp"
 
 using namespace std;
 using namespace std::chrono;

@@ -14,10 +14,13 @@
 >     - **reverse sorted (sort into ascending order a set that is descending)**
 >     _ **passed already sorted**
 >
-> **Note:** Some of these **algorithm** are so **slow** they will be measure in **seconds** instead of **milliseconds**.
-> 
+> **Note:**
+>
+> - Some of these **algorithm** are so **slow** they will be measure in **seconds** instead of **milliseconds**.
+> - Thanks to **Byron** for the **excel sheet imaging**.
+>
 > <br><br>
-> 
+>
 > - When we Compare the **Algorithms** with **Numbers** that are _**Semi-Sorted**_:
 >
 > <img src = "semi.png">
@@ -74,3 +77,4 @@
 - <https://www.programiz.com/dsa/radix-sort>
 - <https://www.programiz.com/dsa/bucket-sort>
 - <https://www.programiz.com/dsa/heap-sort>
+- <https://www.geeksforgeeks.org/bubble-sort/>
