@@ -13,5 +13,5 @@
 
 |   #   | File               | Description | Status                  |
 | :---: | ------------------ | ----------- | ----------------------- |
-|   1   | [P12289](./P2289) | Folder      | :ballot_box_with_check: |
+|   1   | [P12289](./P12289) | Folder      | :ballot_box_with_check: |
 
