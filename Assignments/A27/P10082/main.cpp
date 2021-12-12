@@ -54,11 +54,13 @@ int main()
        
         if  (Input == '7')  return '6';
         
-        if (Input == '1')   return '`';
+        if (Input == '8')   return '7';
         
-        if (Input == '2')   return '1';
+        if (Input == '9')   return '8';
         
-        if (Input == '3')   return '2';
+        if (Input == '0')   return '9';
+
+        
         
         if  (Input == '4')  return '3';
 
