@@ -28,4 +28,4 @@
 | [24](./A24) | [A24](./A24) | [**The Lazy Lumberjacks**](A24)          | :heavy_check_mark: |
 | [25](./A25) | [A25](./A25) | [**Power of Cryptography**](A25)         | :heavy_check_mark: |
 | [26](./A26) | [A26](./A26) | [**One-Two-Three**](A26)                 | :heavy_check_mark: |
-| [27](./A27) | [A27](./A27) | [****](A27)                 | :heavy_check_mark: |
+| [27](./A27) | [A27](./A27) | [**WERTYU**](A27)                 | :heavy_check_mark: |
