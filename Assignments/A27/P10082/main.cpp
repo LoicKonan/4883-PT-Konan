@@ -29,22 +29,109 @@
 using namespace std;
 #define endl "\n"
 
-typedef vector<int> vi;                     // vector if ints
-typedef pair<int, int> ii;                  // pair of ints
-typedef vector<ii> vii;                     // vector of pairs
-typedef vector<vi> vvi;                     // vector of vector of ints
+typedef vector<int> vi;    // vector if ints
+typedef pair<int, int> ii; // pair of ints
+typedef vector<ii> vii;    // vector of pairs
+typedef vector<vi> vvi;    // vector of vector of ints
 
-
-map< pair<int,int>, vector<int> > CategorizationMemo;
-string Qwerty = "  \n\n`1234567890-=QWERTYUIOP[]\ASDFGHJKL;'ZXCVBNM,./";
- 
- 
 int main()
 {
- 
+
     char Input;
-    while(scanf("%c", &Input)==1) cout << Qwerty[Qwerty.find_last_of(Input) - 1];
+    while (cin >> Input)
+    {
+        if (Input == '1')   return '`';
+        
+        if (Input == '2')   return '1';
+        
+        if (Input == '3')   return '2';
+        
+        if  (Input == '4')  return '3';
+
+        if  (Input == '5')  return '4';
+
+        if  (Input == '6')  return '5';
+       
+        if  (Input == '7')  return '6';
+        if
+            '8' : return '7';
+        if
+            '9' : return '8';
+        if
+            '0' : return '9';
+        if
+            '-' : return '0';
+        if
+            '=' : return '-';
+        if
+            'W' : return 'Q';
+        if
+            'E' : return 'W';
+        if
+            'R' : return 'E';
+        if
+            'T' : return 'R';
+        if
+            'Y' : return 'T';
+        if
+            'U' : return 'Y';
+        if
+            'I' : return 'U';
+        if
+            'O' : return 'I';
+        if
+            'P' : return 'O';
+        if
+            '[' : return 'P';
+        if
+            ']' : return '[';
+        if
+            '\\' : return ']';
+        if
+            'S' : return 'A';
+        if
+            'D' : return 'S';
+        if
+            'F' : return 'D';
+        if
+            'G' : return 'F';
+        if
+            'H' : return 'G';
+        if
+            'J' : return 'H';
+        if
+            'K' : return 'J';
+        if
+            'L' : return 'K';
+        if
+            ';' : return 'L';
+        if
+            '\'' : return ';';
+        if
+            'X' : return 'Z';
+        if
+            'C' : return 'X';
+        if
+            'V' : return 'C';
+        if
+            'B' : return 'V';
+        if
+            'N' : return 'B';
+        if
+            'M' : return 'N';
+        if
+            ',' : return 'M';
+        if
+            '.' : return ',';
+        if
+            '/' : return '.';
+        if
+            ' ' : return ' ';
+        if
+            '\n' : return '\n';
+    }
+    return ' ';
+
     cout << endl;
     return 0;
- 
 }
