@@ -61,7 +61,6 @@ int main()
         if (Input == '0')   return '9';
 
         
-        
         if  (Input == '4')  return '3';
 
         if  (Input == '5')  return '4';
